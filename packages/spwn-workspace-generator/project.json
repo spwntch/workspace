@@ -1,0 +1,64 @@
+{
+  "name": "spwn-workspace-generator",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/spwn-workspace-generator/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/spwn-workspace-generator",
+        "main": "packages/spwn-workspace-generator/src/index.ts",
+        "tsConfig": "packages/spwn-workspace-generator/tsconfig.lib.json",
+        "assets": [
+          "packages/spwn-workspace-generator/*.md",
+          {
+            "input": "./packages/spwn-workspace-generator/src",
+            "glob": "**/!(*.ts)",
+            "output": "./src"
+          },
+          {
+            "input": "./packages/spwn-workspace-generator/src",
+            "glob": "**/*.d.ts",
+            "output": "./src"
+          },
+          {
+            "input": "./packages/spwn-workspace-generator",
+            "glob": "generators.json",
+            "output": "."
+          },
+          {
+            "input": "./packages/spwn-workspace-generator",
+            "glob": "executors.json",
+            "output": "."
+          }
+        ]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "packages/spwn-workspace-generator/jest.config.ts"
+      }
+    }
+  }
+}
