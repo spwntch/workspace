@@ -1,5 +1,5 @@
 const Index = () => {
-  return <p className="text-5xl">Hello, Spawntech</p>;
+  return <p className="text-5xl text-primary">Hello, Spawntech</p>;
 };
 
 export default Index;
