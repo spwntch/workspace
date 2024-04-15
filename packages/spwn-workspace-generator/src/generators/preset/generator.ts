@@ -19,7 +19,7 @@ export async function presetGenerator(
   sampleWebsiteGenerator(tree, options);
   updateJson(tree, 'package.json', (json) => {
     json.scripts = json.scripts || {};
-    json.scripts['site'] = 'pnpm dlx nx sample-website:dev';
+    json.scripts['site'] = 'pnpm dlx nx run sample-website:dev';
     return json;
   });
 
