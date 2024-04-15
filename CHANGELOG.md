@@ -1,3 +1,15 @@
+## 0.5.0 (2024-04-15)
+
+
+### 🚀 Features
+
+- consume tailwind ([2b53780](https://github.com/spwntch/spwn-workspace-generator/commit/2b53780))
+- **spwn-workspace-generator:** adds tailwind to generated app ([685c839](https://github.com/spwntch/spwn-workspace-generator/commit/685c839))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.4.0 (2024-04-15)
 
 
