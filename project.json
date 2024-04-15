@@ -9,6 +9,16 @@
         "config": ".verdaccio/config.yml",
         "storage": "tmp/local-registry/storage"
       }
+    },
+    "spawn-workspace": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "rm -rf spawned-workspace",
+          "pnpm dlx spawn-workspace@latest spawned-workspace"
+        ],
+        "parallel": false
+      }
     }
   }
 }

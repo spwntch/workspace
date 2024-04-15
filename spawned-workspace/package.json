@@ -1,0 +1,14 @@
+{
+  "name": "@spawned-workspace/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "spwn-workspace-generator": "0.0.2"
+  },
+  "devDependencies": {
+    "@nx/workspace": "18.2.4",
+    "nx": "18.2.4"
+  }
+}

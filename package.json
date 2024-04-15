@@ -11,7 +11,8 @@
     "build": "pnpm dlx nx run-many -t build",
     "release": "pnpm dlx nx release",
     "publish": "pnpm dlx nx release publish",
-    "registry": "pnpm dlx nx local-registry"
+    "registry": "pnpm dlx nx local-registry",
+    "spawn-workspace": "pnpm dlx nx run spawn-workspace"
   },
   "private": true,
   "dependencies": {
