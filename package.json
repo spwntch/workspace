@@ -1,5 +1,5 @@
 {
-  "name": "@spwn-workspace-generator/source",
+  "name": "@spwntch/spwn-workspace-generator",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
