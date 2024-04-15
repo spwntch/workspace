@@ -6,7 +6,7 @@ import { createWorkspace } from 'create-nx-workspace';
 async function main() {
   // This assumes "workspace-generator" and "spawn-workspace" are at the same version
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const presetVersion = require('../../package.json').version;
+  const presetVersion = require('../package.json').version;
 
   intro(`
   {x} Ready to spawn a new workspace?
