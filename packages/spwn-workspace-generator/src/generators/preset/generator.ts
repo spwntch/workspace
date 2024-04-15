@@ -12,10 +12,10 @@ export async function presetGenerator(
   tree: Tree,
   options: PresetGeneratorSchema
 ) {
-  sampleWebsiteGenerator(tree, options);
-
   const projectRoot = `.`;
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+
+  sampleWebsiteGenerator(tree, options);
 
   addDependenciesToPackageJson(
     tree,

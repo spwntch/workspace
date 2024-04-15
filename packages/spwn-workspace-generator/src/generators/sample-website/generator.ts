@@ -1,8 +1,7 @@
 import {
   addProjectConfiguration,
-  formatFiles,
   generateFiles,
-  Tree,
+  Tree
 } from '@nx/devkit';
 import * as path from 'path';
 import { SampleWebsiteGeneratorSchema } from './schema';
