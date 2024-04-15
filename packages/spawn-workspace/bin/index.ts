@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import { intro, outro, text } from '@clack/prompts';
+import { intro, outro, select, text } from '@clack/prompts';
+import { PackageManager } from '@nx/devkit';
 import { createWorkspace } from 'create-nx-workspace';
 
 async function main() {
@@ -25,6 +26,15 @@ async function main() {
     })) as string;
   }
 
+  const packageManager = (await select({
+    message: 'What is your preferred package manager?',
+    options: [
+      { value: 'pnpm', label: 'pnpm' },
+      { value: 'yarn', label: 'yarn' },
+      { value: 'npm', label: 'npm' },
+    ],
+  })) as PackageManager;
+
   const addDocs = false;
   // const addDocs = await confirm({
   //   message: 'Would you like to add Getting Started docs?',
@@ -43,7 +53,7 @@ async function main() {
     {
       name,
       nxCloud: 'skip',
-      packageManager: 'pnpm',
+      packageManager,
       addDocs,
     }
   );
