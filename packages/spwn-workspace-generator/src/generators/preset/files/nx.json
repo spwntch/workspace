@@ -32,7 +32,6 @@
         "e2eTestRunner": "none",
         "src": false,
         "style": "none",
-        "tags:": ["tech:next"],
         "linter": "eslint",
         "unitTestRunner": "none"
       }
