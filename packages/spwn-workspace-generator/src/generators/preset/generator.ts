@@ -42,6 +42,7 @@ export async function presetGenerator(
       '@types/react-dom': '18.2.14',
       '@typescript-eslint/eslint-plugin': '^7.3.0',
       '@typescript-eslint/parser': '^7.3.0',
+      autoprefixer: '10.4.13',
       eslint: '~8.57.0',
       'eslint-config-next': '14.0.4',
       'eslint-config-prettier': '^9.0.0',
@@ -50,8 +51,10 @@ export async function presetGenerator(
       'eslint-plugin-react': '7.32.2',
       'eslint-plugin-react-hooks': '4.6.0',
       nx: '18.2.4',
+      postcss: '8.4.21',
       prettier: '^2.6.2',
       storybook: '^7.5.3',
+      tailwindcss: '3.2.7',
       typescript: '~5.4.2',
     }
   );
