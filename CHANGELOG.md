@@ -1,3 +1,14 @@
+## 0.3.0 (2024-04-15)
+
+
+### 🚀 Features
+
+- **spawn-workspace:** adds package manager select ([bfea157](https://github.com/spwntch/spwn-workspace-generator/commit/bfea157))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.2.0 (2024-04-15)
 
 
