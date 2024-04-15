@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@clack/prompts": "^0.7.0",
-    "create-nx-workspace": "18.2.4"
+    "create-nx-workspace": "18.2.4",
+    "tslib": "^2.3.0"
   }
 }
