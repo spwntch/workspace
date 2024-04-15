@@ -1,3 +1,25 @@
+## 0.4.0 (2024-04-15)
+
+
+### 🚀 Features
+
+- add some workspace configuration ([236b573](https://github.com/spwntch/spwn-workspace-generator/commit/236b573))
+- **spwn-workspace-generator:** add required packages to generator ([4176c30](https://github.com/spwntch/spwn-workspace-generator/commit/4176c30))
+- **spwn-workspace-generator:** add prettier config ([1417df2](https://github.com/spwntch/spwn-workspace-generator/commit/1417df2))
+- **spwn-workspace-generator:** add additional root workspace files ([f1d489c](https://github.com/spwntch/spwn-workspace-generator/commit/f1d489c))
+- **spwn-workspace-generator:** generate a sample-website boilerplate app ([ad4fb6c](https://github.com/spwntch/spwn-workspace-generator/commit/ad4fb6c))
+- **workspace-generator:** add nextjs app generator defaults ([09b37f8](https://github.com/spwntch/spwn-workspace-generator/commit/09b37f8))
+
+### 🩹 Fixes
+
+- **spawn-workspace:** improves outro instructions ([4c06372](https://github.com/spwntch/spwn-workspace-generator/commit/4c06372))
+- **spwn-workspace-generator:** remove tags from nx.json generator ([315ddbe](https://github.com/spwntch/spwn-workspace-generator/commit/315ddbe))
+- **spwn-workspace-generator:** adjust generator order of events ([24e15b2](https://github.com/spwntch/spwn-workspace-generator/commit/24e15b2))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.3.0 (2024-04-15)
 
 
