@@ -1,8 +1,7 @@
 import {
   addProjectConfiguration,
-  formatFiles,
   generateFiles,
-  Tree,
+  Tree
 } from '@nx/devkit';
 import * as path from 'path';
 import { SampleWebsiteGeneratorSchema } from './schema';
@@ -20,6 +19,7 @@ export async function sampleWebsiteGenerator(
   });
 
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+
 }
 
 export default sampleWebsiteGenerator;

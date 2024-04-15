@@ -3,6 +3,7 @@ import {
   formatFiles,
   generateFiles,
   Tree,
+  updateJson,
 } from '@nx/devkit';
 import * as path from 'path';
 import { PresetGeneratorSchema } from './schema';
@@ -12,10 +13,15 @@ export async function presetGenerator(
   tree: Tree,
   options: PresetGeneratorSchema
 ) {
-  sampleWebsiteGenerator(tree, options);
-
   const projectRoot = `.`;
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+
+  sampleWebsiteGenerator(tree, options);
+  updateJson(tree, 'package.json', (json) => {
+    json.scripts = json.scripts || {};
+    json.scripts['site'] = 'pnpm dlx nx run sample-website:dev';
+    return json;
+  });
 
   addDependenciesToPackageJson(
     tree,
