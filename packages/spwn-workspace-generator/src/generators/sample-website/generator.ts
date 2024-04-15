@@ -1,7 +1,8 @@
 import {
   addProjectConfiguration,
   generateFiles,
-  Tree
+  Tree,
+  updateJson
 } from '@nx/devkit';
 import * as path from 'path';
 import { SampleWebsiteGeneratorSchema } from './schema';
@@ -19,6 +20,12 @@ export async function sampleWebsiteGenerator(
   });
 
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+
+  updateJson(tree, 'package.json', (json) => {
+    json.scripts = json.scripts || {};
+    json.scripts['site'] = 'pnpm dlx nx run sample-website:dev';
+    return json;
+  });
 
 }
 
