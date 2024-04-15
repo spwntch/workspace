@@ -6,6 +6,7 @@ import {
 } from '@nx/devkit';
 import * as path from 'path';
 import { PresetGeneratorSchema } from './schema';
+import sampleWebsiteGenerator from '../sample-website/generator';
 
 export async function presetGenerator(
   tree: Tree,
@@ -49,6 +50,8 @@ export async function presetGenerator(
       typescript: '~5.4.2',
     }
   );
+
+  sampleWebsiteGenerator(tree, options);
 
   const projectRoot = `.`;
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
