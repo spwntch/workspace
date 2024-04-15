@@ -2,7 +2,17 @@
   "name": "@spwn-workspace-generator/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "rm:dist": "find . -name 'dist' -type d -prune -exec rm -rf '{}' +",
+    "rm:node-modules": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
+    "rm:tmp": "rm -rf tmp",
+    "rm:lockfile": "rm pnpm-lock.yaml",
+    "clean": "pnpm run rm:dist && pnpm run rm:node-modules && pnpm run rm:tmp && pnpm run rm:lockfile",
+    "build": "pnpm dlx nx run-many -t build",
+    "release": "pnpm dlx nx release",
+    "publish": "pnpm dlx nx release publish",
+    "registry": "pnpm dlx nx local-registry"
+  },
   "private": true,
   "dependencies": {
     "@nx/devkit": "18.2.4",
