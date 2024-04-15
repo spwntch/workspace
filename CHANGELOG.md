@@ -7,7 +7,7 @@
 
 ### 🩹 Fixes
 
-- **spawn-workspace:** correct path to packa.json ([e06fc1d](https://github.com/spwntch/spwn-workspace-generator/commit/e06fc1d))
+- **spawn-workspace:** correct path to package.json ([e06fc1d](https://github.com/spwntch/spwn-workspace-generator/commit/e06fc1d))
 - **spawn-workspace:** set package manager to pnpm ([3c4374f](https://github.com/spwntch/spwn-workspace-generator/commit/3c4374f))
 
 ### ❤️  Thank You
