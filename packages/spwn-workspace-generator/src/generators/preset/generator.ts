@@ -12,6 +12,11 @@ export async function presetGenerator(
   tree: Tree,
   options: PresetGeneratorSchema
 ) {
+  sampleWebsiteGenerator(tree, options);
+
+  const projectRoot = `.`;
+  generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+
   addDependenciesToPackageJson(
     tree,
     {
@@ -51,10 +56,6 @@ export async function presetGenerator(
     }
   );
 
-  sampleWebsiteGenerator(tree, options);
-
-  const projectRoot = `.`;
-  generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
   await formatFiles(tree);
 }
 

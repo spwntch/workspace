@@ -13,14 +13,13 @@ export async function sampleWebsiteGenerator(
 ) {
   const projectName = 'sample-website';
   const projectRoot = `apps/${projectName}`;
-  
+
   addProjectConfiguration(tree, projectName, {
     root: projectRoot,
-    projectType: 'application'
+    projectType: 'application',
   });
 
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
-  await formatFiles(tree);
 }
 
 export default sampleWebsiteGenerator;
