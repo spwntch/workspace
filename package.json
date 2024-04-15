@@ -8,6 +8,7 @@
     "rm:tmp": "rm -rf tmp",
     "rm:lockfile": "rm pnpm-lock.yaml",
     "clean": "pnpm run rm:dist && pnpm run rm:node-modules && pnpm run rm:tmp && pnpm run rm:lockfile",
+    "ci": "pnpm dlx nx run-many -t lint test build",
     "build": "pnpm dlx nx run-many -t build",
     "release": "pnpm dlx nx release",
     "publish": "pnpm dlx nx release publish",
@@ -21,6 +22,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@clack/prompts": "^0.7.0",
     "@nx/eslint": "18.2.4",
     "@nx/eslint-plugin": "18.2.4",
     "@nx/jest": "18.2.4",

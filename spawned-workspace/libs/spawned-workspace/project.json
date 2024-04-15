@@ -1,8 +1,0 @@
-{
-  "name": "spawned-workspace",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "projectType": "library",
-  "sourceRoot": "libs/spawned-workspace/src",
-  "// targets": "to see all targets run: nx show project spawned-workspace --web",
-  "targets": {}
-}

@@ -5,6 +5,9 @@ dist
 tmp
 /out-tsc
 
+# spawned workspace
+spawned-workspace
+
 # dependencies
 node_modules
 
