@@ -15,7 +15,7 @@
       "options": {
         "commands": [
           "rm -rf spawned-workspace",
-          "pnpm dlx spawn-workspace@latest spawned-workspace"
+          "pnpm dlx spawn-workspace@latest"
         ],
         "parallel": false
       }
