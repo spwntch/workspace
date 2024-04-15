@@ -43,7 +43,7 @@ async function main() {
     {
       name,
       nxCloud: 'skip',
-      packageManager: 'npm',
+      packageManager: 'pnpm',
       addDocs,
     }
   );
