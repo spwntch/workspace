@@ -21,6 +21,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+    "@clack/prompts": "^0.7.0",
     "@nx/eslint": "18.2.4",
     "@nx/eslint-plugin": "18.2.4",
     "@nx/jest": "18.2.4",

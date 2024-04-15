@@ -1,13 +1,14 @@
 {
   "name": "spawn-workspace",
   "version": "0.0.1",
-  "dependencies": {
-    "create-nx-workspace": "18.2.4"
-  },
   "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "bin": {
     "spawn-workspace": "./bin/index.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "create-nx-workspace": "18.2.4"
   }
 }
