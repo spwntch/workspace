@@ -1,3 +1,14 @@
+## 0.6.0 (2024-04-15)
+
+
+### 🚀 Features
+
+- **spwn-workspace-generator:** adds spawntech tailwind defaults ([943db93](https://github.com/spwntch/spwn-workspace-generator/commit/943db93))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.5.0 (2024-04-15)
 
 
