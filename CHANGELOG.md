@@ -1,3 +1,22 @@
+## 0.7.0 (2024-04-15)
+
+
+### 🚀 Features
+
+- **spwn-worskpace-generator:** adds "site" script to package.json ([666f8a7](https://github.com/spwntch/spwn-workspace-generator/commit/666f8a7))
+
+### 🩹 Fixes
+
+- **spawn-workspace:** ask package manager question first ([c15f2b4](https://github.com/spwntch/spwn-workspace-generator/commit/c15f2b4))
+- **spwn-workspace-generator:** applies a relative path for package.json updare ([3554b78](https://github.com/spwntch/spwn-workspace-generator/commit/3554b78))
+- **spwn-workspace-generator:** typo ([021f5ad](https://github.com/spwntch/spwn-workspace-generator/commit/021f5ad))
+- **spwn-workspace-generator:** adds dev target to site script ([6a475d2](https://github.com/spwntch/spwn-workspace-generator/commit/6a475d2))
+- **spwn-workspace-generator:** fix oops command order in generated script ([2aede6d](https://github.com/spwntch/spwn-workspace-generator/commit/2aede6d))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.6.0 (2024-04-15)
 
 
