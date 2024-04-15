@@ -47,6 +47,5 @@
     "version": {
       "preVersionCommand": "pnpm dlx nx run-many -t build"
     }
-  },
-  "nxCloudAccessToken": "YjVlOWI0NjgtOWM3NS00MzU3LTgwN2QtYjU4Y2Q5YTFjYmYzfHJlYWQtd3JpdGU="
+  }
 }
