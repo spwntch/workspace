@@ -64,7 +64,13 @@ Find it at ${directory}.
 
 Next steps:
   > cd ${name}
-  > npm install
+  > ${
+    packageManager === 'pnpm'
+      ? 'pnpm install'
+      : packageManager === 'yarn'
+      ? 'yarn'
+      : 'npm install'
+  }
   ${addDocs ? '> npm run docs:serve' : ''}
   `);
 }
