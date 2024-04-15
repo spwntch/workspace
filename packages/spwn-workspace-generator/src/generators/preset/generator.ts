@@ -7,7 +7,7 @@ import {
 } from '@nx/devkit';
 import * as path from 'path';
 import { PresetGeneratorSchema } from './schema';
-import sampleWebsiteGenerator from '../samØple-website/generator';
+import sampleWebsiteGenerator from '../sample-website/generator';
 
 export async function presetGenerator(
   tree: Tree,
