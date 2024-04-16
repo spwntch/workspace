@@ -1,0 +1,10 @@
+'use client';
+
+import { PropsWithChildren } from 'react';
+import { Button } from '@spwntch/components';
+
+const MyButton = ({ children }: PropsWithChildren) => {
+  return <Button>{children}</Button>;
+};
+
+export default MyButton;
