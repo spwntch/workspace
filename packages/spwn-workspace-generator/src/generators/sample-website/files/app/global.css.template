@@ -1,5 +1,1 @@
-@import '@spwntch/tailwind/styles';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import '@spwntch/components/styles';
