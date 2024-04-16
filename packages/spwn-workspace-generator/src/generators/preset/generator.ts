@@ -27,7 +27,6 @@ export async function presetGenerator(
       next: '14.0.4',
       react: '18.2.0',
       'react-dom': '18.2.0',
-      'spwn-workspace-generator': '0.3.1',
       tslib: '^2.3.0',
     },
     {
