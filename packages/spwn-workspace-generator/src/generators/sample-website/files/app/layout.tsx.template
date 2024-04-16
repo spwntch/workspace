@@ -1,18 +1,26 @@
-import './global.css';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { WebsiteShell } from "@/components/shell";
+import ShellProvider from "@/components/shell-provider";
 
-export const metadata = {
-  title: 'Spawntech Sample',
-  description: 'A sample website',
+export const metadata: Metadata = {
+  title: "Spawntech Website Sample",
+  description: "Generated with pnpm dlx spawn-workpace",
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ShellProvider>
+          <WebsiteShell>{children}</WebsiteShell>
+        </ShellProvider>
+      </body>
     </html>
   );
 }

@@ -1,0 +1,12 @@
+"use client";
+import React, { PropsWithChildren } from "react";
+import { ShellProvider as SpwnShellProvider } from "@spwntch/shell";
+import { brand } from "@/config";
+
+type Props = {};
+
+const ShellProvider = ({ children }: PropsWithChildren) => {
+  return <SpwnShellProvider brand={brand}>{children}</SpwnShellProvider>;
+};
+
+export default ShellProvider;
