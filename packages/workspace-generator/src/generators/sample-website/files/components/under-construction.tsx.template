@@ -1,0 +1,4 @@
+"use client";
+import {UnderConstruction} from '@spwntch/shell';
+
+export default UnderConstruction;

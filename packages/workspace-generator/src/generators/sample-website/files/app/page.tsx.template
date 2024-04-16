@@ -1,7 +1,9 @@
+import UnderConstruction from '../components/under-construction';
+
 const Index = () => {
   return (
-    <div className="container">
-      <p className="text-5xl text-primary">Hello, Spawntech</p>
+    <div className="h-full text-center">
+      <UnderConstruction>Your website home page goes here...</UnderConstruction>
     </div>
   );
 };
