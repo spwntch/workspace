@@ -1,5 +1,9 @@
 const Index = () => {
-  return <p className="text-5xl text-primary">Hello, Spawntech</p>;
+  return (
+    <div className="container">
+      <p className="text-5xl text-primary">Hello, Spawntech</p>
+    </div>
+  );
 };
 
 export default Index;
