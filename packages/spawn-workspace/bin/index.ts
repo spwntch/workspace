@@ -49,7 +49,7 @@ async function main() {
 
   // TODO: update below to customize the workspace
   const { directory } = await createWorkspace(
-    `spwn-workspace-generator@${presetVersion}`,
+    `workspace-generator@${presetVersion}`,
     {
       name,
       nxCloud: 'skip',

@@ -1,5 +1,5 @@
 {
-  "name": "@spwntch/spwn-workspace-generator",
+  "name": "@spwntch/workspace-generator",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "targets": {
     "local-registry": {
