@@ -1,5 +1,5 @@
 {
-  "name": "@spwntch/workspace-generator",
+  "name": "workspace-generator",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/workspace-generator/src",
   "projectType": "library",
