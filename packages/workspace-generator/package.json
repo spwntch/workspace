@@ -1,5 +1,5 @@
 {
-  "name": "spwn-workspace-generator",
+  "name": "@spwntch/workspace-generator",
   "version": "0.0.1",
   "dependencies": {
     "@nx/devkit": "18.2.4",
