@@ -1,4 +1,4 @@
-import { UnderConstruction } from '@spwntch/shell';
+import UnderConstruction from '../components/under-construction';
 
 const Index = () => {
   return (
@@ -6,6 +6,5 @@ const Index = () => {
       <UnderConstruction>Your website home page goes here...</UnderConstruction>
     </div>
   );
-};
 
 export default Index;
