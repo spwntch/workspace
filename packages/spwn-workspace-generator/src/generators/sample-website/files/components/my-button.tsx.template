@@ -1,7 +1,7 @@
 'use client';
 
-import { PropsWithChildren } from 'react';
 import { Button } from '@spwntch/components';
+import { PropsWithChildren } from 'react';
 
 const MyButton = ({ children }: PropsWithChildren) => {
   return <Button>{children}</Button>;

@@ -1,5 +1,11 @@
+import MyButton from '../components/MyButton';
 const Index = () => {
-  return <p className="text-5xl text-primary">Hello, Spawntech</p>;
+  return (
+    <div>
+      <p className="text-5xl text-primary">Hello, Spawntech</p>
+      <MyButton />
+    </div>
+  );
 };
 
 export default Index;

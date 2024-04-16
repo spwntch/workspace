@@ -14,15 +14,6 @@ async function main() {
       Let's get you started 🚀
       v${presetVersion}`);
 
-  const packageManager = (await select({
-    message: 'What is your preferred package manager?',
-    options: [
-      { value: 'pnpm', label: 'pnpm' },
-      { value: 'yarn', label: 'yarn' },
-      { value: 'npm', label: 'npm' },
-    ],
-  })) as PackageManager;
-
   let name = process.argv[2]; // TODO: use libraries like yargs or enquirer to set your workspace name
   if (!name) {
     name = (await text({
@@ -40,6 +31,15 @@ async function main() {
   //   message: 'Would you like to add Getting Started docs?',
   //   initialValue: true,
   // });
+
+  const packageManager = (await select({
+    message: 'What is your preferred package manager?',
+    options: [
+      { value: 'pnpm', label: 'pnpm' },
+      { value: 'yarn', label: 'yarn' },
+      { value: 'npm', label: 'npm' },
+    ],
+  })) as PackageManager;
 
   console.log(`
 
