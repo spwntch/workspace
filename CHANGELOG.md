@@ -1,3 +1,14 @@
+## 0.8.3 (2024-04-16)
+
+
+### 🩹 Fixes
+
+- **spawn-workspace:** point to generatot @spwntch/workspace-generator ([3ff87cd](https://github.com/spwntch/spwn-workspace-generator/commit/3ff87cd))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.8.2 (2024-04-16)
 
 This was a version bump only, there were no code changes.
