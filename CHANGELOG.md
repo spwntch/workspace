@@ -1,3 +1,23 @@
+## 0.8.0 (2024-04-16)
+
+
+### 🚀 Features
+
+- **generator:** site scripts now also builds the project ([1f0e65c](https://github.com/spwntch/spwn-workspace-generator/commit/1f0e65c))
+- **spwn-workspace-generator:** install @spwntch/shell ([d3a7bdd](https://github.com/spwntch/spwn-workspace-generator/commit/d3a7bdd))
+- **workspace-generator:** add a shell to generated app ([0d6e173](https://github.com/spwntch/spwn-workspace-generator/commit/0d6e173))
+
+### 🩹 Fixes
+
+- **wgenerator:** add @tailwind directives to global.css ([12acbc2](https://github.com/spwntch/spwn-workspace-generator/commit/12acbc2))
+- **workspace-generator:** build on inital app ([6f10b5c](https://github.com/spwntch/spwn-workspace-generator/commit/6f10b5c))
+- **workspace-generator:** fix generated app ([fbf9cef](https://github.com/spwntch/spwn-workspace-generator/commit/fbf9cef))
+- **workspace-generator:** correct typo in site script ([d8a3cf6](https://github.com/spwntch/spwn-workspace-generator/commit/d8a3cf6))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.7.0 (2024-04-15)
 
 
