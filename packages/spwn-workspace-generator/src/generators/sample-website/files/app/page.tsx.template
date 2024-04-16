@@ -1,9 +1,7 @@
-import MyButton from '../components/my-button';
 const Index = () => {
   return (
-    <div>
+    <div className="container">
       <p className="text-5xl text-primary">Hello, Spawntech</p>
-      <MyButton />
     </div>
   );
 };

@@ -3,9 +3,9 @@ import { RegularFooter, DesktopTopNavbar } from "@spwntch/shell";
 import { PropsWithChildren } from "react";
 
 /**
- * Props for the SiteShell component.
+ * Props for the Shell component.
  */
-export interface SiteShellProps {
+export interface ShellProps {
   underContruction?: boolean;
   /**
    * Configuration options for the navbar.
@@ -27,12 +27,12 @@ export interface SiteShellProps {
   displayShellInfo?: boolean;
 }
 
-export const WebsiteShell = ({
+const Shell = ({
   // underContruction,
   navbar,
   // displayShellInfo,
   children,
-}: SiteShellProps & PropsWithChildren) => {
+}: ShellProps & PropsWithChildren) => {
   return (
     <div className="h-screen flex flex-col container">
       <DesktopTopNavbar
@@ -50,3 +50,5 @@ export const WebsiteShell = ({
     </div>
   );
 };
+
+export default Shell;
