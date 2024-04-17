@@ -41,11 +41,6 @@
           "codeCoverage": true
         }
       }
-    },
-    "nx-release-publish": {
-      "options": {
-        "packageRoot": "{projectRoot}"
-      }
     }
   },
   "release": {

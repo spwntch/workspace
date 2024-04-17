@@ -1,6 +1,13 @@
-## 0.10.0 (2024-04-17)
+## 0.11.0 (2024-04-17)
 
-This was a version bump only, there were no code changes.
+
+### 🩹 Fixes
+
+- **spawn-workspace:** fx path to package json to get version ([00d04cf](https://github.com/spwntch/spwn-workspace-generator/commit/00d04cf))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
 
 ## 0.9.1 (2024-04-16)
 
