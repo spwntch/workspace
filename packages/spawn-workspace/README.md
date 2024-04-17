@@ -1,11 +1,36 @@
 # spawn-workspace
 
-This library was generated with [Nx](https://nx.dev).
+Generate a new Spawntech workspace
 
-## Building
+> ### This package is currently pre-release.
 
-Run `nx build spawn-workspace` to build the library.
+## What is it?
 
-## Running unit tests
+It's a command to spawn a new nx monorepo workspace, kitted out with everything you need to use **Spawntech's** other packages efficiently.
 
-Run `nx test spawn-workspace` to execute the unit tests via [Jest](https://jestjs.io).
+## Getting Started
+
+### Spawning a workspace
+
+```bash
+pnpm dlx spawn-workspace
+cd <WORKSPACE_NAME>
+pnpm install
+```
+
+### Launching Docs
+
+Assuming you opted in to the generation of Spawntech's **Getting Started Docs**,
+
+```bash
+pnpm run docs
+```
+
+### Launching Boilerplate Apps
+
+Assuming you opted in to one or more of the following boilerplate apps offered by the cli,
+
+```bash
+// To run the sample-website
+pnpm run site
+```
