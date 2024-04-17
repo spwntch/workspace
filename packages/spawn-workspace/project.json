@@ -3,29 +3,16 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/spawn-workspace/bin",
   "projectType": "library",
-  "release": {
-    "version": {
-      "generatorOptions": {
-        "packageRoot": "dist/{projectRoot}",
-        "currentVersionResolver": "git-tag"
-      }
-    }
-  },
   "tags": [],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/spawn-workspace",
+        "outputPath": "{projectRoot}/dist",
         "main": "packages/spawn-workspace/bin/index.ts",
         "tsConfig": "packages/spawn-workspace/tsconfig.lib.json",
         "assets": ["packages/spawn-workspace/*.md"]
-      }
-    },
-    "nx-release-publish": {
-      "options": {
-        "packageRoot": "dist/{projectRoot}"
       }
     },
     "lint": {

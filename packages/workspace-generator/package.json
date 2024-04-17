@@ -6,7 +6,7 @@
     "tslib": "^2.3.0"
   },
   "type": "commonjs",
-  "main": "./src/index.js",
-  "typings": "./src/index.d.ts",
-  "generators": "./generators.json"
+  "main": "./dist/src/index.js",
+  "typings": "./dist/src/index.d.ts",
+  "generators": "./dist/generators.json"
 }

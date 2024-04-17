@@ -2,10 +2,10 @@
   "name": "spawn-workspace",
   "version": "0.0.1",
   "type": "commonjs",
-  "main": "./src/index.js",
-  "typings": "./src/index.d.ts",
+  "main": "./dist/bin/index.js",
+  "typings": "./dist/bin/index.d.ts",
   "bin": {
-    "spawn-workspace": "./bin/index.js"
+    "spawn-workspace": "./dist/bin/index.js"
   },
   "dependencies": {
     "@clack/prompts": "^0.7.0",
