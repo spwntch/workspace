@@ -1,3 +1,14 @@
+## 0.12.0 (2024-04-17)
+
+
+### 🚀 Features
+
+- upgrades all readmes ([564ac0d](https://github.com/spwntch/spwn-workspace-generator/commit/564ac0d))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.11.2 (2024-04-17)
 
 This was a version bump only, there were no code changes.
