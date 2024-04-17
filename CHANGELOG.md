@@ -1,3 +1,16 @@
+## 0.13.0 (2024-04-17)
+
+
+### 🚀 Features
+
+- **workpace-generator:** attempt to copy files over ([2ca2837](https://github.com/spwntch/spwn-workspace-generator/commit/2ca2837))
+- **workspace-generator:** adds a shell library generator ([3adee4a](https://github.com/spwntch/spwn-workspace-generator/commit/3adee4a))
+- **workspace-generator:** spawned site uses components from @/shell ([d64cb15](https://github.com/spwntch/spwn-workspace-generator/commit/d64cb15))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.12.0 (2024-04-17)
 
 
