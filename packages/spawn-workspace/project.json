@@ -9,7 +9,7 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/spawn-workspace",
+        "outputPath": "{projectRoot}/dist",
         "main": "packages/spawn-workspace/bin/index.ts",
         "tsConfig": "packages/spawn-workspace/tsconfig.lib.json",
         "assets": ["packages/spawn-workspace/*.md"]

@@ -10,7 +10,7 @@
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/workspace-generator",
+        "outputPath": "{projectRoot}/dist",
         "main": "packages/workspace-generator/src/index.ts",
         "tsConfig": "packages/workspace-generator/tsconfig.lib.json",
         "assets": [
