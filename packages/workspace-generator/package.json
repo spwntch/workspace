@@ -1,11 +1,14 @@
 {
   "name": "@spwntch/workspace-generator",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "dependencies": {
     "@nx/devkit": "18.2.4",
     "tslib": "^2.3.0"
   },
   "type": "commonjs",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/src/index.js",
   "typings": "./dist/src/index.d.ts",
   "generators": "./dist/generators.json"
