@@ -7,7 +7,8 @@
   },
   "type": "commonjs",
   "files": [
-    "dist"
+    "dist/src",
+    "dist/generators.json"
   ],
   "main": "./dist/src/index.js",
   "typings": "./dist/src/index.d.ts",
