@@ -1,6 +1,6 @@
 {
   "name": "spawn-workspace",
-  "version": "0.0.1",
+  "version": "0.10.0",
   "type": "commonjs",
   "main": "./dist/bin/index.js",
   "typings": "./dist/bin/index.d.ts",
