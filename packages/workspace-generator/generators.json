@@ -10,6 +10,11 @@
       "factory": "./src/generators/sample-website/generator",
       "schema": "./src/generators/sample-website/schema.json",
       "description": "generates a spawntech sample-website app"
+    },
+    "shell": {
+      "factory": "./src/generators/shell/generator",
+      "schema": "./src/generators/shell/schema.json",
+      "description": "generates a spawntech shell library"
     }
   }
 }

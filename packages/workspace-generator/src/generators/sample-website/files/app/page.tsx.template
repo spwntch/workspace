@@ -1,4 +1,4 @@
-import UnderConstruction from '../components/under-construction';
+import { UnderConstruction } from '@/shell';
 
 const Index = () => {
   return (

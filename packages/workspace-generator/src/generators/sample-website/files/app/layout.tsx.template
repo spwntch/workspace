@@ -1,7 +1,7 @@
+import { ShellProvider, WebsiteShell } from '@/shell';
 import type { Metadata } from 'next';
-import Shell  from '../components/shell';
-import ShellProvider from '../components/shell-provider';
 import './global.css';
+import { brand, primaryNav } from '../config';
 
 export const metadata: Metadata = {
   title: 'Spawntech Website Sample',
@@ -16,8 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <ShellProvider>
-          <Shell>{children}</Shell>
+        <ShellProvider brand={brand} navItems={primaryNav}>
+          <WebsiteShell>{children}</WebsiteShell>
         </ShellProvider>
       </body>
     </html>

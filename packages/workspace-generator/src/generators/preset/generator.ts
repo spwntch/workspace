@@ -2,11 +2,12 @@ import {
   addDependenciesToPackageJson,
   formatFiles,
   generateFiles,
-  Tree
+  Tree,
 } from '@nx/devkit';
 import * as path from 'path';
 import sampleWebsiteGenerator from '../sample-website/generator';
 import { PresetGeneratorSchema } from './schema';
+import shellLibraryGenerator from '../shell/generator';
 
 export async function presetGenerator(
   tree: Tree,
@@ -15,8 +16,8 @@ export async function presetGenerator(
   const projectRoot = `.`;
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 
+  shellLibraryGenerator(tree, {});
   sampleWebsiteGenerator(tree, options);
-  
 
   addDependenciesToPackageJson(
     tree,
