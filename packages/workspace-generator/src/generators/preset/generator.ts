@@ -22,9 +22,9 @@ export async function presetGenerator(
   addDependenciesToPackageJson(
     tree,
     {
-      '@spwntch/shell': '^0.33.0',
-      '@spwntch/components': '^0.33.0',
-      '@spwntch/tailwind': '^0.33.0',
+      '@spwntch/shell': '^0.33.1',
+      '@spwntch/components': '^0.33.1',
+      '@spwntch/tailwind': '^0.33.1',
       next: '14.0.4',
       react: '18.2.0',
       'react-dom': '18.2.0',
