@@ -1,3 +1,14 @@
+## 0.15.4 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **workspace-generator:** app landing-page-shell for sample-landing-page ([9b45533](https://github.com/spwntch/spwn-workspace-generator/commit/9b45533))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.15.3 (2024-04-18)
 
 
