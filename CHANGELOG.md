@@ -1,3 +1,14 @@
+## 0.15.3 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **spawn-workspace:** change question order ([b1ba222](https://github.com/spwntch/spwn-workspace-generator/commit/b1ba222))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.15.2 (2024-04-18)
 
 
