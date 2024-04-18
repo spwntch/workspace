@@ -1,5 +1,9 @@
 # Welcome to Spawntech
 
+![Spawntech Logo](assets/spwn/brand/public/mark-primary.webp)
+
+Deploy highly agile web apps with battle-tested UX and lean innovation CI philosophies baked in.
+
 This workspace utilizes the powerful capabilities of Nx within a PNPM monorepo to provide specialized tools for generating and managing development environments seamlessly.
 
 ## Spawntech CLI
