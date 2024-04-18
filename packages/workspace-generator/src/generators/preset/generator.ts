@@ -6,6 +6,7 @@ import {
 } from '@nx/devkit';
 import * as path from 'path';
 import sampleWebsiteGenerator from '../sample-website/generator';
+import sampleLandingPageGenerator from '../sample-landing-page/generator';
 import { PresetGeneratorSchema } from './schema';
 import shellLibraryGenerator from '../shell/generator';
 
@@ -17,14 +18,19 @@ export async function presetGenerator(
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 
   shellLibraryGenerator(tree, {});
-  sampleWebsiteGenerator(tree, options);
+
+  if (options.boilerplates?.includes('website'))
+    sampleWebsiteGenerator(tree, options);
+
+  if (options.boilerplates?.includes('landing-page'))
+    sampleLandingPageGenerator(tree, options);
 
   addDependenciesToPackageJson(
     tree,
     {
-      '@spwntch/shell': '^0.33.0',
-      '@spwntch/components': '^0.33.0',
-      '@spwntch/tailwind': '^0.33.0',
+      '@spwntch/shell': '0.34.0',
+      '@spwntch/components': '0.34.0',
+      '@spwntch/tailwind': '0.34.0',
       next: '14.0.4',
       react: '18.2.0',
       'react-dom': '18.2.0',

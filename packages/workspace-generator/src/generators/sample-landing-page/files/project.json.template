@@ -1,0 +1,21 @@
+{
+  "name": "sample-landing-page",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/sample-landing-page",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project sample-landing-page --web",
+  "targets": {
+     "build": {
+      "options": {
+        "assets": [
+          {
+            "input": "assets/spwn/brand/public",
+            "glob": "*.webp",
+            "output": "brand"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { intro, outro, select, text } from '@clack/prompts';
+import { intro, multiselect, outro, select, text } from '@clack/prompts';
 import { PackageManager } from '@nx/devkit';
 import { createWorkspace } from 'create-nx-workspace';
 
@@ -32,6 +32,23 @@ async function main() {
   //   initialValue: true,
   // });
 
+  const boilerplates = await multiselect({
+    message: 'Would you like to add any boilerplate apps?',
+    options: [
+      {
+        value: 'website',
+        label: 'Sample Website',
+        
+      },
+      {
+        value: 'landing-page',
+        label: 'Sample Landing Page',
+      },
+    ],
+  });
+
+  console.log(boilerplates);
+
   const packageManager = (await select({
     message: 'What is your preferred package manager?',
     options: [
@@ -50,12 +67,7 @@ async function main() {
   // TODO: update below to customize the workspace
   const { directory } = await createWorkspace(
     `@spwntch/workspace-generator@${presetVersion}`,
-    {
-      name,
-      nxCloud: 'skip',
-      packageManager,
-      addDocs,
-    }
+    { name, nxCloud: 'skip', packageManager, addDocs, boilerplates }
   );
 
   outro(`

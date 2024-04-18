@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/schema",
-  "$id": "Preset",
+  "$id": "SampleLandingPage",
   "title": "",
   "type": "object",
   "properties": {
@@ -12,14 +12,6 @@
         "index": 0
       },
       "x-prompt": "What name would you like to use?"
-    },
-    "addDocs": {
-      "type": "boolean",
-      "x-prompt": "Would you like to add Getting Started docs?"
-    },
-    "boilerplates": {
-      "type": "boolean",
-      "x-prompt": "Would you like to add Getting Started docs?"
     }
   },
   "required": ["name"]
