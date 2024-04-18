@@ -1,12 +1,32 @@
 'use client';
+import { RegularFooter, DesktopTopNavbar } from '@spwntch/shell';
 import { PropsWithChildren } from 'react';
-import { RegularFooter } from '@spwntch/shell';
 
-export const LandingPageShell = ({ children }: PropsWithChildren) => {
+/**
+ * Props for the LandingPageShell component.
+ */
+export interface LandingPageShellProps {
+  underContruction?: boolean;
+  /**
+   * Determines whether to display shell information.
+   */
+  displayShellInfo?: boolean;
+}
+
+export const LandingPageShell = ({
+  // underContruction,
+  // displayShellInfo,
+  children,
+}: LandingPageShellProps & PropsWithChildren) => {
   return (
-    <div>
-      {children}
-      <RegularFooter />
+    <div className="h-screen flex flex-col container">
+      <main className="h-full flex flex-col overflow-y">
+        <div className="flex-1">{children}</div>
+        {/* {underContruction ? <UnderConstructionFooter /> :  */}
+        <RegularFooter />
+        {/* } */}
+      </main>
+      {/* {displayShellInfo && <ShellInfo />} */}
     </div>
   );
 };
