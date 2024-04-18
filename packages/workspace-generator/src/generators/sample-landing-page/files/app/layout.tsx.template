@@ -1,4 +1,4 @@
-import { ShellProvider, WebsiteShell } from '@/shell';
+import { ShellProvider, LandingPageShell } from '@/shell';
 import type { Metadata } from 'next';
 import './global.css';
 import { brand, primaryNav } from '../config';
@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ShellProvider brand={brand} navItems={primaryNav}>
-          <WebsiteShell>{children}</WebsiteShell>
+          <LandingPageShell>{children}</LandingPageShell>
         </ShellProvider>
       </body>
     </html>
