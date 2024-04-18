@@ -38,6 +38,7 @@ async function main() {
       {
         value: 'website',
         label: 'Sample Website',
+        
       },
       {
         value: 'landing-page',
@@ -45,6 +46,8 @@ async function main() {
       },
     ],
   });
+
+  console.log(boilerplates);
 
   const packageManager = (await select({
     message: 'What is your preferred package manager?',

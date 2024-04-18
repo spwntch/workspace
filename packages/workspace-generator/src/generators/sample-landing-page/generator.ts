@@ -23,7 +23,7 @@ export async function sampleLandingPageGenerator(
 
   updateJson(tree, 'package.json', (json) => {
     json.scripts = json.scripts || {};
-    json.scripts['site'] =
+    json.scripts['page'] =
       'pnpm dlx nx run sample-landing-page:build && pnpm dlx nx run sample-landing-page:dev';
     return json;
   });
