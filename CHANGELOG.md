@@ -1,3 +1,14 @@
+## 0.15.1 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **workspace-generator:** fix schema error ([99373d8](https://github.com/spwntch/spwn-workspace-generator/commit/99373d8))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.15.0 (2024-04-18)
 
 
