@@ -1,3 +1,14 @@
+## 0.15.2 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **workspace-generator:** better under-construction placeholder text ([b818403](https://github.com/spwntch/spwn-workspace-generator/commit/b818403))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.15.1 (2024-04-18)
 
 
