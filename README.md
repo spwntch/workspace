@@ -52,13 +52,14 @@ To test any any changes you make to the generator, we'd recommend running a verd
 
 - **Feature 1**: A clean codebase, first and foremost. Everyhting we do should be sustainable and maintainable.
 - **Feature 2**: Supports pnpm, yarn and npm
-- **Feature 3**: Integrates all [nx monorepo benefits](https://nx.dev), which curated nx plugin to optimise your development workflow.
-- **Feature 4**: Tailwind css integration throughout all generated apps and libs
-- **Feature 5**: Comes complete with a series of nextjs libs built on spawntech's range of components libraries.
-- **Feature 6**: includes a storybook implementation for all libraries.
-- **Feature 7**: offers getting-started-docs to fastrack you in your use of spawntech's dev frameworks.
+- **Feature 3**: Integrates all [nx monorepo benefits](https://nx.dev), with curated nx plugins to optimise your development workflow.
+- **Feature 4**: Tailwind css integration throughout all generated apps and libs.
+- **Feature 5**: Comes complete with a series of nextjs libs built on Spawntech's range of components libraries.
+- **Feature 6**: includes a storybook implementation for all generated component libraries. Your workspace will be a cynch to share with stakeholders.
+- **Feature 7**: offers getting-started-docs to fast-rrack your use of Spawntech's dev frameworks.
 - **Feature 8**: offers various app boilerplates that you can modify to implement you own ideas.
-- **Feature 9**: leverages spawntech's component libraries, which leverage radix-ui for accessibility and which have all been through umpteen rounds of ux assessment.
+- **Feature 9**: leverages Spawntech's component libraries, which leverage radix-ui for accessibility and which have all been through umpteen rounds of ux assessment.
+- **Feature 10**: And so the list goes on...
 
 ## Explore and Extend
 
@@ -76,11 +77,11 @@ Optimize your continuous integration pipelines with caching and distributed task
 
 - [Visit us on Github](https://github.com/spwntch)
 - [Join the Spawntech Community](https://github.com/orgs/spwntch/discussions)
-- [Follow Spawntech on Linkedin](https://www.linkedin.com/company/spawntech-io)
+- [Follow Spawntech on Linkedin](https://www.linkedin.com/company/Spawntech-io)
 
 ## Documentation
 
-All components produced by our team are documented in [The Spawntech Storybook](https://docs.spawntech.io/). If you're wanting to use the Spawntech framework to build your apps, this is a great place to get started.
+All components produced by our team are documented in [The Spawntech Storybook](https://docs.Spawntech.io/). If you're wanting to use the Spawntech framework to build your apps, this is a great place to get started.
 
 <!-- For comprehensive documentation on how to use `spawn-workspace` and `workspace-generator`, as well as integration with Nx, visit [our documentation](documentation-link). -->
 
