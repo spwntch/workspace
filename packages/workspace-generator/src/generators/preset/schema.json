@@ -18,8 +18,8 @@
       "x-prompt": "Would you like to add Getting Started docs?"
     },
     "boilerplates": {
-      "type": "boolean",
-      "x-prompt": "Would you like to add Getting Started docs?"
+      "type": "array",
+      "x-prompt": "Would you like to add any boilerplate apps?"
     }
   },
   "required": ["name"]
