@@ -10,7 +10,8 @@ pnpm dlx spawn-workspace
 
 ## Intro
 
-This workspace utilizes the powerful capabilities of Nx within a PNPM monorepo to provide specialized tools for generating and managing development environments seamlessly. You will find this repo useful if:
+This workspace utilizes the powerful capabilities of [Nx](https://nx.dev) within a [PNPM monorepo](https://pnpm.io/workspaces) to provide specialized tools for generating and managing development environments seamlessly. You will find this repo useful if:
+
 - You need to build quickly but don't want half-baked MVPs.
 - You need to make sure your apps are usable out the gate and you want to leverage our countless UX tests.
 - You want to get into fullstack apps using the latest and greatest react frameworks, but you don't want to worry about setting it all up.
@@ -18,7 +19,6 @@ This workspace utilizes the powerful capabilities of Nx within a PNPM monorepo t
 Our goal is simple. We want to drive better ux in web apps and we want to enable you to embrace a lean mindset. Our workspace is a great place to start.
 
 This repo is naturally opinionated, but we think we've really managed to include all the important tools you need to most fast and reliably.
-
 
 ## Spawntech CLI
 
