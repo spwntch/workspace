@@ -26,6 +26,17 @@ async function main() {
     })) as string;
   }
 
+  
+
+  const packageManager = (await select({
+    message: 'What is your preferred package manager?',
+    options: [
+      { value: 'pnpm', label: 'pnpm' },
+      { value: 'yarn', label: 'yarn' },
+      { value: 'npm', label: 'npm' },
+    ],
+  })) as PackageManager;
+
   const addDocs = false;
   // const addDocs = await confirm({
   //   message: 'Would you like to add Getting Started docs?',
@@ -47,16 +58,6 @@ async function main() {
     ],
   });
 
-  console.log(boilerplates);
-
-  const packageManager = (await select({
-    message: 'What is your preferred package manager?',
-    options: [
-      { value: 'pnpm', label: 'pnpm' },
-      { value: 'yarn', label: 'yarn' },
-      { value: 'npm', label: 'npm' },
-    ],
-  })) as PackageManager;
 
   console.log(`
 

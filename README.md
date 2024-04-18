@@ -1,4 +1,14 @@
-# Welcome to Spawntech
+# @spwntch/workspace-generate
+
+<img src="assets/spwn/github/public/workspace-generator-social-preview.webp" alt="drawing" width="100%" />
+
+## tldr;
+
+```bash
+pnpm dlx spawn-workspace
+```
+
+## Intro
 
 This workspace utilizes the powerful capabilities of Nx within a PNPM monorepo to provide specialized tools for generating and managing development environments seamlessly.
 

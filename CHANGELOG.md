@@ -1,3 +1,58 @@
+## 0.15.4 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **workspace-generator:** app landing-page-shell for sample-landing-page ([9b45533](https://github.com/spwntch/spwn-workspace-generator/commit/9b45533))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
+## 0.15.3 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **spawn-workspace:** change question order ([b1ba222](https://github.com/spwntch/spwn-workspace-generator/commit/b1ba222))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
+## 0.15.2 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **workspace-generator:** better under-construction placeholder text ([b818403](https://github.com/spwntch/spwn-workspace-generator/commit/b818403))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
+## 0.15.1 (2024-04-18)
+
+
+### 🩹 Fixes
+
+- **workspace-generator:** fix schema error ([99373d8](https://github.com/spwntch/spwn-workspace-generator/commit/99373d8))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
+## 0.15.0 (2024-04-18)
+
+
+### 🚀 Features
+
+- adds a landing-page generator ([b078ed8](https://github.com/spwntch/spwn-workspace-generator/commit/b078ed8))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.13.0 (2024-04-17)
 
 

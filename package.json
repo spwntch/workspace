@@ -12,6 +12,7 @@
     "build": "pnpm dlx nx run-many -t build",
     "release": "pnpm dlx nx release",
     "publish": "pnpm dlx nx release publish",
+    "webp": "tools/scripts/webp.sh ",
     "registry": "pnpm dlx nx local-registry",
     "spawn-workspace": "pnpm dlx nx run spawn-workspace"
   },
