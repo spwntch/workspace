@@ -1,3 +1,14 @@
+## 0.15.0 (2024-04-18)
+
+
+### 🚀 Features
+
+- adds a landing-page generator ([b078ed8](https://github.com/spwntch/spwn-workspace-generator/commit/b078ed8))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.13.0 (2024-04-17)
 
 
