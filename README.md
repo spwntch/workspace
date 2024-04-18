@@ -50,7 +50,7 @@ To test any any changes you make to the generator, we'd recommend running a verd
 
 ## Key Features
 
-- **Feature 1**: A clean codebase, always, first and foremost. Everyhting we do should be sustainable and maintainable.
+- **Feature 1**: A clean codebase, first and foremost. Everyhting we do should be sustainable and maintainable.
 - **Feature 2**: Supports pnpm, yarn and npm
 - **Feature 3**: Integrates all [nx monorepo benefits](https://nx.dev), which curated nx plugin to optimise your development workflow.
 - **Feature 4**: Tailwind css integration throughout all generated apps and libs
