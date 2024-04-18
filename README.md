@@ -1,8 +1,14 @@
-# Welcome to Spawntech
+# @spwntch/workspace-generate
 
-![Spawntech Logo](assets/spwn/brand/public/mark-primary.webp)
+<img src="assets/spwn/github/public/workspace-generator-social-preview.webp" alt="drawing" width="100%" />
 
-Deploy highly agile web apps with battle-tested UX and lean innovation CI philosophies baked in.
+## tldr;
+
+```bash
+pnpm dlx spawn-workspace
+```
+
+## Intro
 
 This workspace utilizes the powerful capabilities of Nx within a PNPM monorepo to provide specialized tools for generating and managing development environments seamlessly.
 
