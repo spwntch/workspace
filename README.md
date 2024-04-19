@@ -18,7 +18,7 @@ This workspace utilizes the powerful capabilities of [Nx](https://nx.dev) within
 
 Our goal is simple. We want to drive better ux in web apps and we want to enable you to embrace a lean mindset. Our workspace is a great place to start.
 
-This repo is naturally opinionated, but we think we've really managed to include all the important tools you need to most fast and reliably.
+This repo is naturally opinionated, but we think we've really managed to include all the important tools you need to move fast and reliably.
 
 ## Spawntech CLI
 
