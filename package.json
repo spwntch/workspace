@@ -15,11 +15,13 @@
     "webp": "tools/scripts/webp.sh ",
     "registry": "pnpm dlx nx local-registry",
     "spawn-workspace": "pnpm dlx nx run spawn-workspace",
-    "site": "pnpm dlx nx sample-site"
+    "site": "pnpm dlx nx run spawntech-io:dev"
   },
   "private": true,
   "dependencies": {
     "@nx/devkit": "18.2.4",
+    "@spwntch/components": "^0.35.1",
+    "@spwntch/shell": "^0.35.1",
     "create-nx-workspace": "18.2.4",
     "next": "14.0.4",
     "react": "18.2.0",
