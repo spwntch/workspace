@@ -1,4 +1,6 @@
+import { ShellProvider, WebsiteShell } from '@/shell';
 import './global.css';
+import { brand, primaryNav } from '../config';
 
 export const metadata = {
   title: 'Welcome to spawntech-io',
@@ -12,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ShellProvider brand={brand} navItems={primaryNav} defaultTheme="dark">
+          <WebsiteShell>{children}</WebsiteShell>
+        </ShellProvider>
+      </body>
     </html>
   );
 }

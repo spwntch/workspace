@@ -19,14 +19,6 @@
         ],
         "parallel": false
       }
-    },
-    "sample-site": {
-      "executor": "nx:run-commands",
-      "dependsOn": ["build"],
-      "options": {
-        "commands": ["pnpm dlx nx run spawntech-io:dev"],
-        "parallel": false
-      }
     }
   }
 }
