@@ -44,6 +44,11 @@
         "e2eTestRunner": "none",
         "unitTestRunner": "none"
       }
+    },
+    "@nx/react": {
+      "library": {
+        "unitTestRunner": "none"
+      }
     }
   },
   "targetDefaults": {
