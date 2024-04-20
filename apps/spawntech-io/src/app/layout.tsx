@@ -16,7 +16,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ShellProvider brand={brand} navItems={primaryNav} defaultTheme="dark">
-          <WebsiteShell githubUrl='https://github.com/spwntch'>{children}</WebsiteShell>
+          <WebsiteShell githubUrl="https://github.com/spwntch">
+            {children}
+          </WebsiteShell>
         </ShellProvider>
       </body>
     </html>
