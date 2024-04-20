@@ -1,3 +1,15 @@
+## 0.18.0 (2024-04-20)
+
+
+### 🚀 Features
+
+- adds a spawntech-io app ([46216bc](https://github.com/spwntch/spwn-workspace-generator/commit/46216bc))
+- adds tailwind to apps/spwntech-io ([9ac41a6](https://github.com/spwntch/spwn-workspace-generator/commit/9ac41a6))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.17.0 (2024-04-20)
 
 
