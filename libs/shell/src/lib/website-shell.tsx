@@ -1,5 +1,5 @@
 'use client';
-import { RegularFooter, DesktopTopNavbar } from '@spwntch/shell';
+import { RegularFooter, DesktopTopNavbar, UnderConstructionFooter } from '@spwntch/shell';
 import { PropsWithChildren } from 'react';
 
 /**
@@ -21,6 +21,7 @@ export interface SiteShellProps {
     logoHeight?: number;
     alignment?: 'start' | 'center' | 'end';
   };
+  githubUrl?: string;
   /**
    * Determines whether to display shell information.
    */
@@ -28,8 +29,9 @@ export interface SiteShellProps {
 }
 
 export const WebsiteShell = ({
-  // underContruction,
+  underContruction,
   navbar,
+  githubUrl,
   // displayShellInfo,
   children,
 }: SiteShellProps & PropsWithChildren) => {
@@ -39,11 +41,11 @@ export const WebsiteShell = ({
         classNames={navbar?.classNames}
         navAlignment={navbar?.alignment}
         logoHeight={navbar?.logoHeight}
+        githubUrl={githubUrl}
       />
       <main className="h-full flex flex-col overflow-y">
         <div className="flex-1">{children}</div>
-        {/* {underContruction ? <UnderConstructionFooter /> :  */}
-        <RegularFooter />
+        {underContruction ? <UnderConstructionFooter /> : <RegularFooter />}
         {/* } */}
       </main>
       {/* {displayShellInfo && <ShellInfo />} */}
