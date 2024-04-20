@@ -1,3 +1,14 @@
+## 0.17.0 (2024-04-20)
+
+
+### 🚀 Features
+
+- **generator:** upgrade to @spwntch/...@0.35.1 ([b529543](https://github.com/spwntch/spwn-workspace-generator/commit/b529543))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.15.4 (2024-04-18)
 
 
