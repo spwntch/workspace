@@ -20,6 +20,9 @@
   "dependencies": {
     "@nx/devkit": "18.2.4",
     "create-nx-workspace": "18.2.4",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -28,6 +31,7 @@
     "@nx/eslint-plugin": "18.2.4",
     "@nx/jest": "18.2.4",
     "@nx/js": "18.2.4",
+    "@nx/next": "18.2.4",
     "@nx/plugin": "18.2.4",
     "@nx/workspace": "18.2.4",
     "@swc-node/register": "~1.8.0",
