@@ -1,10 +1,7 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
       "default",
       "!{projectRoot}/.eslintrc.json",
@@ -17,16 +14,37 @@
     ],
     "sharedGlobals": []
   },
+  "plugins": [
+    {
+      "plugin": "@nx/next/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "startTargetName": "start",
+        "serveStaticTargetName": "serve-static"
+      }
+    }
+  ],
+  "generators": {
+    "@nx/next": {
+      "library": {
+        "style": "none",
+        "linter": "eslint",
+        "unitTestRunner": "none"
+      },
+      "application": {
+        "style": "none",
+        "linter": "eslint",
+        "e2eTestRunner": "none",
+        "unitTestRunner": "none"
+      }
+    }
+  },
   "targetDefaults": {
     "@nx/js:tsc": {
       "cache": true,
-      "dependsOn": [
-        "^build"
-      ],
-      "inputs": [
-        "production",
-        "^production"
-      ]
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     },
     "@nx/eslint:lint": {
       "cache": true,
@@ -39,11 +57,7 @@
     },
     "@nx/jest:jest": {
       "cache": true,
-      "inputs": [
-        "default",
-        "^production",
-        "{workspaceRoot}/jest.preset.js"
-      ],
+      "inputs": ["default", "^production", "{workspaceRoot}/jest.preset.js"],
       "options": {
         "passWithNoTests": true
       },
@@ -63,16 +77,5 @@
         "currentVersionResolver": "git-tag"
       }
     }
-  },
-  "plugins": [
-    {
-      "plugin": "@nx/next/plugin",
-      "options": {
-        "buildTargetName": "build",
-        "devTargetName": "dev",
-        "startTargetName": "start",
-        "serveStaticTargetName": "serve-static"
-      }
-    }
-  ]
+  }
 }
