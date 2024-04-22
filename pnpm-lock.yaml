@@ -3409,7 +3409,7 @@ packages:
     dev: false
 
   /@spwntch/shell@0.38.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-FeKZlbw27H3rWhAFLj/k6rJu63zd+3pJHSIMhkWG12HAqOaTv6P9yZrX3bOEzRs32tr3oF5QsV0FPvW76W5JRQ==}
+    resolution: {integrity: sha512-weivoPLjhzNdK0rIbq38+1mzc8Gz4O0ngow6XY06XtWLlwPS87DKxgoe7hK52AVt/9Em3tky6WNF6VHXuMdB/g==}
     dependencies:
       '@spwntch/components': 0.38.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.38.0(tailwindcss@3.2.7)
