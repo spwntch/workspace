@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <ShellProvider brand={brand} navItems={primaryNav} defaultTheme="dark">
           <WebsiteShell githubUrl="https://github.com/spwntch">

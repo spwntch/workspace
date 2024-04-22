@@ -21,7 +21,7 @@
   "dependencies": {
     "@nx/devkit": "18.2.4",
     "@spwntch/components": "^0.38.0",
-    "@spwntch/shell": "^0.38.0",
+    "@spwntch/shell": "^0.38.2",
     "@spwntch/tailwind": "^0.38.0",
     "create-nx-workspace": "18.2.4",
     "next": "14.0.4",
