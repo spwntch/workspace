@@ -15,7 +15,8 @@
     "webp": "tools/scripts/webp.sh ",
     "registry": "pnpm dlx nx local-registry",
     "spawn-workspace": "pnpm dlx nx run spawn-workspace",
-    "site": "pnpm dlx nx run spawntech-io:dev"
+    "site": "pnpm dlx nx run spawntech-io:dev",
+    "page": "pnpm dlx nx run sample-landing-page:dev"
   },
   "private": true,
   "dependencies": {
