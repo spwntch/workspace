@@ -1,5 +1,5 @@
 'use client';
-import { RegularFooter } from '@spwntch/shell';
+import { RegularFooter, UnderConstructionFooter } from '@spwntch/shell';
 import { PropsWithChildren } from 'react';
 
 /**
@@ -14,19 +14,19 @@ export interface LandingPageProps {
 }
 
 export const LandingPageShell = ({
-  // underContruction,
+  underContruction,
   // displayShellInfo,
   children,
 }: LandingPageProps & PropsWithChildren) => {
   return (
     <div className="h-screen flex flex-col container">
       <main className="h-full flex flex-col overflow-y">
-        <div className="flex-1">{children}</div>
-        {/* {underContruction ? <UnderConstructionFooter /> :  */}
-        <RegularFooter />
-        {/* } */}
+        <div className="flex-1">
+          {children}
+          {/* {displayShellInfo && <ShellInfo />} */}
+        </div>
+        {underContruction ? <UnderConstructionFooter /> : <RegularFooter />}
       </main>
-      {/* {displayShellInfo && <ShellInfo />} */}
     </div>
   );
 };
