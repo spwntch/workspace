@@ -47,7 +47,7 @@ export const WebsiteShell = ({
   };
 
   return (
-    <div className="h-screen flex flex-col container">
+    <div className="h-screen flex flex-col md:container">
       <DesktopTopNavbar
         classNames={navbar?.classNames}
         navAlignment={navbar?.alignment}
