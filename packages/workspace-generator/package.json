@@ -1,6 +1,6 @@
 {
   "name": "@spwntch/workspace-generator",
-  "version": "0.19.1",
+  "version": "0.19.2",
   "dependencies": {
     "@nx/devkit": "18.2.4",
     "tslib": "^2.3.0"
