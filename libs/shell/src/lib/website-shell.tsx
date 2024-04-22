@@ -1,6 +1,11 @@
 'use client';
-import { RegularFooter, DesktopTopNavbar, UnderConstructionFooter } from '@spwntch/shell';
+import {
+  RegularFooter,
+  DesktopTopNavbar,
+  UnderConstructionFooter,
+} from '@spwntch/shell';
 import { PropsWithChildren } from 'react';
+import { useRouter } from 'next/navigation';
 
 /**
  * Props for the SiteShell component.
@@ -35,20 +40,28 @@ export const WebsiteShell = ({
   // displayShellInfo,
   children,
 }: SiteShellProps & PropsWithChildren) => {
+  const router = useRouter();
+
+  const handleLinkTo = (url: string) => {
+    router.push(url);
+  };
+
   return (
-    <div className="h-screen flex flex-col container">
+    <div className="h-screen flex flex-col mx-auto md:container">
       <DesktopTopNavbar
         classNames={navbar?.classNames}
         navAlignment={navbar?.alignment}
         logoHeight={navbar?.logoHeight}
         githubUrl={githubUrl}
+        onLinkTo={handleLinkTo}
       />
       <main className="h-full flex flex-col overflow-y">
-        <div className="flex-1">{children}</div>
+        <div className="flex-1">
+          {children}
+          {/* {displayShellInfo && <ShellInfo />} */}
+        </div>
         {underContruction ? <UnderConstructionFooter /> : <RegularFooter />}
-        {/* } */}
       </main>
-      {/* {displayShellInfo && <ShellInfo />} */}
     </div>
   );
 };
