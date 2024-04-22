@@ -17,20 +17,12 @@ export async function presetGenerator(
   const projectRoot = `.`;
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 
-  shellLibraryGenerator(tree, {});
-
-  if (options.boilerplates?.includes('website'))
-    sampleWebsiteGenerator(tree, options);
-
-  if (options.boilerplates?.includes('landing-page'))
-    sampleLandingPageGenerator(tree, options);
-
   addDependenciesToPackageJson(
     tree,
     {
-      '@spwntch/shell': '0.35.1',
-      '@spwntch/components': '0.35.1',
-      '@spwntch/tailwind': '0.35.1',
+      '@spwntch/shell': '~0.40.0',
+      '@spwntch/components': '~0.40.0',
+      '@spwntch/tailwind': '~0.40.0',
       next: '14.0.4',
       react: '18.2.0',
       'react-dom': '18.2.0',
@@ -68,6 +60,14 @@ export async function presetGenerator(
       typescript: '~5.4.2',
     }
   );
+
+  shellLibraryGenerator(tree, {});
+
+  if (options.boilerplates?.includes('website'))
+    sampleWebsiteGenerator(tree, options);
+
+  if (options.boilerplates?.includes('landing-page'))
+    sampleLandingPageGenerator(tree, options);
 
   await formatFiles(tree);
 }

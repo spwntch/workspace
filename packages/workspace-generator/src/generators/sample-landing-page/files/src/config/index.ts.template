@@ -1,4 +1,4 @@
-import { IBrand, INavItem } from '@spwntch/shell';
+import { IBrand } from '@spwntch/shell';
 
 export const brand: IBrand = {
   logoUrl: {
@@ -19,7 +19,7 @@ export const brand: IBrand = {
     phone: '+27 11 994 9960', // Placeholder, adjust as necessary
   },
   social: {
-    linkedin: 'https://www.linkedin.com/company/spawntech-io',
+    linkedin: 'https://www.linkedin.com/company/sample-landing-page',
     // youtube: 'https://www.youtube.com',
     // facebook: 'https://www.facebook.com',
   },
@@ -28,29 +28,3 @@ export const brand: IBrand = {
     copyrightYear: '2024',
   },
 };
-
-export const primaryNav: INavItem[] = [
-  { label: 'Docs', href: '/docs' },
-  { label: 'Services', href: '/services' },
-  {
-    label: 'Resources',
-    children: [
-      {
-        label: 'Blog',
-        description: 'ipsum lorem and that sh*t',
-        href: '/blog',
-      },
-      {
-        label: 'Case Studies',
-        description: 'ipsum lorem and that sh*t',
-        href: '/case-studies',
-      },
-      {
-        label: 'White Papers',
-        description: 'ipsum lorem and that sh*t',
-        href: '/white-papers',
-      },
-    ],
-  },
-  { label: 'About', href: '/about' },
-];

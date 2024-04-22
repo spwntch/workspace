@@ -6,7 +6,10 @@
   "tags": [],
   "// targets": "to see all targets run: nx show project sample-landing-page --web",
   "targets": {
-     "build": {
+    "dev": {
+      "dependsOn": ["build"]
+    },
+    "build": {
       "options": {
         "assets": [
           {

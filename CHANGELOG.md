@@ -1,3 +1,36 @@
+## 0.19.1 (2024-04-22)
+
+This was a version bump only, there were no code changes.
+
+## 0.19.0 (2024-04-22)
+
+
+### 🚀 Features
+
+- uses shell to generate website-shell ([80f8dea](https://github.com/spwntch/spwn-workspace-generator/commit/80f8dea))
+- add github button using @spwntch@0.36.0 ([fadcde5](https://github.com/spwntch/spwn-workspace-generator/commit/fadcde5))
+- support under-contruction-footer from 0.37.0 ([631e717](https://github.com/spwntch/spwn-workspace-generator/commit/631e717))
+- add router.push to website shell ([8666792](https://github.com/spwntch/spwn-workspace-generator/commit/8666792))
+- adds pathname to under-contruction ([0142d5b](https://github.com/spwntch/spwn-workspace-generator/commit/0142d5b))
+- adds some pages ([7b93853](https://github.com/spwntch/spwn-workspace-generator/commit/7b93853))
+- upgrades landing-page-shell ([12e6838](https://github.com/spwntch/spwn-workspace-generator/commit/12e6838))
+- adds sample-landing-page app ([3dbee70](https://github.com/spwntch/spwn-workspace-generator/commit/3dbee70))
+- adds new sample-landing-page generator files ([421ae25](https://github.com/spwntch/spwn-workspace-generator/commit/421ae25))
+- updates sample-website ([09f048f](https://github.com/spwntch/spwn-workspace-generator/commit/09f048f))
+- update generated workspace dep to 0.39.0 ([7d3aa47](https://github.com/spwntch/spwn-workspace-generator/commit/7d3aa47))
+- adds a sample-landing-page key to generators.json ([a97ef6c](https://github.com/spwntch/spwn-workspace-generator/commit/a97ef6c))
+- **workspace-generator:** upgrades generated libs/shell to repo latest ([ab3229b](https://github.com/spwntch/spwn-workspace-generator/commit/ab3229b))
+
+### 🩹 Fixes
+
+- only ad container at md ([fce8cf8](https://github.com/spwntch/spwn-workspace-generator/commit/fce8cf8))
+- adds mx-auto ([c0eec9c](https://github.com/spwntch/spwn-workspace-generator/commit/c0eec9c))
+- changes order of events in spawn-worlspace executable ([ab6b0f0](https://github.com/spwntch/spwn-workspace-generator/commit/ab6b0f0))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.18.0 (2024-04-20)
 
 
