@@ -21,9 +21,9 @@
   "private": true,
   "dependencies": {
     "@nx/devkit": "18.2.4",
-    "@spwntch/components": "^0.39.1",
-    "@spwntch/shell": "^0.39.1",
-    "@spwntch/tailwind": "^0.39.1",
+    "@spwntch/components": "~0.39.0",
+    "@spwntch/shell": "~0.39.0",
+    "@spwntch/tailwind": "~0.39.0",
     "create-nx-workspace": "18.2.4",
     "next": "14.0.4",
     "react": "18.2.0",
