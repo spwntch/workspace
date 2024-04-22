@@ -12,8 +12,10 @@ export const UnderConstruction = ({
   const pathname = usePathname();
   return (
     <SpwnUnderConstruction {...props}>
-      <H1>{pathname}</H1>
-      <div className="m-8">{children}</div>
+      <div className="text-center">
+        <H1>{pathname}</H1>
+        <div className="m-8">{children}</div>
+      </div>
     </SpwnUnderConstruction>
   );
 };
