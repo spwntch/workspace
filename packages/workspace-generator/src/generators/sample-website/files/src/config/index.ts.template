@@ -19,7 +19,7 @@ export const brand: IBrand = {
     phone: '+27 11 994 9960', // Placeholder, adjust as necessary
   },
   social: {
-    linkedin: 'https://www.linkedin.com/company/spawntech-io',
+    linkedin: 'https://www.linkedin.com/company/sample-website',
     // youtube: 'https://www.youtube.com',
     // facebook: 'https://www.facebook.com',
   },
@@ -30,8 +30,8 @@ export const brand: IBrand = {
 };
 
 export const primaryNav: INavItem[] = [
+  { label: 'Our Backstory', href: '/about' },
   { label: 'Docs', href: '/docs' },
-  { label: 'Services', href: '/services' },
   {
     label: 'Resources',
     children: [
@@ -52,5 +52,5 @@ export const primaryNav: INavItem[] = [
       },
     ],
   },
-  { label: 'About', href: '/about' },
+  { label: 'Hire Us', href: '/services' },
 ];
