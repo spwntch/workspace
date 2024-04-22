@@ -17,14 +17,6 @@ export async function presetGenerator(
   const projectRoot = `.`;
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 
-  shellLibraryGenerator(tree, {});
-
-  if (options.boilerplates?.includes('website'))
-    sampleWebsiteGenerator(tree, options);
-
-  if (options.boilerplates?.includes('landing-page'))
-    sampleLandingPageGenerator(tree, options);
-
   addDependenciesToPackageJson(
     tree,
     {
@@ -68,6 +60,14 @@ export async function presetGenerator(
       typescript: '~5.4.2',
     }
   );
+
+  shellLibraryGenerator(tree, {});
+
+  if (options.boilerplates?.includes('website'))
+    sampleWebsiteGenerator(tree, options);
+
+  if (options.boilerplates?.includes('landing-page'))
+    sampleLandingPageGenerator(tree, options);
 
   await formatFiles(tree);
 }
