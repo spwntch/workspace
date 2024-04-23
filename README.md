@@ -1,6 +1,6 @@
 # @spwntch/workspace-generator
 
-<img src="assets/spwn/github/public/workspace-generator-social-preview.webp" alt="drawing" width="100%" />
+<img src="assets/spwn/github/public/spwntch-workspace-social-preview.webp" alt="drawing" width="100%" />
 
 ## tldr;
 
