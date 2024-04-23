@@ -1,3 +1,15 @@
+## 0.20.1 (2024-04-23)
+
+
+### 🚀 Features
+
+- adds my vercel conditional build script ([e4f492a](https://github.com/spwntch/workspace/commit/e4f492a))
+- uses @spwntch/core@0.41.1 ([d8547ef](https://github.com/spwntch/workspace/commit/d8547ef))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.20.0 (2024-04-23)
 
 
