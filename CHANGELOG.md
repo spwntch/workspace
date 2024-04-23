@@ -1,3 +1,21 @@
+## 0.20.0 (2024-04-23)
+
+
+### 🚀 Features
+
+- uses @spwntch/core@0.41.0 ([1c8dfdf](https://github.com/spwntch/workspace/commit/1c8dfdf))
+
+### 🩹 Fixes
+
+- updates images following repo name change ([804f2ad](https://github.com/spwntch/workspace/commit/804f2ad))
+- affec changes from @spwntch/workspace-generator -> @spwntch/workspace ([8ae5643](https://github.com/spwntch/workspace/commit/8ae5643))
+- readme update ([abf0c22](https://github.com/spwntch/workspace/commit/abf0c22))
+- update changelog commit links to actually route correctly ([749a2c0](https://github.com/spwntch/workspace/commit/749a2c0))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.19.3 (2024-04-22)
 
 This was a version bump only, there were no code changes.
