@@ -87,7 +87,7 @@ All components produced by our team are documented in [The Spawntech Storybook](
 
 ## Other Spawntech Repos
 
-Make sure to checkout [@spwntch/spwn](https://github.com/spwntch/spwn), our primary monorepo.
+Make sure to checkout [@spwntch/core](https://github.com/spwntch/core), our primary monorepo.
 
 ---
 
