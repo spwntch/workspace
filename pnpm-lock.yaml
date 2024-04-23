@@ -18,8 +18,8 @@ dependencies:
     specifier: 0.41.1
     version: 0.41.1(tailwindcss@3.2.7)
   create-nx-workspace:
-    specifier: 18.2.4
-    version: 18.2.4
+    specifier: 18.3.3
+    version: 18.3.3
   next:
     specifier: 14.0.4
     version: 14.0.4(@babel/core@7.24.4)(react-dom@18.2.0)(react@18.2.0)
@@ -5751,7 +5751,7 @@ packages:
       - ts-node
     dev: true
 
-  /create-nx-workspace@18.2.4:
+  /create-nx-workspace@18.3.3:
     resolution: {integrity: sha512-Hdco9JkOXF2zj0dLmPJBdLXAx9A6TjqrEvzFelAPR5xQs696k7RfdPpaoyTUSA8x2tunk/KYZ/f60CMoaoHhsQ==}
     hasBin: true
     dependencies:
