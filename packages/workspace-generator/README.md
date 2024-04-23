@@ -1,4 +1,4 @@
-# @spwntch/workspace-generator
+# @spwntch/workspace
 Generates a spawntech workspace. Packed with value.
 
 > ## Important Note

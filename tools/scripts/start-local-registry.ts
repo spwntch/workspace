@@ -8,7 +8,7 @@ import { releasePublish, releaseVersion } from 'nx/release';
 
 export default async () => {
   // local registry target to run
-  const localRegistryTarget = '@spwntch/workspace-generator:local-registry';
+  const localRegistryTarget = '@spwntch/workspace:local-registry';
   // storage folder for the local registry
   const storage = './tmp/local-registry/storage';
 

@@ -1,4 +1,4 @@
-# @spwntch/workspace-generator
+# @spwntch/workspace
 
 <img src="assets/spwn/github/public/spwntch-workspace-social-preview.webp" alt="drawing" width="100%" />
 

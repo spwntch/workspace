@@ -1,4 +1,4 @@
-# Code of Conduct - @spwntch/workspace-generator
+# Code of Conduct - @spwntch/workspace
 
 ## Our Pledge
 
