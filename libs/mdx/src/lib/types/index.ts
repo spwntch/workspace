@@ -25,3 +25,24 @@ export interface IMdxDocFrontMatter {
 export interface IMdxDocMeta extends IMdxDocFrontMatter {
   path?: string;
 }
+
+
+export interface IArticleAuthor {
+  name: string;
+  avatarUrl: string;
+}
+
+export interface IArticleMeta {
+  slug: string;
+  categories: string[];
+  keywords: string[];
+  author: IArticleAuthor;
+}
+
+export interface IArticle {
+  meta: IArticleMeta;
+  title: string;
+  subtitle: string;
+  abstract: string[];
+  coverImage: any;
+}
