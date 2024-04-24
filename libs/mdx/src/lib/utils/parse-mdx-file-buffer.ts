@@ -2,7 +2,7 @@ import matter from 'gray-matter';
 import { parseMdx } from './parse-mdx';
 import { IMdxDoc } from '../types';
 
-export const 1 = async (
+export const parseMdxFileBuffer = async (
   buffer: Buffer
 ): Promise<IMdxDoc | undefined> => {
   const { content: rawContent, data } = matter(buffer);
