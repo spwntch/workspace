@@ -61,9 +61,9 @@ const getBuffer = (slug: string) => {
 const ArticlePage = ({ params: { slug } }: Props) => {
   const backTo = { path: '/blog' };
   const buffer = getBuffer(slug);
-  // const image = { src: `/blog/images/${slug}.webp` };
+  const image = { src: `/blog/images/${slug}.webp` };
 
-  return <Article buffer={buffer} backTo={backTo} />;
+  return <Article image={image} buffer={buffer} backTo={backTo} />;
 };
 
 export default ArticlePage;
