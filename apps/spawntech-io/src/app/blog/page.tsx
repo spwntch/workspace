@@ -1,7 +1,8 @@
-import { UnderConstruction } from '@/shell';
+import { ArticlesGrid } from '@/mdx';
+import { articles } from '../../config';
 
 const BlogPage = () => {
-  return <UnderConstruction>I&apos;m a blog</UnderConstruction>;
+  return <ArticlesGrid articles={articles}/>;
 };
 
 export default BlogPage;
