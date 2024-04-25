@@ -21,9 +21,9 @@
   "private": true,
   "dependencies": {
     "@nx/devkit": "18.3.3",
-    "@spwntch/components": "0.42.1",
-    "@spwntch/shell": "0.42.1",
-    "@spwntch/tailwind": "0.42.1",
+    "@spwntch/components": "0.42.2",
+    "@spwntch/shell": "0.42.2",
+    "@spwntch/tailwind": "0.42.2",
     "create-nx-workspace": "18.3.3",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.373.0",
