@@ -11,11 +11,11 @@ import Link from 'next/link';
 type Props = {
   backTo?: { label?: string; path: string };
   image: IAttributableImage;
-  content: IPageSectionContent;
+  header: IPageSectionContent;
   tags?: string[];
 };
 
-export const ArticleHeader = ({ backTo, image, content }: Props) => {
+export const ArticleHeader = ({ backTo, image, header }: Props) => {
   return (
     <div className="pt-4 sm:pt-16 pb-4">
       {backTo && (
@@ -26,7 +26,7 @@ export const ArticleHeader = ({ backTo, image, content }: Props) => {
           </Button>
         </Link>
       )}
-      <BackgroundImageHeader content={content} image={image} />
+      <BackgroundImageHeader header={header} image={image} />
     </div>
   );
 };

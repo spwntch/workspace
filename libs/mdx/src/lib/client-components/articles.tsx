@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { ArticlesGrid } from './articles-grid';
-import { BasicPageHeader, IPageSectionContent } from '@spwntch/components';
+import { BasicHeader, IPageSectionContent } from '@spwntch/components';
 import { IArticle } from '../types';
 
 interface Props {
@@ -12,7 +12,7 @@ interface Props {
 export const Articles = ({ header, articles }: Props) => {
   return (
     <>
-      <BasicPageHeader content={header} />
+      <BasicHeader header={header} />
       <ArticlesGrid articles={articles} />
     </>
   );

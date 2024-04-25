@@ -32,7 +32,7 @@ export const Article = async ({
   return (
     <div className="flex flex-col mx-2 md:mx-auto max-w-4xl">
       <div>
-        <ArticleHeader backTo={backTo} image={image} content={header} />
+        <ArticleHeader backTo={backTo} image={image} header={header} />
       </div>
       <div className="px-2">
         <article className="max-w-none py-8 relative isolate prose text-foreground prose-headings:text-foreground">
