@@ -1,8 +1,8 @@
-import { ArticlesGrid } from '@/mdx';
-import { articles } from '../../config';
+import { Articles } from '@/mdx';
+import { articles, pageHeader } from '../../config';
 
 const BlogPage = () => {
-  return <ArticlesGrid articles={articles}/>;
+  return <Articles header={pageHeader} articles={articles} />;
 };
 
 export default BlogPage;

@@ -1,9 +1,7 @@
-// import { IArticle } from '@/mdx';
-// import { IPageSectionContent } from '@/next-shared-ui';
+import { IArticle } from '@/mdx';
+import { IPageSectionContent } from '@spwntch/components';
 
-export const articles
-// : IArticle[]
- = [
+export const articles: IArticle[] = [
   {
     meta: {
       slug: 'the-real-reason-you-need-an-icp',
@@ -25,8 +23,8 @@ export const articles
   },
 ];
 
-// export const blogPageContent: IPageSectionContent = {
-//   heading: 'Blog',
-//   subHeading: 'The latest from our team',
-//   body: `We're always learning and growing. Here's what we've been up to lately.`,
-// };
+export const pageHeader: IPageSectionContent = {
+  heading: 'Blog',
+  subHeading: 'The latest from our team',
+  body: `We're always learning and growing. Here's what we've been up to lately.`,
+};
