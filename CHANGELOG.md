@@ -1,3 +1,29 @@
+## 0.20.2 (2024-04-25)
+
+
+### 🚀 Features
+
+- adds a boilerplate md lib ([a9eda6f](https://github.com/spwntch/workspace/commit/a9eda6f))
+- adds a mdx lib, with an exported parseMdxFileBuffer method ([9297a16](https://github.com/spwntch/workspace/commit/9297a16))
+- adds basic article components to @/mdx ([f54b57d](https://github.com/spwntch/workspace/commit/f54b57d))
+- adds a bunch of blog and other assets ([bfb18c6](https://github.com/spwntch/workspace/commit/bfb18c6))
+- adds routing structure for a blog and slugs ([5ad31a3](https://github.com/spwntch/workspace/commit/5ad31a3))
+- adds articles-grid to /blog ([576460e](https://github.com/spwntch/workspace/commit/576460e))
+- adds a first pass article page ([10ffb3a](https://github.com/spwntch/workspace/commit/10ffb3a))
+- basic article displaying ([d4825af](https://github.com/spwntch/workspace/commit/d4825af))
+- finishes off articles ([7cb4e05](https://github.com/spwntch/workspace/commit/7cb4e05))
+
+### 🩹 Fixes
+
+- whoops, changed method name in error ([da45f50](https://github.com/spwntch/workspace/commit/da45f50))
+- get tailwind css variables to work ([70a55ca](https://github.com/spwntch/workspace/commit/70a55ca))
+- gotta remove components and utilities from glbal.css ([ca1f773](https://github.com/spwntch/workspace/commit/ca1f773))
+- uses upgraded components correctlyu ([d60301b](https://github.com/spwntch/workspace/commit/d60301b))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.20.1 (2024-04-23)
 
 
