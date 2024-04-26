@@ -1,3 +1,14 @@
+## 0.32.2 (2024-04-26)
+
+
+### 🩹 Fixes
+
+- add next-mdx-remote ([078bdb6](https://github.com/spwntch/workspace/commit/078bdb6))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.1 (2024-04-26)
 
 
