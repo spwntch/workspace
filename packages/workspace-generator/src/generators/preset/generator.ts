@@ -25,6 +25,7 @@ export async function presetGenerator(
       '@spwntch/tailwind': '0.43.0',
       '@spwntch/mdx': '0.43.0',
       "gray-matter": "^4.0.3",
+      "lucide-react": "^0.373.0",
       next: '14.0.4',
       "next-mdx-remote": "^4.4.1",
       react: '18.2.0',
