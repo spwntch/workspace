@@ -1,3 +1,14 @@
+## 0.32.1 (2024-04-26)
+
+
+### 🩹 Fixes
+
+- adds gray-matter + rehype and remark stuff ([4c6aa06](https://github.com/spwntch/workspace/commit/4c6aa06))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.0 (2024-04-26)
 
 This was a version bump only, there were no code changes.
