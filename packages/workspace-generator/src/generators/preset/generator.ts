@@ -46,6 +46,7 @@ export async function presetGenerator(
       '@swc-node/register': '~1.8.0',
       '@swc/core': '~1.3.85',
       '@swc/helpers': '~0.5.2',
+      "@tailwindcss/typography": "^0.5.12",
       '@types/react': '18.2.33',
       '@types/react-dom': '18.2.14',
       '@typescript-eslint/eslint-plugin': '^7.3.0',
