@@ -1,15 +1,18 @@
 import {
   addDependenciesToPackageJson,
-  Tree
+  formatFiles,
+  generateFiles,
+  Tree,
 } from '@nx/devkit';
 import { PresetGeneratorSchema } from './schema';
+import path = require('path');
 
 export async function presetGenerator(
   tree: Tree,
   options: PresetGeneratorSchema
 ) {
-  // const projectRoot = `.`;
-  // generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+  const projectRoot = `.`;
+  generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 
   addDependenciesToPackageJson(
     tree,
@@ -64,7 +67,7 @@ export async function presetGenerator(
   // if (options.boilerplates?.includes('landing-page'))
   //   sampleLandingPageGenerator(tree, options);
 
-  // await formatFiles(tree);
+  await formatFiles(tree);
 }
 
 export default presetGenerator;
