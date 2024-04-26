@@ -6,6 +6,7 @@ import {
 } from '@nx/devkit';
 import { PresetGeneratorSchema } from './schema';
 import path = require('path');
+import mdxLibraryGenerator from '../mdx/generator';
 
 export async function presetGenerator(
   tree: Tree,
@@ -58,7 +59,7 @@ export async function presetGenerator(
     }
   );
 
-  // mdxLibraryGenerator(tree, {});
+  mdxLibraryGenerator(tree, {});
   // shellLibraryGenerator(tree, {});
 
   // if (options.boilerplates?.includes('website'))
