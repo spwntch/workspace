@@ -8,6 +8,7 @@ import { PresetGeneratorSchema } from './schema';
 import path = require('path');
 import mdxLibraryGenerator from '../mdx/generator';
 import shellLibraryGenerator from '../shell/generator';
+import sampleWebsiteGenerator from '../sample-website/generator';
 
 export async function presetGenerator(
   tree: Tree,
@@ -63,8 +64,8 @@ export async function presetGenerator(
   mdxLibraryGenerator(tree, {});
   shellLibraryGenerator(tree, {});
 
-  // if (options.boilerplates?.includes('website'))
-  //   sampleWebsiteGenerator(tree, options);
+  if (options.boilerplates?.includes('website'))
+    sampleWebsiteGenerator(tree, options);
 
   // if (options.boilerplates?.includes('landing-page'))
   //   sampleLandingPageGenerator(tree, options);
