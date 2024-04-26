@@ -1,22 +1,15 @@
 import {
   addDependenciesToPackageJson,
-  formatFiles,
-  generateFiles,
-  Tree,
+  Tree
 } from '@nx/devkit';
-import * as path from 'path';
-import sampleWebsiteGenerator from '../sample-website/generator';
-import sampleLandingPageGenerator from '../sample-landing-page/generator';
 import { PresetGeneratorSchema } from './schema';
-import shellLibraryGenerator from '../shell/generator';
-import mdxLibraryGenerator from '../mdx/generator';
 
 export async function presetGenerator(
   tree: Tree,
   options: PresetGeneratorSchema
 ) {
-  const projectRoot = `.`;
-  generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
+  // const projectRoot = `.`;
+  // generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 
   addDependenciesToPackageJson(
     tree,
@@ -62,16 +55,16 @@ export async function presetGenerator(
     }
   );
 
-  mdxLibraryGenerator(tree, {});
-  shellLibraryGenerator(tree, {});
+  // mdxLibraryGenerator(tree, {});
+  // shellLibraryGenerator(tree, {});
 
-  if (options.boilerplates?.includes('website'))
-    sampleWebsiteGenerator(tree, options);
+  // if (options.boilerplates?.includes('website'))
+  //   sampleWebsiteGenerator(tree, options);
 
-  if (options.boilerplates?.includes('landing-page'))
-    sampleLandingPageGenerator(tree, options);
+  // if (options.boilerplates?.includes('landing-page'))
+  //   sampleLandingPageGenerator(tree, options);
 
-  await formatFiles(tree);
+  // await formatFiles(tree);
 }
 
 export default presetGenerator;
