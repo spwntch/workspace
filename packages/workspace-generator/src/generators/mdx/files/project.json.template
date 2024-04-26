@@ -1,0 +1,9 @@
+{
+  "name": "mdx",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/mdx/src",
+  "projectType": "library",
+  "tags": ["tech:next"],
+  "// targets": "to see all targets run: nx show project mdx --web",
+  "targets": {}
+}
