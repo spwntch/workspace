@@ -1,3 +1,14 @@
+## 0.32.3 (2024-04-26)
+
+
+### 🩹 Fixes
+
+- adds @tailwind/typgoraphy ([fdaf6e9](https://github.com/spwntch/workspace/commit/fdaf6e9))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.2 (2024-04-26)
 
 
