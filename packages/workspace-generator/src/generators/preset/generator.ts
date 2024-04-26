@@ -4,11 +4,11 @@ import {
   generateFiles,
   Tree,
 } from '@nx/devkit';
-import * as path from 'path';
-import sampleWebsiteGenerator from '../sample-website/generator';
-import sampleLandingPageGenerator from '../sample-landing-page/generator';
 import { PresetGeneratorSchema } from './schema';
+import path = require('path');
+import mdxLibraryGenerator from '../mdx/generator';
 import shellLibraryGenerator from '../shell/generator';
+import sampleWebsiteGenerator from '../sample-website/generator';
 
 export async function presetGenerator(
   tree: Tree,
@@ -20,9 +20,9 @@ export async function presetGenerator(
   addDependenciesToPackageJson(
     tree,
     {
-      '@spwntch/shell': '0.42.1',
-      '@spwntch/components': '0.42.1',
-      '@spwntch/tailwind': '0.42.1',
+      '@spwntch/shell': '0.43.0',
+      '@spwntch/components': '0.43.0',
+      '@spwntch/tailwind': '0.43.0',
       next: '14.0.4',
       react: '18.2.0',
       'react-dom': '18.2.0',
@@ -61,13 +61,14 @@ export async function presetGenerator(
     }
   );
 
+  mdxLibraryGenerator(tree, {});
   shellLibraryGenerator(tree, {});
 
   if (options.boilerplates?.includes('website'))
     sampleWebsiteGenerator(tree, options);
 
-  if (options.boilerplates?.includes('landing-page'))
-    sampleLandingPageGenerator(tree, options);
+  // if (options.boilerplates?.includes('landing-page'))
+  //   sampleLandingPageGenerator(tree, options);
 
   await formatFiles(tree);
 }

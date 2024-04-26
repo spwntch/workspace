@@ -16,6 +16,11 @@
       "schema": "./src/generators/sample-website/schema.json",
       "description": "generates a spawntech sample-website app"
     },
+    "mdx": {
+      "factory": "./src/generators/mdx/generator",
+      "schema": "./src/generators/mdx/schema.json",
+      "description": "generates a spawntech mdx library"
+    },
     "shell": {
       "factory": "./src/generators/shell/generator",
       "schema": "./src/generators/shell/schema.json",
