@@ -1,3 +1,14 @@
+## 0.32.4 (2024-04-26)
+
+
+### 🩹 Fixes
+
+- add lucide react ([a358dbb](https://github.com/spwntch/workspace/commit/a358dbb))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.3 (2024-04-26)
 
 
