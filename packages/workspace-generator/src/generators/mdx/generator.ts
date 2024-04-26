@@ -6,7 +6,7 @@ export async function mdxLibraryGenerator(
   tree: Tree,
   options: MdxLibraryGeneratorSchema
 ) {
-  const projectName = '  mdx';
+  const projectName = 'mdx';
   const projectRoot = `libs/${projectName}`;
 
   addProjectConfiguration(tree, projectName, {
