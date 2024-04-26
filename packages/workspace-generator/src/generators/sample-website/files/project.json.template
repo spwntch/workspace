@@ -13,9 +13,24 @@
       "options": {
         "assets": [
           {
+            "glob": "favicon.ico",
+            "input": "assets/spwn/web-assets",
+            "output": ""
+          },
+          {
             "input": "assets/spwn/brand/public",
             "glob": "*.webp",
             "output": "brand"
+          },
+          {
+            "glob": "*",
+            "input": "assets/spwn/blog/mdx",
+            "output": "blog"
+          },
+          {
+            "glob": "*",
+            "input": "assets/spwn/blog/cover-images/public",
+            "output": "blog/images"
           }
         ]
       }
