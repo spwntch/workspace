@@ -26,6 +26,7 @@ export async function presetGenerator(
       '@spwntch/mdx': '0.43.0',
       "gray-matter": "^4.0.3",
       next: '14.0.4',
+      "next-mdx-remote": "^4.4.1",
       react: '18.2.0',
       'react-dom': '18.2.0',
       "rehype-slug": "^6.0.0",
