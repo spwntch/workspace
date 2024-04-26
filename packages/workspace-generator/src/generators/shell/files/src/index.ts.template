@@ -3,3 +3,4 @@ export { ShellProvider } from './lib/shell-provider';
 export * from './lib/landing-page-shell';
 export * from './lib/website-shell';
 export * from './lib/placeholders';
+export * from './lib/utils';
