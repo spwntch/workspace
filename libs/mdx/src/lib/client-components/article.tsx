@@ -30,7 +30,7 @@ export const Article = async ({
   };
 
   return (
-    <div className="flex flex-col mx-2 md:mx-auto max-w-7xl">
+    <div className="flex flex-col mx-2 md:mx-auto max-w-6xl">
       <div>
         <ArticleHeader backTo={backTo} image={image} header={header} />
       </div>
