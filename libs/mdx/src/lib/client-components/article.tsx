@@ -1,44 +1,38 @@
+'use client';
+import { IMdxDoc, Post as SpwnPost } from '@spwntch/blog';
+import { IAttributableImage, IPageSectionContent } from '@spwntch/components';
+import { useRouter } from 'next/navigation';
 import { PropsWithChildren } from 'react';
 
-import { parseMdxFileBuffer } from '../utils/parse-mdx-file-buffer';
-// import { IAttributableImage, IPageSectionContent } from '@/next-shared-ui';
-import { notFound } from 'next/navigation';
-import { IAttributableImage, IPageSectionContent } from '@spwntch/components';
-import { ArticleHeader } from './article-header';
-
 interface IArticleProps {
-  backTo?: { label?: string; path: string };
-  buffer: Buffer;
+  backTo: string;
   image: IAttributableImage;
+  doc: IMdxDoc;
 }
 
-export const Article = async ({
+export const Post = ({
   backTo,
-  buffer,
   image,
-  children,
+  doc,
 }: IArticleProps & PropsWithChildren) => {
-  const doc = await parseMdxFileBuffer(buffer);
-  if (!doc) return notFound();
-
-  const { content, meta } = doc;
+  const router = useRouter();
 
   const header: IPageSectionContent = {
-    heading: meta.title,
-    subHeading: meta.subtitle,
+    heading: doc.meta.title,
+    subHeading: doc.meta.subtitle,
     // tags: meta.tags,
   };
 
+  const handlBackToList = (): void => {
+    router.push(backTo);
+  };
+
   return (
-    <div className="flex flex-col mx-2 md:mx-auto max-w-6xl">
-      <div>
-        <ArticleHeader backTo={backTo} image={image} header={header} />
-      </div>
-      <div className="px-2">
-        <article className="max-w-none py-8 relative isolate prose text-foreground prose-headings:text-foreground">
-          {content}
-        </article>
-      </div>
-    </div>
+    <SpwnPost
+      image={image}
+      header={header}
+      post={doc}
+      onBackToList={handlBackToList}
+    />
   );
 };

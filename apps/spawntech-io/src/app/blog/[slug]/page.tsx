@@ -1,7 +1,8 @@
-import { Article } from '@/mdx';
+import { Post, parseMdxFileBuffer } from '@/mdx';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { articles } from '../../../config';
+import { notFound } from 'next/navigation';
 
 type Props = {
   params: { slug: string };
@@ -58,12 +59,14 @@ const getBuffer = (slug: string) => {
   return readFileSync(filePath);
 };
 
-const ArticlePage = ({ params: { slug } }: Props) => {
-  const backTo = { path: '/blog' };
+const PostPage = async ({ params: { slug } }: Props) => {
+  const backTo = '/blog';
   const buffer = getBuffer(slug);
   const image = { src: `/blog/images/${slug}.webp` };
+  const doc = await parseMdxFileBuffer(buffer);
+  if (!doc) return notFound();
 
-  return <Article image={image} buffer={buffer} backTo={backTo} />;
+  return <Post backTo={backTo} image={image} doc={doc} />;
 };
 
-export default ArticlePage;
+export default PostPage;
