@@ -49,7 +49,7 @@ export const WebsiteShell = ({
   return (
     <div className="h-full flex flex-col mx-auto md:container">
       <DesktopTopNavbar
-        classNames={navbar?.classNames}
+        classNames={`${navbar?.classNames} bg-background`}
         navAlignment={navbar?.alignment}
         logoHeight={navbar?.logoHeight}
         githubUrl={githubUrl}
