@@ -1,7 +1,7 @@
+import { IMdxDoc, IMdxDocFrontMatter, ITocItem } from '@spwntch/blog';
 import { compileMDX } from 'next-mdx-remote/rsc';
 import rehypeSlug from 'rehype-slug';
 import remarkGfm from 'remark-gfm';
-import { IMdxDoc, IMdxDocFrontMatter, ITocItem } from '../types';
 
 export const parseMdx = async (
   source: string,

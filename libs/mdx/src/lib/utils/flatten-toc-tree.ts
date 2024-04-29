@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { ITocItem } from '@spwntch/blog';
 import { HtmlElementNode } from 'rehype-toc';
 
-import {ITocItem} from '../types'
 
 export const flattenTocTree = (
   tocTree: HtmlElementNode,

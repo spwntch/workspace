@@ -2,11 +2,10 @@
 import { IPost, Posts } from '@spwntch/blog';
 import { IPageSectionContent } from '@spwntch/components';
 import { useRouter } from 'next/navigation';
-import { IArticle } from '../types';
 
 interface Props {
   header: IPageSectionContent;
-  articles: IArticle[];
+  articles: IPost[];
 }
 
 export const Blog = ({ header, articles }: Props) => {

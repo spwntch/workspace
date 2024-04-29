@@ -1,6 +1,6 @@
 import matter from 'gray-matter';
 import { parseMdx } from './parse-mdx';
-import { IMdxDoc } from '../types';
+import { IMdxDoc } from '@spwntch/blog';
 
 export const parseMdxFileBuffer = async (
   buffer: Buffer
@@ -10,11 +10,8 @@ export const parseMdxFileBuffer = async (
 
   if (!rawContent?.length || rawContent === '404: Not Found') return undefined;
 
-
-
   const parsed = await parseMdx(rawContent);
 
-  
   return {
     content: parsed.content,
     toc: parsed.toc,
