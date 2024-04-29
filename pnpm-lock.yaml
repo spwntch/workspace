@@ -3447,7 +3447,7 @@ packages:
     dev: true
 
   /@spwntch/blog@0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-0GHt4FIn6Y2jB/fDb5nEnEBcDLvL2GcXne2QhisKZUf1lUbNNEnC6rQzelRXUs0Ga4ZYq/8JlS5oWxqb5ADDhw==}
+    resolution: {integrity: sha512-HY6Xn65DZPHdIjXPRBdCVn9L+kqnpgvY207l3VRFW7dMTxYaQmiuzHk3fN7D+YvjjsK0SyvNnAxWY8LKs79RJQ==}
     dependencies:
       '@spwntch/components': 0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.44.0(tailwindcss@3.2.7)
@@ -3461,7 +3461,7 @@ packages:
     dev: false
 
   /@spwntch/components@0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-ywB91qV6uokfRkD1XvAOVP1yPDiaMhYZ0GqU2ONC+V+6BW5r1vtaMWEJVIQ7NWDwbpSnvklJs2M07P2mvjZRrw==}
+    resolution: {integrity: sha512-9uOeLFQknR7RoYiVdQaiTXzSCGkeLsSMPiFH+AyV0jn6y9TO2YyWvQejR3dKz8a0kzne1FbCliiYnJUlnlQpHQ==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
@@ -3485,11 +3485,11 @@ packages:
     dev: false
 
   /@spwntch/mdx@0.44.0:
-    resolution: {integrity: sha512-T6UPvjXsQ5WjcNFzHLNIG1rgoM0Lyb7aFN2VBefPSAjfMwqNYoW7FjQFlGRTTHobhCUoZZx/639B9paaqYbXkQ==}
+    resolution: {integrity: sha512-DCGyjshscFVj4TWe7nbWEYOHgdUvXm1hynznqTblQhNZZwrInCUtakPtS4KyHW4jkBYUqppjAA1dJ0bfwgVqgA==}
     dev: false
 
   /@spwntch/shell@0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-vcCL3i9Ph45iNMlDF/qETRF0QCNcqF/ybuZLx3+49cgcHpw3x/UjTfo7QAQx6ZLHHjOR8V8JQQcPsxCySuC/EQ==}
+    resolution: {integrity: sha512-j6Dp2J5v+7f1f3XiGihIyIGkZwbdot45qEADEZOFa0f2P0sZvcHTZ7Sw/lgVvJsqzHVX5QyVsT7CHD8EYjebng==}
     dependencies:
       '@spwntch/components': 0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.44.0(tailwindcss@3.2.7)
