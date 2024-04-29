@@ -3447,7 +3447,7 @@ packages:
     dev: true
 
   /@spwntch/blog@0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-eQ71Q3XV6UX/HIugtt3tBdNBvM1vLwi/jxM0l6YVYJfwftWSS3znfN8uEHoTXvOlaC1xe3OhrbqPR9XDg9MKsw==}
+    resolution: {integrity: sha512-w4vPqcIb9TRhAndXN1H+APf1ZjQN3w5b8M0KvOW52skxX+CcPxCn0UV6eCMKRoEJ/U966gLsE01wo0kl8N+ViA==}
     dependencies:
       '@spwntch/components': 0.44.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.44.0(tailwindcss@3.2.7)
