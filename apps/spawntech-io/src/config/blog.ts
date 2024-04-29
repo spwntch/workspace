@@ -1,7 +1,7 @@
-import { IArticle } from '@/mdx';
+import { IPost } from '@spwntch/blog';
 import { IPageSectionContent } from '@spwntch/components';
 
-export const articles: IArticle[] = [
+export const articles: IPost[] = [
   {
     meta: {
       slug: 'the-real-reason-you-need-an-icp',
