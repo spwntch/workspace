@@ -23,7 +23,7 @@
     "@nx/devkit": "18.3.3",
     "@spwntch/blog": "0.44.5",
     "@spwntch/components": "0.44.5",
-    "@spwntch/mdx": "^0.44.5",
+    "@spwntch/mdx": "0.44.5",
     "@spwntch/shell": "0.44.5",
     "@spwntch/tailwind": "0.44.5",
     "create-nx-workspace": "18.3.3",
