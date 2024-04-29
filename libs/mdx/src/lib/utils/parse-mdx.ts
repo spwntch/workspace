@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm';
 
 export const parseMdx = async (
   source: string,
-  path?: string
+  slug: string
 ): Promise<IMdxDoc> => {
   const toc: ITocItem[] = [];
   const { content, frontmatter } = await compileMDX<IMdxDocFrontMatter>({
@@ -41,5 +41,5 @@ export const parseMdx = async (
       },
     },
   });
-  return { toc, content, meta: { ...frontmatter, path } };
+  return { toc, content, meta: { ...frontmatter, slug } };
 };

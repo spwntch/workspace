@@ -63,7 +63,7 @@ const PostPage = async ({ params: { slug } }: Props) => {
   const backTo = { href: '/blog' };
   const buffer = getBuffer(slug);
   const image = { src: `/blog/images/${slug}.webp` };
-  const doc = await parseMdxFileBuffer(buffer);
+  const doc = await parseMdxFileBuffer(buffer, slug);
   if (!doc) return notFound();
 
   return <Post backTo={backTo} image={image} doc={doc} />;
