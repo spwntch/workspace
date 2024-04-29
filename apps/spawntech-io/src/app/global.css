@@ -1,7 +1,7 @@
 @import '@spwntch/tailwind/styles';
 @import '@spwntch/components/styles';
-@import '@spwntch/shell/styles';
 @import '@spwntch/blog/styles';
+@import '@spwntch/shell/styles';
 @tailwind base;
 
 @layer base {
