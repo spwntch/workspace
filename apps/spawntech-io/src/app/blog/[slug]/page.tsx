@@ -60,7 +60,7 @@ const getBuffer = (slug: string) => {
 };
 
 const PostPage = async ({ params: { slug } }: Props) => {
-  const backTo = '/blog';
+  const backTo = { href: '/blog' };
   const buffer = getBuffer(slug);
   const image = { src: `/blog/images/${slug}.webp` };
   const doc = await parseMdxFileBuffer(buffer);

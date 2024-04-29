@@ -4,8 +4,8 @@ import { IAttributableImage, IPageSectionContent } from '@spwntch/components';
 import { useRouter } from 'next/navigation';
 import { PropsWithChildren } from 'react';
 
-interface IArticleProps {
-  backTo: string;
+interface IPostProps {
+  backTo: { label?: string; href: string };
   image: IAttributableImage;
   doc: IMdxDoc;
 }
@@ -14,7 +14,7 @@ export const Post = ({
   backTo,
   image,
   doc,
-}: IArticleProps & PropsWithChildren) => {
+}: IPostProps & PropsWithChildren) => {
   const router = useRouter();
 
   const header: IPageSectionContent = {
@@ -23,12 +23,13 @@ export const Post = ({
     // tags: meta.tags,
   };
 
-  const handlBackToList = (): void => {
-    router.push(backTo);
+  const handlBackToList = (href: string): void => {
+    router.push(href);
   };
 
   return (
     <SpwnPost
+      backTo={backTo}
       image={image}
       header={header}
       post={doc}
