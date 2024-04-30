@@ -6,8 +6,7 @@
     "types": ["node"]
   },
   "include": [
-    "src/**/*.ts",
-    "src/generators/sample-website/files/src/config/nav.ts.template"
+    "src/**/*.ts"
   ],
   "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]
 }
