@@ -1,3 +1,14 @@
+## 0.32.8 (2024-04-30)
+
+
+### 🩹 Fixes
+
+- change lib path from mdx to blog ([852838a](https://github.com/spwntch/workspace/commit/852838a))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.7 (2024-04-30)
 
 
