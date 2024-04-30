@@ -19,7 +19,7 @@ export const brand: IBrand = {
       phone: '+27 11 994 9960', // Placeholder, adjust as necessary
     },
     social: {
-      linkedin: 'https://www.linkedin.com/company/spawntech-io',
+      linkedin: 'https://www.linkedin.com/company/sample-website',
       // youtube: 'https://www.youtube.com',
       // facebook: 'https://www.facebook.com',
     },

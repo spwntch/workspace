@@ -21,10 +21,11 @@ export async function presetGenerator(
   addDependenciesToPackageJson(
     tree,
     {
-      '@spwntch/shell': '0.43.0',
-      '@spwntch/components': '0.43.0',
-      '@spwntch/tailwind': '0.43.0',
-      '@spwntch/mdx': '0.43.0',
+      '@spwntch/shell': '0.51.0',
+      '@spwntch/blog': '0.51.0',
+      '@spwntch/components': '0.51.0',
+      '@spwntch/tailwind': '0.51.0',
+      '@spwntch/mdx': '0.51.0',
       'gray-matter': '^4.0.3',
       'lucide-react': '^0.373.0',
       next: '14.0.4',

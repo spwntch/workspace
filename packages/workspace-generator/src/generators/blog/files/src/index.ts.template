@@ -2,4 +2,3 @@
 
 export * from './lib/client-components';
 export * from './lib/utils';
-export * from './lib/types';

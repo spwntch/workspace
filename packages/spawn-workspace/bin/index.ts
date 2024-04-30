@@ -26,8 +26,6 @@ async function main() {
     })) as string;
   }
 
-  
-
   const packageManager = (await select({
     message: 'What is your preferred package manager?',
     options: [
@@ -43,13 +41,13 @@ async function main() {
   //   initialValue: true,
   // });
 
+  // const boilerplates = [];
   const boilerplates = await multiselect({
     message: 'Would you like to add any boilerplate apps?',
     options: [
       {
         value: 'website',
         label: 'Sample Website',
-        
       },
       {
         value: 'landing-page',
@@ -57,7 +55,6 @@ async function main() {
       },
     ],
   });
-
 
   console.log(`
 

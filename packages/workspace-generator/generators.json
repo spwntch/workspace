@@ -6,11 +6,11 @@
       "description": "preset generator",
       "x-use-standalone-layout": true
     },
-    "sample-landing-page": {
-      "factory": "./src/generators/sample-landing-page/generator",
-      "schema": "./src/generators/sample-landing-page/schema.json",
-      "description": "generates a spawntech sample-landing-page app"
-    },
+    // "sample-landing-page": {
+    //   "factory": "./src/generators/sample-landing-page/generator",
+    //   "schema": "./src/generators/sample-landing-page/schema.json",
+    //   "description": "generates a spawntech sample-landing-page app"
+    // },
     "sample-website": {
       "factory": "./src/generators/sample-website/generator",
       "schema": "./src/generators/sample-website/schema.json",

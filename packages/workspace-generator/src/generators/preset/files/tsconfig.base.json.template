@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/mdx": ["libs/mdx/src/index.ts"],
+      "@/blog": ["libs/blog/src/index.ts"],
       "@/shell": ["libs/shell/src/index.ts"]
     }
   },
