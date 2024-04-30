@@ -8,7 +8,7 @@ interface IPostProps {
   doc: IMdxDoc;
 }
 
-export const Post = async ({ backTo, doc }: IPostProps) => {
+export const Post = ({ backTo, doc }: IPostProps) => {
   const router = useRouter();
 
   const handleBackYo = (href: string) => {
