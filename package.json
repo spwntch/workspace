@@ -21,6 +21,7 @@
   "private": true,
   "dependencies": {
     "@nx/devkit": "18.3.3",
+    "@spwntch/blog": "^0.50.1",
     "@spwntch/components": "0.50.1",
     "@spwntch/shell": "0.50.1",
     "@spwntch/tailwind": "0.50.1",
