@@ -1,20 +1,21 @@
 'use client';
-import React from 'react';
-import { ArticlesGrid } from './articles-grid';
+import { PostsGrid } from '@spwntch/blog';
 import { BasicHeader, IPageSectionContent } from '@spwntch/components';
-import { IArticle } from '../types';
+import { IMdxDoc } from '@spwntch/mdx';
 
 interface Props {
   header: IPageSectionContent;
-  articles: IArticle[];
+  posts: IMdxDoc[];
 }
 
-export const Articles = ({ header, articles }: Props) => {
+export const Blog = ({ header, posts: articles }: Props) => {
+  const handleOnClickPost = (slug: string) => {
+    console.log(slug);
+  };
   return (
     <>
       <BasicHeader header={header} />
-      <ArticlesGrid articles={articles} />
+      <PostsGrid posts={articles} onClickPost={handleOnClickPost} />
     </>
   );
 };
-

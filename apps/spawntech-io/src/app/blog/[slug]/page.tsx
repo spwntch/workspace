@@ -1,7 +1,7 @@
 import { Article } from '@/mdx';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
-import { articles } from '../../../config';
+import { posts } from '../../../config';
 
 type Props = {
   params: { slug: string };
@@ -19,24 +19,22 @@ export async function generateStaticParams() {
 }
 
 export const generateMetadata = ({ params: { slug } }: Props) => {
-  const article = articles.find((article) => article.meta.slug === slug);
-  if (!article) {
+  const post = posts.find((post) => post.meta.slug === slug);
+  if (!post) {
     return { title: 'Not Found' };
   }
   const {
-    title,
-    abstract: description,
-    meta: { keywords },
-  } = article;
+    meta: { title, subtitle, tags },
+  } = post;
   const coverImage = `${process.env.NEXT_PUBLIC_SITE_URL}/images/blog/${slug}.jpg`;
 
   return {
     title,
-    description,
-    keywords,
+    description: subtitle,
+    keywords: tags,
     openGraph: {
       title,
-      description,
+      description:subtitle,
       url: `${process.env.NEXT_PUBLIC_SITE_URL}/case-studies/${slug}`,
       siteName: 'Interact RDT Global',
       images: [{ url: coverImage, width: 896, height: 596 }],
@@ -46,7 +44,7 @@ export const generateMetadata = ({ params: { slug } }: Props) => {
     twitter: {
       card: 'summary_large_image',
       title,
-      description,
+      description:subtitle,
       creator: '@InteractRDT',
       images: [coverImage],
     },

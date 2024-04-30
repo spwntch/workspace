@@ -1,8 +1,8 @@
-import { Articles } from '@/mdx';
-import { articles, pageHeader } from '../../config';
+import { Blog } from '@/mdx';
+import { posts, pageHeader } from '../../config';
 
 const BlogPage = () => {
-  return <Articles header={pageHeader} articles={articles} />;
+  return <Blog header={pageHeader} posts={posts} />;
 };
 
 export default BlogPage;
