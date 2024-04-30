@@ -5,7 +5,6 @@ import {
   Tree,
   updateJson,
 } from '@nx/devkit';
-import shellLibraryGenerator from '../shell/generator';
 import { PresetGeneratorSchema } from './schema';
 import path = require('path');
 
@@ -70,7 +69,7 @@ export async function presetGenerator(
   );
 
   // blogLibraryGenerator(tree, {});
-  shellLibraryGenerator(tree, {});
+  // shellLibraryGenerator(tree, {});
 
   // if (options.boilerplates?.includes('website'))
   //   sampleWebsiteGenerator(tree, options);
