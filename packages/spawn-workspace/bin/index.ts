@@ -41,21 +41,20 @@ async function main() {
   //   initialValue: true,
   // });
 
-  const boilerplates = [];
-  // const boilerplates = await multiselect({
-  //   message: 'Would you like to add any boilerplate apps?',
-  //   options: [
-  //     {
-  //       value: 'website',
-  //       label: 'Sample Website',
-
-  //     },
-  //     {
-  //       value: 'landing-page',
-  //       label: 'Sample Landing Page',
-  //     },
-  //   ],
-  // });
+  // const boilerplates = [];
+  const boilerplates = await multiselect({
+    message: 'Would you like to add any boilerplate apps?',
+    options: [
+      {
+        value: 'website',
+        label: 'Sample Website',
+      },
+      {
+        value: 'landing-page',
+        label: 'Sample Landing Page',
+      },
+    ],
+  });
 
   console.log(`
 
