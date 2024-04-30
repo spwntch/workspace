@@ -1,3 +1,14 @@
+## 0.32.6 (2024-04-30)
+
+
+### 🚀 Features
+
+- generate libs ([593786c](https://github.com/spwntch/workspace/commit/593786c))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.5 (2024-04-30)
 
 
