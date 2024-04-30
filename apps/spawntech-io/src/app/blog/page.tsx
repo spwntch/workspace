@@ -1,4 +1,4 @@
-import { Blog } from '@/mdx';
+import { Blog } from '@/blog';
 import { posts, pageHeader } from '../../config';
 
 const BlogPage = () => {

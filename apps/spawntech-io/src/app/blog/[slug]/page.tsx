@@ -1,4 +1,4 @@
-import { Post, parseMdxFileBuffer } from '@/mdx';
+import { Post, parseMdxFileBuffer } from '@/blog';
 import { readFileSync, readdirSync } from 'fs';
 import { notFound } from 'next/navigation';
 import { join } from 'path';

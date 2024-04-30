@@ -2,7 +2,6 @@
 import { ITocItem } from '@spwntch/mdx';
 import { HtmlElementNode } from 'rehype-toc';
 
-
 export const flattenTocTree = (
   tocTree: HtmlElementNode,
   level = 0

@@ -10,33 +10,17 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/mdx": [
-        "libs/mdx/src/index.ts"
-      ],
-      "@/mdx/server": [
-        "libs/mdx/src/server.ts"
-      ],
-      "@/shell": [
-        "libs/shell/src/index.ts"
-      ],
-      "@/shell/server": [
-        "libs/shell/src/server.ts"
-      ],
-      "workspace-generator": [
-        "packages/workspace-generator/src/index.ts"
-      ]
+      "@/blog": ["libs/blog/src/index.ts"],
+      "@/blog/server": ["libs/blog/src/server.ts"],
+      "@/shell": ["libs/shell/src/index.ts"],
+      "@/shell/server": ["libs/shell/src/server.ts"],
+      "workspace-generator": ["packages/workspace-generator/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
