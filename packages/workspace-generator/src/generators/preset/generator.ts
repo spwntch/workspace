@@ -3,6 +3,7 @@ import {
   formatFiles,
   generateFiles,
   Tree,
+  updateJson,
 } from '@nx/devkit';
 import { PresetGeneratorSchema } from './schema';
 import path = require('path');
@@ -77,6 +78,13 @@ export async function presetGenerator(
 
   // if (options.boilerplates?.includes('landing-page'))
   //   sampleLandingPageGenerator(tree, options);
+
+  updateJson(tree, 'package.json', (json) => {
+    json.scripts = json.scripts || {};
+    json.scripts['webp'] =
+      'tools/scripts/webp.sh';
+    return json;
+  });
 
   await formatFiles(tree);
 }

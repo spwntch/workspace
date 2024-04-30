@@ -1,11 +1,11 @@
+import { IMdxDoc, IMdxDocFrontMatter, ITocItem } from '@spwntch/mdx';
 import { compileMDX } from 'next-mdx-remote/rsc';
 import rehypeSlug from 'rehype-slug';
 import remarkGfm from 'remark-gfm';
-import { IMdxDoc, IMdxDocFrontMatter, ITocItem } from '../types';
 
 export const parseMdx = async (
-  source: string,
-  path?: string
+  source: string
+  // path?: string
 ): Promise<IMdxDoc> => {
   const toc: ITocItem[] = [];
   const { content, frontmatter } = await compileMDX<IMdxDocFrontMatter>({
@@ -41,5 +41,5 @@ export const parseMdx = async (
       },
     },
   });
-  return { toc, content, meta: { ...frontmatter, path } };
+  return { toc, content, meta: { ...frontmatter } };
 };

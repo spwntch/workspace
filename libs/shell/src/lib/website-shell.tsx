@@ -47,19 +47,17 @@ export const WebsiteShell = ({
   };
 
   return (
-    <div className="h-screen flex flex-col mx-auto md:container">
+    <div className="h-full flex flex-col mx-auto md:container">
       <DesktopTopNavbar
-        classNames={navbar?.classNames}
+        classNames={`${navbar?.classNames} bg-background`}
         navAlignment={navbar?.alignment}
         logoHeight={navbar?.logoHeight}
         githubUrl={githubUrl}
         onLinkTo={handleLinkTo}
       />
       <main className="h-full flex flex-col overflow-y">
-        <div className="flex-1">
-          {children}
-          {/* {displayShellInfo && <ShellInfo />} */}
-        </div>
+        {children}
+        {/* {displayShellInfo && <ShellInfo />} */}
         {underContruction ? <UnderConstructionFooter /> : <RegularFooter />}
       </main>
     </div>

@@ -1,6 +1,6 @@
 import matter from 'gray-matter';
 import { parseMdx } from './parse-mdx';
-import { IMdxDoc } from '../types';
+import { IMdxDoc } from '@spwntch/mdx';
 
 export const parseMdxFileBuffer = async (
   buffer: Buffer
