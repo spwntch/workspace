@@ -1,3 +1,33 @@
+## 0.32.5 (2024-04-30)
+
+
+### 🚀 Features
+
+- adds webp generator to generated workspace ([0933c2a](https://github.com/spwntch/workspace/commit/0933c2a))
+- adds a bg-background to navbar ([4240345](https://github.com/spwntch/workspace/commit/4240345))
+- increases generated article max width ([b0220f4](https://github.com/spwntch/workspace/commit/b0220f4))
+- uses new @spwntch/blog components ([55e0d37](https://github.com/spwntch/workspace/commit/55e0d37))
+- turns on most of slug page, with exception of the component ([6f52a4c](https://github.com/spwntch/workspace/commit/6f52a4c))
+- displays (unformatted) blog ([c6831ca](https://github.com/spwntch/workspace/commit/c6831ca))
+- post showing cover image from front-matter ([1a7ee77](https://github.com/spwntch/workspace/commit/1a7ee77))
+- adds potential "abstract" prop to mdx front-matter ([064172a](https://github.com/spwntch/workspace/commit/064172a))
+- adds a toc json ([70a4e46](https://github.com/spwntch/workspace/commit/70a4e46))
+- uses 0.50.11 and logs TOC clicks ([6b97483](https://github.com/spwntch/workspace/commit/6b97483))
+- attempts to use newer components ([2d38ee0](https://github.com/spwntch/workspace/commit/2d38ee0))
+- generators use 0.51.0 ([2864838](https://github.com/spwntch/workspace/commit/2864838))
+
+### 🩹 Fixes
+
+- nav weirdness in generated apps ([078c451](https://github.com/spwntch/workspace/commit/078c451))
+- max article width is max-w-6xl ([86044b9](https://github.com/spwntch/workspace/commit/86044b9))
+- give navbar a background ([05f75fe](https://github.com/spwntch/workspace/commit/05f75fe))
+- remove unused lib components ([583ed04](https://github.com/spwntch/workspace/commit/583ed04))
+- updates packages in workspace-generator preset ([2cba6f2](https://github.com/spwntch/workspace/commit/2cba6f2))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.4 (2024-04-26)
 
 
