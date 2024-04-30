@@ -1,3 +1,14 @@
+## 0.32.7 (2024-04-30)
+
+
+### 🚀 Features
+
+- adds sample-webiste to generate workspace ([09376fc](https://github.com/spwntch/workspace/commit/09376fc))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.6 (2024-04-30)
 
 
