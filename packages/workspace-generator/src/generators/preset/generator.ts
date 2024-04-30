@@ -7,6 +7,8 @@ import {
 } from '@nx/devkit';
 import { PresetGeneratorSchema } from './schema';
 import path = require('path');
+import blogLibraryGenerator from '../blog/generator';
+import shellLibraryGenerator from '../shell/generator';
 
 export async function presetGenerator(
   tree: Tree,
@@ -68,11 +70,11 @@ export async function presetGenerator(
     }
   );
 
-  // blogLibraryGenerator(tree, {});
-  // shellLibraryGenerator(tree, {});
+  blogLibraryGenerator(tree, {});
+  shellLibraryGenerator(tree, {});
 
   // if (options.boilerplates?.includes('website'))
-  //   sampleWebsiteGenerator(tree, options);
+    // sampleWebsiteGenerator(tree, options);
 
   // if (options.boilerplates?.includes('landing-page'))
   //   sampleLandingPageGenerator(tree, options);
