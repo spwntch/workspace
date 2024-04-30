@@ -1,3 +1,14 @@
+## 0.32.11 (2024-04-30)
+
+
+### 🚀 Features
+
+- simplify installation while we build out the solution ([345f2d9](https://github.com/spwntch/workspace/commit/345f2d9))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.10 (2024-04-30)
 
 
