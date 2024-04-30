@@ -74,7 +74,7 @@ export async function presetGenerator(
   blogLibraryGenerator(tree, {});
   shellLibraryGenerator(tree, {});
 
-  if (options.boilerplates?.includes('website'))
+  // if (options.boilerplates?.includes('website'))
     sampleWebsiteGenerator(tree, options);
 
   // if (options.boilerplates?.includes('landing-page'))
