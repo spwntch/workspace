@@ -16,8 +16,7 @@ export const Post = ({ backTo, doc }: IPostProps) => {
   };
 
   const handleToc = (href: string) => {
-    console.log(href);
-    // router.push(href);
+    router.push(href);
   };
 
   return (
