@@ -56,10 +56,8 @@ export const WebsiteShell = ({
         onLinkTo={handleLinkTo}
       />
       <main className="h-full flex flex-col overflow-y">
-        <div className="flex-1">
-          {children}
-          {/* {displayShellInfo && <ShellInfo />} */}
-        </div>
+        {children}
+        {/* {displayShellInfo && <ShellInfo />} */}
         {underContruction ? <UnderConstructionFooter /> : <RegularFooter />}
       </main>
     </div>

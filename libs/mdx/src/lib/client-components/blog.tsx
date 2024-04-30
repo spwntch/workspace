@@ -2,6 +2,7 @@
 import { PostsGrid } from '@spwntch/blog';
 import { BasicHeader, IPageSectionContent } from '@spwntch/components';
 import { IMdxDoc } from '@spwntch/mdx';
+import { useRouter } from 'next/navigation';
 
 interface Props {
   header: IPageSectionContent;
@@ -9,8 +10,9 @@ interface Props {
 }
 
 export const Blog = ({ header, posts: articles }: Props) => {
+  const router = useRouter();
   const handleOnClickPost = (slug: string) => {
-    console.log(slug);
+    router.push(`/blog/${slug}`);
   };
   return (
     <>
