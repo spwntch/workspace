@@ -1,3 +1,14 @@
+## 0.32.12 (2024-04-30)
+
+
+### 🚀 Features
+
+- adds back pick app question ([a31d9ce](https://github.com/spwntch/workspace/commit/a31d9ce))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.11 (2024-04-30)
 
 
