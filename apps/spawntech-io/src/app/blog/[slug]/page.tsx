@@ -1,9 +1,8 @@
-import { UnderConstruction } from '@/shell';
+import { Post, parseMdxFileBuffer } from '@/mdx';
 import { readFileSync, readdirSync } from 'fs';
+import { notFound } from 'next/navigation';
 import { join } from 'path';
 import { posts } from '../../../config';
-import { Post, parseMdxFileBuffer } from '@/mdx';
-import { notFound } from 'next/navigation';
 
 type Props = {
   params: { slug: string };
