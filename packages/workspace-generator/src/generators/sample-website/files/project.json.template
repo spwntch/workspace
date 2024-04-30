@@ -23,14 +23,9 @@
             "output": "brand"
           },
           {
-            "glob": "*",
-            "input": "assets/spwn/blog/mdx",
+            "glob": "**/*",
+            "input": "assets/spwn/blog/",
             "output": "blog"
-          },
-          {
-            "glob": "*",
-            "input": "assets/spwn/blog/cover-images/public",
-            "output": "blog/images"
           }
         ]
       }
