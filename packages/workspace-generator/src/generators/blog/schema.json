@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/schema",
-  "$id": "Mdx",
+  "$id": "Blog",
   "title": "",
   "type": "object",
   "properties": {},

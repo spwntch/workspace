@@ -16,15 +16,15 @@
       "schema": "./src/generators/sample-website/schema.json",
       "description": "generates a spawntech sample-website app"
     },
-    "mdx": {
-      "factory": "./src/generators/mdx/generator",
-      "schema": "./src/generators/mdx/schema.json",
-      "description": "generates a spawntech mdx library"
+    "blog": {
+      "factory": "./src/generators/blog/generator",
+      "schema": "./src/generators/blog/schema.json",
+      "description": "generates a spawntech blog library"
     },
     "shell": {
       "factory": "./src/generators/shell/generator",
       "schema": "./src/generators/shell/schema.json",
-      "description": "generates a spawntech shell library"
+      "description": "generates a spawntech shØell library"
     }
   }
 }

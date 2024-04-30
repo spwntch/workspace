@@ -7,7 +7,7 @@ import {
 } from '@nx/devkit';
 import { PresetGeneratorSchema } from './schema';
 import path = require('path');
-import mdxLibraryGenerator from '../mdx/generator';
+import blogLibraryGenerator from '../blog/generator';
 import shellLibraryGenerator from '../shell/generator';
 import sampleWebsiteGenerator from '../sample-website/generator';
 
@@ -25,15 +25,15 @@ export async function presetGenerator(
       '@spwntch/components': '0.43.0',
       '@spwntch/tailwind': '0.43.0',
       '@spwntch/mdx': '0.43.0',
-      "gray-matter": "^4.0.3",
-      "lucide-react": "^0.373.0",
+      'gray-matter': '^4.0.3',
+      'lucide-react': '^0.373.0',
       next: '14.0.4',
-      "next-mdx-remote": "^4.4.1",
+      'next-mdx-remote': '^4.4.1',
       react: '18.2.0',
       'react-dom': '18.2.0',
-      "rehype-slug": "^6.0.0",
-      "rehype-toc": "^3.0.2",
-      "remark-gfm": "^4.0.0",
+      'rehype-slug': '^6.0.0',
+      'rehype-toc': '^3.0.2',
+      'remark-gfm': '^4.0.0',
       tslib: '^2.3.0',
     },
     {
@@ -48,7 +48,7 @@ export async function presetGenerator(
       '@swc-node/register': '~1.8.0',
       '@swc/core': '~1.3.85',
       '@swc/helpers': '~0.5.2',
-      "@tailwindcss/typography": "^0.5.12",
+      '@tailwindcss/typography': '^0.5.12',
       '@types/react': '18.2.33',
       '@types/react-dom': '18.2.14',
       '@typescript-eslint/eslint-plugin': '^7.3.0',
@@ -70,7 +70,7 @@ export async function presetGenerator(
     }
   );
 
-  mdxLibraryGenerator(tree, {});
+  blogLibraryGenerator(tree, {});
   shellLibraryGenerator(tree, {});
 
   if (options.boilerplates?.includes('website'))
@@ -81,8 +81,7 @@ export async function presetGenerator(
 
   updateJson(tree, 'package.json', (json) => {
     json.scripts = json.scripts || {};
-    json.scripts['webp'] =
-      'tools/scripts/webp.sh';
+    json.scripts['webp'] = 'tools/scripts/webp.sh';
     return json;
   });
 

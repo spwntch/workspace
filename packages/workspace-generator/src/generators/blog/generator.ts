@@ -1,12 +1,12 @@
 import { addProjectConfiguration, generateFiles, Tree } from '@nx/devkit';
-import { MdxLibraryGeneratorSchema } from './schema';
+import { BlogLibraryGeneratorSchema } from './schema';
 import path = require('path');
 
-export async function mdxLibraryGenerator(
+export async function blogLibraryGenerator(
   tree: Tree,
-  options: MdxLibraryGeneratorSchema
+  options: BlogLibraryGeneratorSchema
 ) {
-  const projectName = 'mdx';
+  const projectName = 'blog';
   const projectRoot = `libs/${projectName}`;
 
   addProjectConfiguration(tree, projectName, {
@@ -17,4 +17,4 @@ export async function mdxLibraryGenerator(
   generateFiles(tree, path.join(__dirname, 'files'), projectRoot, options);
 }
 
-export default mdxLibraryGenerator;
+export default blogLibraryGenerator;
