@@ -9,20 +9,20 @@ dependencies:
     specifier: 18.3.3
     version: 18.3.3(nx@18.3.3)
   '@spwntch/blog':
-    specifier: ^0.50.10
-    version: 0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+    specifier: ^0.50.11
+    version: 0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
   '@spwntch/components':
-    specifier: 0.50.10
-    version: 0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+    specifier: 0.50.11
+    version: 0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
   '@spwntch/mdx':
-    specifier: ^0.50.10
-    version: 0.50.10
+    specifier: ^0.50.11
+    version: 0.50.11
   '@spwntch/shell':
-    specifier: 0.50.10
-    version: 0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+    specifier: 0.50.11
+    version: 0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
   '@spwntch/tailwind':
-    specifier: 0.50.10
-    version: 0.50.10(tailwindcss@3.2.7)
+    specifier: 0.50.11
+    version: 0.50.11(tailwindcss@3.2.7)
   create-nx-workspace:
     specifier: 18.3.3
     version: 18.3.3
@@ -3446,12 +3446,12 @@ packages:
       '@sinonjs/commons': 3.0.1
     dev: true
 
-  /@spwntch/blog@0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-3mBZ0bDNbTGrt8SZIJGvpjOSkY4Qwz7rBSjEHXhD0OsFCpQpDflqN66aAbEUdiqhRtF/kwCl9a/oXflGrh7nZQ==}
+  /@spwntch/blog@0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-OadjAPjyPrpRM/5lF1PgnD6Phr+4RN43+Evuecj88RjcWJYodUjIQHtneENoYbt1w9leqYZEWe545kGg23CVjw==}
     dependencies:
-      '@spwntch/components': 0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
-      '@spwntch/mdx': 0.50.10
-      '@spwntch/tailwind': 0.50.10(tailwindcss@3.2.7)
+      '@spwntch/components': 0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+      '@spwntch/mdx': 0.50.11
+      '@spwntch/tailwind': 0.50.11(tailwindcss@3.2.7)
       lucide-react: 0.360.0(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
@@ -3461,8 +3461,8 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/components@0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-WB2u4wWGruGIZ+ojf5IF+qb/3sZ08M8eqo4UUJsWKG832+YQIarncyldnWffQE3PuMs2vjrng0GyXlrDAQ0ixA==}
+  /@spwntch/components@0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-lVrjPRuL2VQs1n5i+mOoT37YTk/ppMqGOg6Y1FWGQ/Mzvmx8frUhKmaRj6hEmLQaL+/jzmetDCtIU/Yipwu9xQ==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
@@ -3470,7 +3470,7 @@ packages:
       '@radix-ui/react-menubar': 1.0.4(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-navigation-menu': 1.1.4(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.2.33)(react@18.2.0)
-      '@spwntch/tailwind': 0.50.10(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.50.11(tailwindcss@3.2.7)
       class-variance-authority: 0.7.0
       clsx: 2.1.1
       lucide-react: 0.360.0(react@18.2.0)
@@ -3485,15 +3485,15 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/mdx@0.50.10:
-    resolution: {integrity: sha512-gR6MoETUwnzX+oD2LjJ33LFtUF6gllBvX8gtjXdZS+lxtTzuSxfny3BEOFUvaSdk/Yi/2Z4SSUSvTRwVPLld2g==}
+  /@spwntch/mdx@0.50.11:
+    resolution: {integrity: sha512-Cvg9dRzzfpO3YbCsh93ScTqbVr1Ux4J1niHWdBFCZk3tpENsbf+lVv/+N1o7UBbg088aBrTQVZGZQ15sSIPxKg==}
     dev: false
 
-  /@spwntch/shell@0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-G/ssRtahStpBQSAn51O3HZ7ny0pwkF2iV21MjSWCAFpvk0iRQxZG9eSl0TnT6Mj2ZqW1lq8Of0LIwvc/Wo00JA==}
+  /@spwntch/shell@0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-s+3Gu32U0TegpPWnJ23ibxXydsm5zCYzfNPECHKBq7afqYruFrfZMo+pkz2YEqQlcFWr0czffM0289aWiPX/5A==}
     dependencies:
-      '@spwntch/components': 0.50.10(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
-      '@spwntch/tailwind': 0.50.10(tailwindcss@3.2.7)
+      '@spwntch/components': 0.50.11(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.50.11(tailwindcss@3.2.7)
       lucide-react: 0.360.0(react@18.2.0)
       next-themes: 0.3.0(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
@@ -3504,8 +3504,8 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/tailwind@0.50.10(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-3pAi3838+0WFEjtWX/tKW3NERnlUA4n2bDw9O3HblhRvf+7AUnG5pvVu4+A49IrIfgPRME7lb4IwM81vQy6k/Q==}
+  /@spwntch/tailwind@0.50.11(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-7N6Fc7Bi41T/43aKgKcQ44WaZQ2s1ARY6DkEYgk6zUIuV/juq9hiE7CxS8XsBd2AOBPZPo4n/VtiY4fYDhOF+w==}
     dependencies:
       tailwindcss-animate: 1.0.7(tailwindcss@3.2.7)
     transitivePeerDependencies:

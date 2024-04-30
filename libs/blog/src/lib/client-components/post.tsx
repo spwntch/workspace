@@ -15,5 +15,17 @@ export const Post = ({ backTo, doc }: IPostProps) => {
     router.push(href);
   };
 
-  return <SpwnPost backTo={backTo} onBackTo={handleBackYo} {...doc} />;
+  const handleToc = (href: string) => {
+    console.log(href);
+    // router.push(href);
+  };
+
+  return (
+    <SpwnPost
+      backTo={backTo}
+      onBackTo={handleBackYo}
+      onToc={handleToc}
+      {...doc}
+    />
+  );
 };
