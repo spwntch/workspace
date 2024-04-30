@@ -14,6 +14,9 @@ dependencies:
   '@spwntch/components':
     specifier: 0.50.2
     version: 0.50.2(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+  '@spwntch/mdx':
+    specifier: ^0.50.2
+    version: 0.50.2
   '@spwntch/shell':
     specifier: 0.50.2
     version: 0.50.2(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
@@ -3479,6 +3482,10 @@ packages:
       - react
       - react-dom
       - tailwindcss
+    dev: false
+
+  /@spwntch/mdx@0.50.2:
+    resolution: {integrity: sha512-rTJ7YDKPS7o+0hLYVooFFLXzdhlVxlOb7d+/kF+fjToQhq+dbhDLweFB6K82EU3+Ris6h9j+ZnXaNtwzzZ6Bxw==}
     dev: false
 
   /@spwntch/shell@0.50.2(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
