@@ -1,4 +1,4 @@
-import { IArticle } from '@/mdx';
+import { IArticle } from '@/blog';
 import { IPageSectionContent } from '@spwntch/components';
 
 export const articles: IArticle[] = [

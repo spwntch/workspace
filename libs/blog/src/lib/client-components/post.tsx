@@ -8,12 +8,23 @@ interface IPostProps {
   doc: IMdxDoc;
 }
 
-export const Post = async ({ backTo, doc }: IPostProps) => {
+export const Post = ({ backTo, doc }: IPostProps) => {
   const router = useRouter();
 
   const handleBackYo = (href: string) => {
     router.push(href);
   };
 
-  return <SpwnPost backTo={backTo} onBackTo={handleBackYo} {...doc} />;
+  const handleToc = (href: string) => {
+    router.push(href);
+  };
+
+  return (
+    <SpwnPost
+      backTo={backTo}
+      onBackTo={handleBackYo}
+      onToc={handleToc}
+      {...doc}
+    />
+  );
 };

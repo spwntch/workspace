@@ -1,4 +1,4 @@
-import { Article } from '@/mdx';
+import { Article } from '@/blog';
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import { articles } from '../../../config';
