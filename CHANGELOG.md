@@ -1,3 +1,14 @@
+## 0.32.10 (2024-04-30)
+
+
+### 🩹 Fixes
+
+- remove types from libs/blog ([fee2a76](https://github.com/spwntch/workspace/commit/fee2a76))
+
+### ❤️  Thank You
+
+- zpydee @zpydee
+
 ## 0.32.9 (2024-04-30)
 
 This was a version bump only, there were no code changes.
