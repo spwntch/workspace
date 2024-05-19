@@ -48,6 +48,27 @@ Our `workspace-generator` is built on the robust `@nx/devkit` and Nx plugin gene
 
 To test any any changes you make to the generator, we'd recommend running a verdaccio local registry so you can publish updates locally. Simply publish changes and then running `pnpm run spawn-workspace` will use local versions.
 
+## Spawn-React-Component
+
+The `spawn-react-component` GPT, powered by ChatGPT, assists developers in extracting TailwindCSS styles from React components and converting them into separate module.css files for improved code maintainability and organization. It leverages the powerful capabilities of the Spawntech framework within a PNPM monorepo, providing specialized tools for generating and managing development environments seamlessly.
+
+### Key Features of Spawn-React-Component
+
+- **Utility Classes Extraction**: Extract TailwindCSS utility classes into a module.css file using the `@apply` directive.
+- **BEM Naming Convention**: Ensure consistent naming with the BEM naming convention and kebab-case format.
+- **Improved DX to UX**: Streamline the process of managing styles to improve the developer experience, which ultimately enhances the user experience.
+
+### Using Spawn-React-Component
+
+To use the `spawn-react-component` within your spawned workspace, follow these steps:
+
+1. **Add a React Component**: Create or identify a React component with inline TailwindCSS utility classes.
+2. **Run the Extraction**: Use the GPT to extract those utility classes into a separate module.css file.
+3. **Import and Use**: Import the generated module.css file into your component and apply the extracted classes.
+
+You can access and use the `spawn-react-component` GPT conveniently [here](https://chatgpt.com/g/g-MCBBn6Fow-react-tailwindcss-extractor).
+
+
 ## Key Features
 
 - **Feature 1**: A clean codebase, first and foremost. Everyhting we do should be sustainable and maintainable.
