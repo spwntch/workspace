@@ -21,11 +21,11 @@ dependencies:
     specifier: 0.51.0
     version: 0.51.0(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
   '@spwntch/tailwind':
-    specifier: 0.52.26
-    version: 0.52.26(tailwindcss@3.2.7)
+    specifier: 0.52.28
+    version: 0.52.28(tailwindcss@3.2.7)
   '@spwntch/ui':
-    specifier: 0.52.26
-    version: 0.52.26(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
+    specifier: 0.52.28
+    version: 0.52.28(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7)
   create-nx-workspace:
     specifier: 18.3.3
     version: 18.3.3
@@ -3534,16 +3534,16 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/tailwind@0.52.26(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-41wlugRjGdLuJubyh9DvW5TlRjQPFWFw8k3FLrl5BKS+Ws9OASRJLg5YGU1sAOb6XFpRhwOkRJX3L2QdSNoZcg==}
+  /@spwntch/tailwind@0.52.28(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-YuBGYEnylXcEFhTEO0cpAOulFjl94Ucj4H0pwq/Af+pspje8kOHYFQ6IAagvE/DKGzJ085unco9NBlVKSiApPg==}
     dependencies:
       tailwindcss-animate: 1.0.7(tailwindcss@3.2.7)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@spwntch/ui@0.52.26(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-gBOowVFiNKbrpRAPuiHL4O8heOwN/NDghvV99vtO5ZBL7jlbQC/wNAff9GSEnEYTIABE9BqW6vLYYS6HdUwaKg==}
+  /@spwntch/ui@0.52.28(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-nW+RYt9Dtv/EWg7GkNflVWez6L0PlLiKBGR8TLM7N4N592yWhs2wSZCzn5GnEbrLE3At3JURMi4JRa6NJisRdg==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-dialog': 1.0.5(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
@@ -3551,7 +3551,7 @@ packages:
       '@radix-ui/react-menubar': 1.0.4(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-navigation-menu': 1.1.4(@types/react-dom@18.2.14)(@types/react@18.2.33)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.2.33)(react@18.2.0)
-      '@spwntch/tailwind': 0.52.26(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.52.28(tailwindcss@3.2.7)
       glob: 10.3.15
     transitivePeerDependencies:
       - '@types/react'

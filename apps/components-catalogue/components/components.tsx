@@ -31,6 +31,12 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
 } from '@spwntch/ui';
 
 export const Components = () => {
@@ -97,6 +103,18 @@ export const Components = () => {
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
+    <Sheet>
+      <SheetTrigger>Open</SheetTrigger>
+      <SheetContent>
+        <SheetHeader>
+          <SheetTitle>Are you absolutely sure?</SheetTitle>
+          <SheetDescription>
+            This action cannot be undone. This will permanently delete your
+            account and remove your data from our servers.
+          </SheetDescription>
+        </SheetHeader>
+      </SheetContent>
+    </Sheet>
     </div>
   );
 };
