@@ -1,4 +1,5 @@
 import { Components } from '../components/components';
+import { Typography } from '../components/typography';
 
 export default function Index() {
   /*
@@ -6,5 +7,10 @@ export default function Index() {
    *
    * Note: The corresponding styles are in the ./index.none file.
    */
-  return <Components />;
+  return (
+    <>
+      <Components />
+      <Typography />
+    </>
+  );
 }
