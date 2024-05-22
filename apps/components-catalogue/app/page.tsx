@@ -8,9 +8,9 @@ export default function Index() {
    * Note: The corresponding styles are in the ./index.none file.
    */
   return (
-    <>
+    <div className='flex flex-col gap-6'>
       <Components />
       <Typography />
-    </>
+    </div>
   );
 }
