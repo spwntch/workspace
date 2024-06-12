@@ -1,8 +1,9 @@
+@tailwind base;
 @import '@spwntch/tailwind/styles';
 @import '@spwntch/components/styles';
-@import '@spwntch/blog/styles';
+/* @import '@spwntch/blocks/styles'; */
 @import '@spwntch/shell/styles';
-@tailwind base;
+@import '@spwntch/mdx/styles';
 
 @layer base {
   :root {

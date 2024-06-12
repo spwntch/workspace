@@ -1,6 +1,6 @@
 'use client';
 import { UnderConstruction as SpwnUnderConstruction } from '@spwntch/shell';
-import { H1 } from '@spwntch/components';
+import { H1 } from '@spwntch/typography';
 
 import { usePathname } from 'next/navigation';
 import { PropsWithChildren } from 'react';

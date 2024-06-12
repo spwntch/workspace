@@ -1,6 +1,5 @@
 'use client';
-import { Post as SpwnPost } from '@spwntch/blog';
-import { IMdxDoc } from '@spwntch/mdx';
+import { Article, IMdxDoc } from '@spwntch/mdx';
 import { useRouter } from 'next/navigation';
 
 interface IPostProps {
@@ -20,7 +19,7 @@ export const Post = ({ backTo, doc }: IPostProps) => {
   };
 
   return (
-    <SpwnPost
+    <Article
       backTo={backTo}
       onBackTo={handleBackYo}
       onToc={handleToc}

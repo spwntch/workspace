@@ -9,26 +9,26 @@ dependencies:
     specifier: 19.0.5
     version: 19.0.5(nx@19.0.5)
   '@spwntch/blocks':
-    specifier: 0.55.1
-    version: 0.55.1
+    specifier: 0.55.5
+    version: 0.55.5
   '@spwntch/components':
-    specifier: 0.55.1
-    version: 0.55.1(embla-carousel@8.1.4)(tailwindcss@3.2.7)
+    specifier: 0.55.5
+    version: 0.55.5(embla-carousel@8.1.4)(tailwindcss@3.2.7)
   '@spwntch/mdx':
-    specifier: 0.55.1
-    version: 0.55.1
+    specifier: 0.55.5
+    version: 0.55.5(tailwindcss@3.2.7)
   '@spwntch/shell':
-    specifier: 0.55.1
-    version: 0.55.1(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
+    specifier: 0.55.5
+    version: 0.55.5(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
   '@spwntch/tailwind':
-    specifier: 0.55.1
-    version: 0.55.1(tailwindcss@3.2.7)
+    specifier: 0.55.5
+    version: 0.55.5(tailwindcss@3.2.7)
   '@spwntch/typography':
-    specifier: 0.55.1
-    version: 0.55.1(tailwindcss@3.2.7)
+    specifier: 0.55.5
+    version: 0.55.5(tailwindcss@3.2.7)
   '@spwntch/ui':
-    specifier: 0.55.1
-    version: 0.55.1(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
+    specifier: 0.55.5
+    version: 0.55.5(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
   create-nx-workspace:
     specifier: 19.0.5
     version: 19.0.5
@@ -3548,29 +3548,33 @@ packages:
       '@sinonjs/commons': 3.0.1
     dev: true
 
-  /@spwntch/blocks@0.55.1:
-    resolution: {integrity: sha512-PZAYHrTu8l2Gn38F2HA6g3ZO2ThlZnUPohnPQaxI0hrmrmUPqchfvofTbctZz7qS4CaaeMYOdaMe/E9D5NRyFw==}
+  /@spwntch/blocks@0.55.5:
+    resolution: {integrity: sha512-6PHxh2/nEufXypsoMln4BNpI2G02ac98pq0pv1gGqkdkH3QBxeEHFjQNcSLzSrfkkS6CtgJXWjATkVgGa6dWHQ==}
     dev: false
 
-  /@spwntch/components@0.55.1(embla-carousel@8.1.4)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-md+HZe7V5yifGXfTPP0ZdYoUxY3WiRelbTtFq3rT+nOzLc5nJ+8yZKIX82ljNid0v4h59wv9NuKXM6jCvZ6AgQ==}
+  /@spwntch/components@0.55.5(embla-carousel@8.1.4)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-Dku/Yd2Ajv9k6aWFFaYxCbc9GAZMBLx1MANe4P+YIdk17FjDwtb0Bok5cOBkjEItyhRcpLUyJ20QiTr4z1OvYA==}
     dependencies:
-      '@spwntch/tailwind': 0.55.1(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.55.5(tailwindcss@3.2.7)
       embla-carousel-autoplay: 8.1.4(embla-carousel@8.1.4)
     transitivePeerDependencies:
       - embla-carousel
       - tailwindcss
     dev: false
 
-  /@spwntch/mdx@0.55.1:
-    resolution: {integrity: sha512-3omV4Y6Nquhol31by62i8rGQpPFjaC48glhc93FN3TfpjNhjLo+VkBaZSA85VSz7Q9gXxDWgz2XqMFAyMHTz7g==}
+  /@spwntch/mdx@0.55.5(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-+lAcKzCbY4iwcnlzUaZwb3kK334+nu1DB4wQPe3qN034/JQdZgb3F5YOolhq1HQOP3IV1TdHy9U6kzpm/QxBFA==}
+    dependencies:
+      '@spwntch/tailwind': 0.55.5(tailwindcss@3.2.7)
+    transitivePeerDependencies:
+      - tailwindcss
     dev: false
 
-  /@spwntch/shell@0.55.1(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-7nVNvH/+5vYrcGq9IjaNaDarwEk4xpeJCOwfOmzkx8ktRo+Oj/trMHIaje8PpC48bTbemKA70sUL7Q3S0x2eQQ==}
+  /@spwntch/shell@0.55.5(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-WCuInSqieu+5a6JfXfespM6OxawVxhYvHOyATyYANOZ/aPvzmcIA5gcU8PYmOiErCsnemztMvig9YQRFNrSD9g==}
     dependencies:
-      '@spwntch/components': 0.55.1(embla-carousel@8.1.4)(tailwindcss@3.2.7)
-      '@spwntch/tailwind': 0.55.1(tailwindcss@3.2.7)
+      '@spwntch/components': 0.55.5(embla-carousel@8.1.4)(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.55.5(tailwindcss@3.2.7)
       lucide-react: 0.360.0(react@18.3.1)
       next-themes: 0.3.0(react-dom@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
@@ -3580,24 +3584,24 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/tailwind@0.55.1(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-c2Isp3vm0vbBZ+s7ljqNIOhDREZWfDaKmW3syYyWfu3DyoYfu7dZg3Lie3l3UQNduipoQUA4kOaZVFyXvp8KuQ==}
+  /@spwntch/tailwind@0.55.5(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-yG4gCU+JKAKsn3jjCsprZteGgLXhXJUScau7yUYfB8xMoxozRm0mcSD09m12GtAZBKdHcXQU2T+DwiLWpR/ggg==}
     dependencies:
       tailwindcss-animate: 1.0.7(tailwindcss@3.2.7)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@spwntch/typography@0.55.1(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-XlG5BxoMclx5GSyrt8cc/2CcDh0lldjoi+5f4c/zARo0fINjpkhIXQhfat44Jt9BLZQz0NTZOsu/8lI5vIpAWg==}
+  /@spwntch/typography@0.55.5(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-rWEoBJmFYrwfLVnx3ICNuQ7AxuiK3rzmkeVtQgDKBs6HMTCFDwmOoFh+eJOWFpSI+2Rg/IqQkQMelbeWF/IYVg==}
     dependencies:
-      '@spwntch/tailwind': 0.55.1(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.55.5(tailwindcss@3.2.7)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@spwntch/ui@0.55.1(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-xs3iZS6lxCbXzO4/tIaV0M/716Qn8qfL6lq3z1pttGse7sFCdq5eo68auh9zekWb6Q9FoEXEh1lMOI6eqeo1ew==}
+  /@spwntch/ui@0.55.5(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-WeVPoGNjU0sgFgT+bHqLATFUlPOQB9eOutXDVG8fBBEZeCMqZV+Aco7gDUApMrjLalc7I0AAHhQ2X97pzrMZSw==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-avatar': 1.0.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
@@ -3606,7 +3610,7 @@ packages:
       '@radix-ui/react-menubar': 1.0.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-navigation-menu': 1.1.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.3.1)(react@18.3.1)
-      '@spwntch/tailwind': 0.55.1(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.55.5(tailwindcss@3.2.7)
       class-variance-authority: 0.7.0
       clsx: 2.1.1
       embla-carousel-react: 8.1.4(react@18.3.1)
