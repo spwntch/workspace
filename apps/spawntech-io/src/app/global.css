@@ -1,5 +1,6 @@
 @import '@spwntch/tailwind/styles';
-@import '@spwntch/components/styles';
+/* @import '@spwntch/components/styles'; */
+@import '@spwntch/shell/styles';
 
 @tailwind base;
 

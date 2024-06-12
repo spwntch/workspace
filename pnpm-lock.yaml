@@ -9,26 +9,26 @@ dependencies:
     specifier: 19.2.3
     version: 19.2.3(nx@19.2.3)
   '@spwntch/blocks':
-    specifier: 0.60.11
-    version: 0.60.11(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12
   '@spwntch/components':
-    specifier: 0.60.11
-    version: 0.60.11(embla-carousel@8.1.4)(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12(embla-carousel@8.1.4)(tailwindcss@3.2.7)
   '@spwntch/mdx':
-    specifier: 0.60.11
-    version: 0.60.11(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12(tailwindcss@3.2.7)
   '@spwntch/shell':
-    specifier: 0.60.11
-    version: 0.60.11(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
   '@spwntch/tailwind':
-    specifier: 0.60.11
-    version: 0.60.11(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12(tailwindcss@3.2.7)
   '@spwntch/typography':
-    specifier: 0.60.11
-    version: 0.60.11(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12(tailwindcss@3.2.7)
   '@spwntch/ui':
-    specifier: 0.60.11
-    version: 0.60.11(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
+    specifier: 0.60.12
+    version: 0.60.12(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
   create-nx-workspace:
     specifier: 19.0.5
     version: 19.0.5
@@ -3557,37 +3557,33 @@ packages:
       '@sinonjs/commons': 3.0.1
     dev: true
 
-  /@spwntch/blocks@0.60.11(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-xOj8BRILumGeaP9a6/1qm+a+gp7HdAhonpaEykl11nVS9PZqwv8w+jkntTIdjSJllUKnbqNCgd9NtzDT+eycfg==}
-    dependencies:
-      '@spwntch/tailwind': 0.60.11(tailwindcss@3.2.7)
-    transitivePeerDependencies:
-      - tailwindcss
+  /@spwntch/blocks@0.60.12:
+    resolution: {integrity: sha512-KJBECBtuSga5b7GlhfeF2PmvaW7Q4NSe8Xx7rgE8ohIWlGfQ8nGzszPdvF1sDqj0/VMJM9o/naBoRzN/kgIYkg==}
     dev: false
 
-  /@spwntch/components@0.60.11(embla-carousel@8.1.4)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-UZ9m8CnmjV29XOtbq/FkJHR6DhSBtWwN1+udjOiehgZC2hu38YFhJ4Et3vPKiqvkRCGv/PGMbaIPiB4xVqAPDw==}
+  /@spwntch/components@0.60.12(embla-carousel@8.1.4)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-4LLgQazF+fz7Yc+X5X4SA75/j5VJdMQ30yps5XlaWYELNAM1nh8mybP7vv/udRpIrghGqSz2r3CNYWrcjYwA2A==}
     dependencies:
-      '@spwntch/tailwind': 0.60.11(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
       embla-carousel-autoplay: 8.1.4(embla-carousel@8.1.4)
     transitivePeerDependencies:
       - embla-carousel
       - tailwindcss
     dev: false
 
-  /@spwntch/mdx@0.60.11(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-PRIDvCh+fd0HiqfVTOHbyg0NCQtJyt3oQGAHhdor18wnCJa7of66vPMrYWjHr6AIn2Kl1is8VjNLn6kr66lgRg==}
+  /@spwntch/mdx@0.60.12(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-GN7XOVeu+ZjMpMvsIYPadAR+C6kgNRA3wkxqRl/YVS3tVNqkT6ibwBKkkIs7IVWfd6gcPfrbgrGriFRCk85wqQ==}
     dependencies:
-      '@spwntch/tailwind': 0.60.11(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@spwntch/shell@0.60.11(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-go3Uv7UvSmS9ISXi7h9X80UyNGYGuNchFBb0kod3HKCHfM798JjEezvzW/5lr+HS5fV2Q5iKhdr4NOI7ogmdzQ==}
+  /@spwntch/shell@0.60.12(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-x035uPqsFX95TyiIw5d2+VB/YRB9KL6EJwyyiGCOeluGnBrz3q6WIzrlQguSU5iElhTtkloEbV8d+S5azRunKA==}
     dependencies:
-      '@spwntch/components': 0.60.11(embla-carousel@8.1.4)(tailwindcss@3.2.7)
-      '@spwntch/tailwind': 0.60.11(tailwindcss@3.2.7)
+      '@spwntch/components': 0.60.12(embla-carousel@8.1.4)(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
       lucide-react: 0.360.0(react@18.3.1)
       next-themes: 0.3.0(react-dom@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
@@ -3597,24 +3593,24 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/tailwind@0.60.11(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-kqHNxTvGyuO0xav+CH5E//wmqDneE9S+NMVKz4iBQsoeU2Dxmr8anw+8Bt6iVORxywffM8nyScleyysd7FM9Yw==}
+  /@spwntch/tailwind@0.60.12(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-Wkx3rGQu7yCKgbVHpkK4G+JIKuHi7F3tl8lxz0OnuiMivQkyaBkJ4YzaKRge0GI1G4Pnm04xVDhTajoVc35u4A==}
     dependencies:
       tailwindcss-animate: 1.0.7(tailwindcss@3.2.7)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@spwntch/typography@0.60.11(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-ynbDph5bhjw+Kxw2slqDePubXd3BssB22JeLHlSDnt8f10blecQBynoFy3y+1y+1Nl3gd1axYMwaGYHhrWdH/Q==}
+  /@spwntch/typography@0.60.12(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-JrtVxC6EN9gZaHSxupvM6h5Ai6YB8DaBT/p+4jVag5/+P/yk7mMCQa2H3K09iqNLX1zg8BBhtuGw+wyJalxBMw==}
     dependencies:
-      '@spwntch/tailwind': 0.60.11(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
     transitivePeerDependencies:
       - tailwindcss
     dev: false
 
-  /@spwntch/ui@0.60.11(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-qzmsduvQJn78W+ysXi6++yDlyME3KXjPKRVwwja2vRPKCdKEcDRTWefX1QJVuY8hodgEdjsmMICKc7Z/PfUwqA==}
+  /@spwntch/ui@0.60.12(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
+    resolution: {integrity: sha512-OtK37irLw68Q9hQSHcdtwnHKcIFYXZT+KLa6r86+do19BX8eFXbbpgZmV3Ho7/qLWgdw8IA6Oqy8Bp7apGg6eg==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-avatar': 1.0.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
@@ -3623,7 +3619,7 @@ packages:
       '@radix-ui/react-menubar': 1.0.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-navigation-menu': 1.1.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-slot': 1.0.2(@types/react@18.3.1)(react@18.3.1)
-      '@spwntch/tailwind': 0.60.11(tailwindcss@3.2.7)
+      '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
       class-variance-authority: 0.7.0
       clsx: 2.1.1
       embla-carousel-react: 8.1.4(react@18.3.1)
