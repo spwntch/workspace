@@ -30,8 +30,8 @@ dependencies:
     specifier: 0.60.12
     version: 0.60.12(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
   create-nx-workspace:
-    specifier: 19.0.5
-    version: 19.0.5
+    specifier: 19.2.3
+    version: 19.2.3
   gray-matter:
     specifier: ^4.0.3
     version: 4.0.3
@@ -6113,8 +6113,8 @@ packages:
       - ts-node
     dev: true
 
-  /create-nx-workspace@19.0.5:
-    resolution: {integrity: sha512-0HK1Li2uvjpfjjMxOaStYPZAF65VvQLfiNoy6oWYZ3zuVW6EB2Ae5BJ3op25atfYcEuDeH9DMCIbucJ3q/IwxQ==}
+  /create-nx-workspace@19.2.3:
+    resolution: {integrity: sha512-K8VnzdgnoCxYmtjdTsqMV7mK3ZzsfgKfxEc++rrWFokCtgb8obWJ/xiNqRjeBnuosBO7Kb088lZZJJXwm9QyYg==}
     hasBin: true
     dependencies:
       axios: 1.7.2

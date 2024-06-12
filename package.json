@@ -28,7 +28,7 @@
     "@spwntch/tailwind": "0.60.12",
     "@spwntch/typography": "0.60.12",
     "@spwntch/ui": "0.60.12",
-    "create-nx-workspace": "19.0.5",
+    "create-nx-workspace": "19.2.3",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.373.0",
     "next": "14.2.3",
