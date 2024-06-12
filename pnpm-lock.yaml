@@ -3558,11 +3558,11 @@ packages:
     dev: true
 
   /@spwntch/blocks@0.60.12:
-    resolution: {integrity: sha512-KJBECBtuSga5b7GlhfeF2PmvaW7Q4NSe8Xx7rgE8ohIWlGfQ8nGzszPdvF1sDqj0/VMJM9o/naBoRzN/kgIYkg==}
+    resolution: {integrity: sha512-vDcMYk0RuVgr1ORrJlIvyBIrQctwwA5+LCP3H6/vxnTDQK2tkvkdzi9b2IkjIpdehchHJaQFDWjFKQbtUjjJrw==}
     dev: false
 
   /@spwntch/components@0.60.12(embla-carousel@8.1.5)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-4LLgQazF+fz7Yc+X5X4SA75/j5VJdMQ30yps5XlaWYELNAM1nh8mybP7vv/udRpIrghGqSz2r3CNYWrcjYwA2A==}
+    resolution: {integrity: sha512-yRGCO1E7XWbA+ACui/PIRG9QJQyaIvd3dwbGfWSFbmALBhlhnR7n0MEN7zjbbhMCigUnMYn5LzfJ/j99vv1UKw==}
     dependencies:
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
       embla-carousel-autoplay: 8.1.5(embla-carousel@8.1.5)
@@ -3572,7 +3572,7 @@ packages:
     dev: false
 
   /@spwntch/mdx@0.60.12(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-GN7XOVeu+ZjMpMvsIYPadAR+C6kgNRA3wkxqRl/YVS3tVNqkT6ibwBKkkIs7IVWfd6gcPfrbgrGriFRCk85wqQ==}
+    resolution: {integrity: sha512-pI0qYlAVsWQmFYztzuTTR09mNleeGMFD1KDj7OfwvkQi1p73wYzBWSWwQt6ZznzxEMAxSp+bIbINWtGzP1/Kzg==}
     dependencies:
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
     transitivePeerDependencies:
@@ -3580,7 +3580,7 @@ packages:
     dev: false
 
   /@spwntch/shell@0.60.12(embla-carousel@8.1.5)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-x035uPqsFX95TyiIw5d2+VB/YRB9KL6EJwyyiGCOeluGnBrz3q6WIzrlQguSU5iElhTtkloEbV8d+S5azRunKA==}
+    resolution: {integrity: sha512-RShWFtKmO2S5A7GYiFfzHpHFnEJO1N1MrYvl4jPsjF+jAeUuIm70Cs7t1igt8rdLVAMNH9fL0408zMfW2enRrg==}
     dependencies:
       '@spwntch/components': 0.60.12(embla-carousel@8.1.5)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
@@ -3602,7 +3602,7 @@ packages:
     dev: false
 
   /@spwntch/typography@0.60.12(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-JrtVxC6EN9gZaHSxupvM6h5Ai6YB8DaBT/p+4jVag5/+P/yk7mMCQa2H3K09iqNLX1zg8BBhtuGw+wyJalxBMw==}
+    resolution: {integrity: sha512-p21H/0sSsy4JupMtsu7ciGF6sVFc9IbQFjqPuDBxas/bAsOkVI1KeXfpcESDHsx+zVxTpPyimSQ+UsMTkFZh0g==}
     dependencies:
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
     transitivePeerDependencies:
@@ -3610,7 +3610,7 @@ packages:
     dev: false
 
   /@spwntch/ui@0.60.12(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-OtK37irLw68Q9hQSHcdtwnHKcIFYXZT+KLa6r86+do19BX8eFXbbpgZmV3Ho7/qLWgdw8IA6Oqy8Bp7apGg6eg==}
+    resolution: {integrity: sha512-WNZBTw73E4Hcku+qIUm13JvbJqnb0RrrY859z6N7L/Clw+xFjGhlgIhZ9v8n3eneGApcnCjFJ73sl6tMAmWs1A==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-avatar': 1.0.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
@@ -5493,8 +5493,8 @@ packages:
   /balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  /bare-events@2.4.1:
-    resolution: {integrity: sha512-AcxDTYZipBeMOir38KPglXktT9Od/sUkEtbu1qysZqRoQXilb7neanBXuYX1VKzFs2UqVKQHqo01qpl+Fu0+fw==}
+  /bare-events@2.4.2:
+    resolution: {integrity: sha512-qMKFd2qG/36aA4GwvKq8MxnPgCQAmBWmSyLWsJcbn8v03wvIPQ/hG1Ms8bPzndZxMDoHpxez5VOS+gC9Yi24/Q==}
     requiresBuild: true
     dev: true
     optional: true
@@ -13024,7 +13024,7 @@ packages:
       queue-tick: 1.0.1
       text-decoder: 1.1.0
     optionalDependencies:
-      bare-events: 2.4.1
+      bare-events: 2.4.2
     dev: true
 
   /string-length@4.0.2:
