@@ -13,13 +13,13 @@ dependencies:
     version: 0.60.12
   '@spwntch/components':
     specifier: 0.60.12
-    version: 0.60.12(embla-carousel@8.1.4)(tailwindcss@3.2.7)
+    version: 0.60.12(embla-carousel@8.1.5)(tailwindcss@3.2.7)
   '@spwntch/mdx':
     specifier: 0.60.12
     version: 0.60.12(tailwindcss@3.2.7)
   '@spwntch/shell':
     specifier: 0.60.12
-    version: 0.60.12(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
+    version: 0.60.12(embla-carousel@8.1.5)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7)
   '@spwntch/tailwind':
     specifier: 0.60.12
     version: 0.60.12(tailwindcss@3.2.7)
@@ -3561,11 +3561,11 @@ packages:
     resolution: {integrity: sha512-KJBECBtuSga5b7GlhfeF2PmvaW7Q4NSe8Xx7rgE8ohIWlGfQ8nGzszPdvF1sDqj0/VMJM9o/naBoRzN/kgIYkg==}
     dev: false
 
-  /@spwntch/components@0.60.12(embla-carousel@8.1.4)(tailwindcss@3.2.7):
+  /@spwntch/components@0.60.12(embla-carousel@8.1.5)(tailwindcss@3.2.7):
     resolution: {integrity: sha512-4LLgQazF+fz7Yc+X5X4SA75/j5VJdMQ30yps5XlaWYELNAM1nh8mybP7vv/udRpIrghGqSz2r3CNYWrcjYwA2A==}
     dependencies:
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
-      embla-carousel-autoplay: 8.1.4(embla-carousel@8.1.4)
+      embla-carousel-autoplay: 8.1.5(embla-carousel@8.1.5)
     transitivePeerDependencies:
       - embla-carousel
       - tailwindcss
@@ -3579,10 +3579,10 @@ packages:
       - tailwindcss
     dev: false
 
-  /@spwntch/shell@0.60.12(embla-carousel@8.1.4)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
+  /@spwntch/shell@0.60.12(embla-carousel@8.1.5)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
     resolution: {integrity: sha512-x035uPqsFX95TyiIw5d2+VB/YRB9KL6EJwyyiGCOeluGnBrz3q6WIzrlQguSU5iElhTtkloEbV8d+S5azRunKA==}
     dependencies:
-      '@spwntch/components': 0.60.12(embla-carousel@8.1.4)(tailwindcss@3.2.7)
+      '@spwntch/components': 0.60.12(embla-carousel@8.1.5)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
       lucide-react: 0.360.0(react@18.3.1)
       next-themes: 0.3.0(react-dom@18.3.1)(react@18.3.1)
@@ -3622,7 +3622,7 @@ packages:
       '@spwntch/tailwind': 0.60.12(tailwindcss@3.2.7)
       class-variance-authority: 0.7.0
       clsx: 2.1.1
-      embla-carousel-react: 8.1.4(react@18.3.1)
+      embla-carousel-react: 8.1.5(react@18.3.1)
       jest-axe: 8.0.0
       lucide-react: 0.378.0(react@18.3.1)
       react-resizable-panels: 2.0.19(react-dom@18.3.1)(react@18.3.1)
@@ -5493,8 +5493,8 @@ packages:
   /balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  /bare-events@2.3.1:
-    resolution: {integrity: sha512-sJnSOTVESURZ61XgEleqmP255T6zTYwHPwE4r6SssIh0U9/uDvfpdoJYpVUerJJZH2fueO+CdT8ZT+OC/7aZDA==}
+  /bare-events@2.4.1:
+    resolution: {integrity: sha512-AcxDTYZipBeMOir38KPglXktT9Od/sUkEtbu1qysZqRoQXilb7neanBXuYX1VKzFs2UqVKQHqo01qpl+Fu0+fw==}
     requiresBuild: true
     dev: true
     optional: true
@@ -6715,34 +6715,34 @@ packages:
   /electron-to-chromium@1.4.799:
     resolution: {integrity: sha512-3D3DwWkRTzrdEpntY0hMLYwj7SeBk1138CkPE8sBDSj3WzrzOiG2rHm3luw8jucpf+WiyLBCZyU9lMHyQI9M9Q==}
 
-  /embla-carousel-autoplay@8.1.4(embla-carousel@8.1.4):
-    resolution: {integrity: sha512-lsQkKiU5sIVg5vuaWo6BTzQT+7Z6AEMnCIQho4bS6KFeBE8FtsL/HOmtLx7fLu2reH6keJ1vNmLn6L/w9CQj+Q==}
+  /embla-carousel-autoplay@8.1.5(embla-carousel@8.1.5):
+    resolution: {integrity: sha512-9pHIezRqiO9yism7wRFwmM1j/W9c9hBNX4hq3F4aTPbK84M0M57ryG8QUwhbsTGJbDoBBVTm//YEd0T6i/5YgA==}
     peerDependencies:
-      embla-carousel: 8.1.4
+      embla-carousel: 8.1.5
     dependencies:
-      embla-carousel: 8.1.4
+      embla-carousel: 8.1.5
     dev: false
 
-  /embla-carousel-react@8.1.4(react@18.3.1):
-    resolution: {integrity: sha512-0llfX4HlXrdgJKxlZ8q8LyI6EV+TvOI7KtZx9GkDTwdgP6/AyyuvzO8KYvDUNZOnbFBAPbVEe2qEgGMLEinlYw==}
+  /embla-carousel-react@8.1.5(react@18.3.1):
+    resolution: {integrity: sha512-xFmfxgJd7mpWDHQ4iyK1Qs+5BTTwu4bkn+mSROKiUH9nKpPHTeilQ+rpeQDCHRrAPeshD67aBk0/p6FxWxXsng==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.1 || ^18.0.0
     dependencies:
-      embla-carousel: 8.1.4
-      embla-carousel-reactive-utils: 8.1.4(embla-carousel@8.1.4)
+      embla-carousel: 8.1.5
+      embla-carousel-reactive-utils: 8.1.5(embla-carousel@8.1.5)
       react: 18.3.1
     dev: false
 
-  /embla-carousel-reactive-utils@8.1.4(embla-carousel@8.1.4):
-    resolution: {integrity: sha512-qkovXTiNaURsnYhJxUBsDx9YV6crxLIZwfO6jIFSKKn6ZZE1JVeZAvy/UsiyNxiFikVrO76iquvD6uBHI9YD8w==}
+  /embla-carousel-reactive-utils@8.1.5(embla-carousel@8.1.5):
+    resolution: {integrity: sha512-76uZTrSaEGGta+qpiGkMFlLK0I7N04TdjZ2obrBhyggYIFDWlxk1CriIEmt2lisLNsa1IYXM85kr863JoCMSyg==}
     peerDependencies:
-      embla-carousel: 8.1.4
+      embla-carousel: 8.1.5
     dependencies:
-      embla-carousel: 8.1.4
+      embla-carousel: 8.1.5
     dev: false
 
-  /embla-carousel@8.1.4:
-    resolution: {integrity: sha512-AMe40ZpyLpztfNnGQtMWVIgYdcBoY2MuQttRwQ/xqSPC3UvDG2QF17CR5Efz4c8qEkno7pxdZFDRO2R11y6hRQ==}
+  /embla-carousel@8.1.5:
+    resolution: {integrity: sha512-R6xTf7cNdR2UTNM6/yUPZlJFRmZSogMiRjJ5vXHO65II5MoUlrVYUAP0fHQei/py82Vf15lj+WI+QdhnzBxA2g==}
     dev: false
 
   /emittery@0.13.1:
@@ -13024,7 +13024,7 @@ packages:
       queue-tick: 1.0.1
       text-decoder: 1.1.0
     optionalDependencies:
-      bare-events: 2.3.1
+      bare-events: 2.4.1
     dev: true
 
   /string-length@4.0.2:
