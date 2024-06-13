@@ -1,9 +1,9 @@
-import { UnderConstruction } from '@/shell';
+import Ui from '../components/ui';
 
 const Index = () => {
   return (
     <div className="h-full text-center">
-      <UnderConstruction>Your website home page goes here...</UnderConstruction>
+      <Ui />
     </div>
   );
 };

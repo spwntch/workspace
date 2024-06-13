@@ -2,7 +2,7 @@
   "name": "@spwntch/workspace-generator",
   "version": "0.33.0",
   "dependencies": {
-    "@nx/devkit": "18.3.3",
+    "@nx/devkit": "19.2.3",
     "tslib": "^2.3.0"
   },
   "type": "commonjs",

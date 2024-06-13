@@ -1,23 +1,29 @@
 'use client';
-import { PostsGrid } from '@spwntch/blog';
-import { BasicHeader, IPageSectionContent } from '@spwntch/components';
+import { IContent } from '@spwntch/components';
 import { IMdxDoc } from '@spwntch/mdx';
-import { useRouter } from 'next/navigation';
+import { UnderConstruction } from '@spwntch/shell';
 
 interface Props {
-  header: IPageSectionContent;
-  posts: IMdxDoc[];
+  header: IContent;
+  articles: IMdxDoc[];
 }
 
-export const Blog = ({ header, posts: articles }: Props) => {
-  const router = useRouter();
-  const handleOnClickPost = (slug: string) => {
-    router.push(`/blog/${slug}`);
-  };
-  return (
-    <>
-      <BasicHeader header={header} />
-      <PostsGrid posts={articles} onClickPost={handleOnClickPost} />
-    </>
-  );
+export const Blog = ({ header, articles }: Props) => {
+  // const router = useRouter();
+  // const handleOnClickArticle = (slug: string) => {
+  //   router.push(`/blog/${slug}`);
+  // };
+  return <UnderConstruction />;
+  // return (
+  //   <>
+  //     <ContentBlock
+  //       innerContent={header}
+  //       // className="text-white"
+  //       hAlign="center"
+  //       vAlign="middle"
+  //       height={300}
+  //     />
+  //     <ArticleGrid articles={articles} onClickArticle={handleOnClickArticle} />
+  //   </>
+  // );
 };
