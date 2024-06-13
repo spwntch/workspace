@@ -3558,7 +3558,7 @@ packages:
     dev: true
 
   /@spwntch/blocks@0.61.1:
-    resolution: {integrity: sha512-MqkpF9J3lnvZn+HRr8A4V0SqJ9cJ3HSSh0J0YDSvzHKOyGLjuwpo4waRY+kPz60+h2ftghQp7nDqADcsDStVRw==}
+    resolution: {integrity: sha512-BEapB/9nWOWRXhQ1hNCgEmucRxI+QYc5+QUmhEZXlC6ocdNIN1GHK7PpHlCGq4eC9HP5GplQdT5j2Dc2FG9ADQ==}
     dev: false
 
   /@spwntch/components@0.61.1(embla-carousel@8.1.5)(tailwindcss@3.2.7):
@@ -3572,7 +3572,7 @@ packages:
     dev: false
 
   /@spwntch/mdx@0.61.1(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-AHlWx3vQnOzjwsMdCfM4kxUut+Gedhn+hTTPYPlLQohyVaIiSYoivrgaT+IVdoxGf6gHTOZfXJyQaYKYdCVPAA==}
+    resolution: {integrity: sha512-kLi8l382X1pXM2+AD5njWxQo9OB0O/q3y80lk0Iiw4uG6Pt0BB1srMPVOJUf8M8MRwBdzrH2SXzzPcWoMeZxog==}
     dependencies:
       '@spwntch/tailwind': 0.61.1(tailwindcss@3.2.7)
     transitivePeerDependencies:
@@ -3580,7 +3580,7 @@ packages:
     dev: false
 
   /@spwntch/shell@0.61.1(embla-carousel@8.1.5)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-wJNkRdEC9xpBcjngYhKqqmSQZz+X+9gAru0saie3MfEzx5dHmkgiFRVwIcGDpRC96CPN5mbIwCtOu56uQVbsYA==}
+    resolution: {integrity: sha512-/gFw2yOAFm8Vg4uhSdk3Oc5Fe1zA/Wo4KBdtcH5gFpvAKFvr5KqnzHyS3ejZMbe5bDECHZOVQajzYUdyQk5bxA==}
     dependencies:
       '@spwntch/components': 0.61.1(embla-carousel@8.1.5)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.61.1(tailwindcss@3.2.7)
@@ -3602,7 +3602,7 @@ packages:
     dev: false
 
   /@spwntch/typography@0.61.1(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-d46Fel5s8wdyOUw3xJxQ2mvTlA1miVctSTpvke+2pyCENer9K4I1S8B/7hSotRzNsbNbMNvXr11s8wMEZ13rzw==}
+    resolution: {integrity: sha512-hHM4887uWQwyLaRR67J1l/gjVvhKdrUHar67nK39+Ww0B//UI/CjMje6tJO1uXclt+exBwxr20W2cxv4SK1Vdw==}
     dependencies:
       '@spwntch/tailwind': 0.61.1(tailwindcss@3.2.7)
     transitivePeerDependencies:
@@ -3610,7 +3610,7 @@ packages:
     dev: false
 
   /@spwntch/ui@0.61.1(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-85Z4rayattz+x7/9qB+TFgu9/7ginv1ZC8SaRte37XQ06b4OstM9naI5/quG2BEGNv35VvEK5co+gVx0eyUNfQ==}
+    resolution: {integrity: sha512-Cb0/z+Ns94jTxTUC8hiWUH0WnpZ8O2HjDgcKs53FM95GHL319Yl1JII2WW68eeORi37L25Fqp7+xzAZ4ekLW6g==}
     dependencies:
       '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
       '@radix-ui/react-avatar': 1.0.4(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1)(react@18.3.1)
