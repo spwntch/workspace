@@ -3592,11 +3592,11 @@ packages:
     dev: true
 
   /@spwntch/blocks@0.61.7:
-    resolution: {integrity: sha512-oVQZ6cFawkwgOJOvfHdTeID9p2TOLt6kmXDcln7WCjEFxUxrIcUQqkboaIiTFaw+42uvQYKF0vECn0Uc/+sOrw==}
+    resolution: {integrity: sha512-EF4l8hF8vrMkJV8HTCSUfNeDlxy/+QVlHJu+Ff60kxbiyduj/nVKcl2SnvZwGqYfPpXQ0zKYK2yNW9TaM466jQ==}
     dev: false
 
   /@spwntch/components@0.61.7(embla-carousel@8.1.5)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-GgVnUePK1Upo0kYiTmOwglUF4KwKf+YVInlvaaMGDBEOkrRUokuckdAl8Xfgj1F9C9NinF+QQMwz9vDI5aAQ4w==}
+    resolution: {integrity: sha512-XX8Al2BDuXudyPntaGp55EA1B8KLVUUBfvOXmnGzwIyY+HXjXW51RRWDjfergfC7GTGS2hVyHK0Le7lDXuwpjg==}
     dependencies:
       '@spwntch/tailwind': 0.61.7(tailwindcss@3.2.7)
       embla-carousel-autoplay: 8.1.5(embla-carousel@8.1.5)
@@ -3606,7 +3606,7 @@ packages:
     dev: false
 
   /@spwntch/mdx@0.61.7(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-kduim+tyFrFDB4YcITPNDV1yvq2n8BTS4K4HKVoefuxbuYzaoCZh3emtKA7388zQ5NLILZmqdiGEx/fwrDhxVA==}
+    resolution: {integrity: sha512-/f1J+0f6Q/noCPTXOUqRDydRcYsFLpTcdLtM2z7iVQGZYjCke2r3JBiDU9FjDihLy+hp6wg6LatzawT/6Xqe3g==}
     dependencies:
       '@spwntch/tailwind': 0.61.7(tailwindcss@3.2.7)
     transitivePeerDependencies:
@@ -3614,7 +3614,7 @@ packages:
     dev: false
 
   /@spwntch/shell@0.61.7(embla-carousel@8.1.5)(react-dom@18.3.1)(react@18.3.1)(tailwindcss@3.2.7):
-    resolution: {integrity: sha512-9dDkAZlJ+q+9ttnECY9cjPnVbMDkCFmxqR1EEdu+mEqw8jusMK4jU4rzhdFq332ZR92z/1R9HaR2DPnA/032Zw==}
+    resolution: {integrity: sha512-00YpVSTk0fwjqsRevgaMjvOlDhIzd0AbsuM1ilga2Lwqy0X0hIHWOEIyEd66XzhpzPO71/X0RAXTzAHr05xlvQ==}
     dependencies:
       '@spwntch/components': 0.61.7(embla-carousel@8.1.5)(tailwindcss@3.2.7)
       '@spwntch/tailwind': 0.61.7(tailwindcss@3.2.7)
