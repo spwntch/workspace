@@ -16,8 +16,16 @@ export const UnderConstruction = ({
       <div className="text-center">
         <H1>{pathname}</H1>
         <div className="m-8">{children}</div>
-      <ImageContentBlock image={{ src: 'blog/images/the-real-reason-you-need-an-icp.webp' }} />
-
+        <ImageContentBlock
+          image={{
+            src: 'images/ux-is-like-venus-dev-is-like-mars.webp',
+            darken: true,
+          }}
+          innerContent={{ title: 'ux-is-like-venus-dev-is-like-mars' }}
+          className="text-white"
+          hAlign="left"
+          vAlign="bottom"
+        />
       </div>
     </SpwnUnderConstruction>
   );
