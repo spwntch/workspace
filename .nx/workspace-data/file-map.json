@@ -1,0 +1,1200 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.2.3",
+  "deps": {
+    "@nx/devkit": "19.2.3",
+    "@spwntch/blocks": "0.61.8",
+    "@spwntch/components": "0.61.8",
+    "@spwntch/mdx": "0.61.8",
+    "@spwntch/shell": "0.61.8",
+    "@spwntch/tailwind": "0.61.8",
+    "@spwntch/typography": "0.61.8",
+    "@spwntch/ui": "0.61.8",
+    "create-nx-workspace": "19.2.3",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.373.0",
+    "next": "14.2.3",
+    "next-mdx-remote": "^4.4.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "rehype-slug": "^6.0.0",
+    "rehype-toc": "^3.0.2",
+    "remark-gfm": "^4.0.0",
+    "tslib": "^2.3.0",
+    "@clack/prompts": "^0.7.0",
+    "@nx/eslint": "19.2.3",
+    "@nx/eslint-plugin": "19.2.3",
+    "@nx/jest": "19.2.3",
+    "@nx/js": "19.2.3",
+    "@nx/next": "19.2.3",
+    "@nx/plugin": "19.2.3",
+    "@nx/react": "19.2.3",
+    "@nx/workspace": "19.2.3",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-menubar": "^1.0.4",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@swc-node/register": "1.9.2",
+    "@swc/cli": "0.3.12",
+    "@swc/core": "1.5.7",
+    "@swc/helpers": "0.5.11",
+    "@tailwindcss/typography": "^0.5.12",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.16.9",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.3.0",
+    "@typescript-eslint/parser": "^7.3.0",
+    "autoprefixer": "10.4.13",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.1.5",
+    "eslint": "~8.57.0",
+    "eslint-config-next": "14.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "nx": "19.2.3",
+    "postcss": "8.4.38",
+    "prettier": "^2.6.2",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "3.2.7",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.4.2",
+    "verdaccio": "^5.0.4"
+  },
+  "pathMappings": {
+    "@/blog": [
+      "libs/blog/src/index.ts"
+    ],
+    "@/blog/server": [
+      "libs/blog/src/server.ts"
+    ],
+    "@/shell": [
+      "libs/shell/src/index.ts"
+    ],
+    "@/shell/server": [
+      "libs/shell/src/server.ts"
+    ],
+    "workspace-generator": [
+      "packages/workspace-generator/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/next/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "startTargetName": "start",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "spawntech-io": [
+        {
+          "file": "apps/spawntech-io/.eslintrc.json",
+          "hash": "4464528437795384303"
+        },
+        {
+          "file": "apps/spawntech-io/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/spawntech-io/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/spawntech-io/next.config.js",
+          "hash": "4640182932892698362",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/spawntech-io/project.json",
+          "hash": "78893137264375655"
+        },
+        {
+          "file": "apps/spawntech-io/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spawntech-io/public/blog/images/the-real-reason-you-need-an-icp.webp",
+          "hash": "15339505607948473809"
+        },
+        {
+          "file": "apps/spawntech-io/public/blog/the-real-reason-you-need-an-icp.mdx",
+          "hash": "6964567103575549971"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/logo-dark.webp",
+          "hash": "16551496858569245779"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/logo-primary.webp",
+          "hash": "7607956194755065429"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/mark-dark.webp",
+          "hash": "11636059851710249697"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/mark-primary.webp",
+          "hash": "799024696245523514"
+        },
+        {
+          "file": "apps/spawntech-io/public/favicon.ico",
+          "hash": "9587080618878691918"
+        },
+        {
+          "file": "apps/spawntech-io/public/images/ux-is-like-venus-dev-is-like-mars.webp",
+          "hash": "14053305553666314356"
+        },
+        {
+          "file": "apps/spawntech-io/src/app/[...path]/page.tsx",
+          "hash": "12296734911839216892",
+          "deps": [
+            "shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/blog/[slug]/page.tsx",
+          "hash": "6612399282102976372",
+          "deps": [
+            "blog",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/blog/page.tsx",
+          "hash": "8473642657181006313",
+          "deps": [
+            "blog"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/global.css",
+          "hash": "4786763261850380175"
+        },
+        {
+          "file": "apps/spawntech-io/src/app/layout.tsx",
+          "hash": "2353453520999987471",
+          "deps": [
+            "shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/page.tsx",
+          "hash": "3616132839226228850"
+        },
+        {
+          "file": "apps/spawntech-io/src/components/ui.tsx",
+          "hash": "17726465448193774176",
+          "deps": [
+            "npm:@spwntch/ui",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/config/blog.ts",
+          "hash": "15790394807152606323"
+        },
+        {
+          "file": "apps/spawntech-io/src/config/brand.ts",
+          "hash": "8660203392248111241"
+        },
+        {
+          "file": "apps/spawntech-io/src/config/index.ts",
+          "hash": "6626424690932341106"
+        },
+        {
+          "file": "apps/spawntech-io/src/config/nav.ts",
+          "hash": "1421430316209543950"
+        },
+        {
+          "file": "apps/spawntech-io/tailwind.config.js",
+          "hash": "15913249569166804253",
+          "deps": [
+            "npm:@nx/react",
+            "npm:@spwntch/tailwind",
+            "npm:@tailwindcss/typography"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/tsconfig.json",
+          "hash": "11191177535688455456"
+        }
+      ],
+      "spawn-workspace": [
+        {
+          "file": "packages/spawn-workspace/.eslintrc.json",
+          "hash": "12242489558396071227"
+        },
+        {
+          "file": "packages/spawn-workspace/README.md",
+          "hash": "9239246594855902891"
+        },
+        {
+          "file": "packages/spawn-workspace/bin/index.ts",
+          "hash": "9390276160542554543",
+          "deps": [
+            "npm:@clack/prompts",
+            "npm:@nx/devkit",
+            "npm:create-nx-workspace"
+          ]
+        },
+        {
+          "file": "packages/spawn-workspace/jest.config.ts",
+          "hash": "11255442374739582687"
+        },
+        {
+          "file": "packages/spawn-workspace/package.json",
+          "hash": "6772671325220483406",
+          "deps": [
+            "npm:@clack/prompts",
+            "npm:@nx/devkit",
+            "npm:create-nx-workspace",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/spawn-workspace/project.json",
+          "hash": "13219759109535175235"
+        },
+        {
+          "file": "packages/spawn-workspace/tsconfig.json",
+          "hash": "2840670722752396445"
+        },
+        {
+          "file": "packages/spawn-workspace/tsconfig.lib.json",
+          "hash": "17109908530143185346"
+        },
+        {
+          "file": "packages/spawn-workspace/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "@spwntch/workspace": [
+        {
+          "file": ".editorconfig",
+          "hash": "5443105041930014821"
+        },
+        {
+          "file": ".eslintignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".eslintrc.base.json",
+          "hash": "17866138117546000433"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "17908669114926049053"
+        },
+        {
+          "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+          "hash": "15424388660508099364"
+        },
+        {
+          "file": ".github/ISSUE_TEMPLATE/feature_request.md",
+          "hash": "12003031272452156761"
+        },
+        {
+          "file": ".github/pull_request_template.md",
+          "hash": "15838951499540753794"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "hash": "16881894026522662171"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "9149938458905523446"
+        },
+        {
+          "file": ".npmrc",
+          "hash": "1880664178033616490"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "14688272390704683536"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": ".verdaccio/config.yml",
+          "hash": "14993594506392938393"
+        },
+        {
+          "file": ".vscode/extensions.json",
+          "hash": "4934098906304722861"
+        },
+        {
+          "file": ".vscode/settings.json",
+          "hash": "10736989266964588500"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "hash": "9880779777170377798"
+        },
+        {
+          "file": "CODE_OF_CONDUCT.md",
+          "hash": "12202950479057402041"
+        },
+        {
+          "file": "CONTRIBUTING.md",
+          "hash": "3306317683043201031"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "10780637365651906992"
+        },
+        {
+          "file": "README.md",
+          "hash": "14650232117715404369"
+        },
+        {
+          "file": "assets/spwn/blog/images/the-real-reason-you-need-an-icp.webp",
+          "hash": "15339505607948473809"
+        },
+        {
+          "file": "assets/spwn/blog/the-real-reason-you-need-an-icp.mdx",
+          "hash": "6964567103575549971"
+        },
+        {
+          "file": "assets/spwn/brand/logo-dark.png",
+          "hash": "7524399486340744687"
+        },
+        {
+          "file": "assets/spwn/brand/logo-primary.png",
+          "hash": "9240699664547374939"
+        },
+        {
+          "file": "assets/spwn/brand/mark-dark.png",
+          "hash": "3372600162083805323"
+        },
+        {
+          "file": "assets/spwn/brand/mark-primary.png",
+          "hash": "5011875870375317904"
+        },
+        {
+          "file": "assets/spwn/brand/public/logo-dark.webp",
+          "hash": "16551496858569245779"
+        },
+        {
+          "file": "assets/spwn/brand/public/logo-primary.webp",
+          "hash": "7607956194755065429"
+        },
+        {
+          "file": "assets/spwn/brand/public/mark-dark.webp",
+          "hash": "11636059851710249697"
+        },
+        {
+          "file": "assets/spwn/brand/public/mark-primary.webp",
+          "hash": "799024696245523514"
+        },
+        {
+          "file": "assets/spwn/github/public/spwntch-workspace-social-preview.webp",
+          "hash": "12163790770557789480"
+        },
+        {
+          "file": "assets/spwn/github/spwntch-workspace-social-preview.png",
+          "hash": "15225713658777674601"
+        },
+        {
+          "file": "assets/spwn/images/public/ux-is-like-venus-dev-is-like-mars.webp",
+          "hash": "14053305553666314356"
+        },
+        {
+          "file": "assets/spwn/web-assets/android-chrome-192x192.png",
+          "hash": "8114911226169620489"
+        },
+        {
+          "file": "assets/spwn/web-assets/android-chrome-512x512.png",
+          "hash": "9552462830472800023"
+        },
+        {
+          "file": "assets/spwn/web-assets/apple-touch-icon.png",
+          "hash": "14563005711934148075"
+        },
+        {
+          "file": "assets/spwn/web-assets/favicon-16x16.png",
+          "hash": "3220572054297306085"
+        },
+        {
+          "file": "assets/spwn/web-assets/favicon-32x32.png",
+          "hash": "9783301614136931450"
+        },
+        {
+          "file": "assets/spwn/web-assets/favicon.ico",
+          "hash": "9587080618878691918"
+        },
+        {
+          "file": "assets/spwn/web-assets/site.webmanifest",
+          "hash": "11205980641497128048"
+        },
+        {
+          "file": "jest.config.ts",
+          "hash": "3494843969422251966",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "jest.preset.js",
+          "hash": "9430166341120122740",
+          "deps": [
+            "npm:@nx/jest"
+          ]
+        },
+        {
+          "file": "migrations.json",
+          "hash": "168526016572140907"
+        },
+        {
+          "file": "nx.json",
+          "hash": "11096391809226316567"
+        },
+        {
+          "file": "package.json",
+          "hash": "326981546325347313",
+          "deps": [
+            "npm:@clack/prompts",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/next",
+            "npm:@nx/plugin",
+            "npm:@nx/react",
+            "npm:@nx/workspace",
+            "npm:@radix-ui/react-accordion",
+            "npm:@radix-ui/react-avatar",
+            "npm:@radix-ui/react-dialog",
+            "npm:@radix-ui/react-dropdown-menu",
+            "npm:@radix-ui/react-menubar",
+            "npm:@radix-ui/react-navigation-menu",
+            "npm:@radix-ui/react-slot",
+            "npm:@swc-node/register",
+            "npm:@swc/cli",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@tailwindcss/typography",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:autoprefixer",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:embla-carousel-react",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:jest",
+            "npm:jest-environment-jsdom",
+            "npm:nx",
+            "npm:postcss",
+            "npm:prettier",
+            "npm:tailwind-merge",
+            "npm:tailwindcss",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:typescript",
+            "npm:verdaccio",
+            "npm:@nx/devkit",
+            "npm:@spwntch/tailwind",
+            "npm:@spwntch/typography",
+            "npm:@spwntch/ui",
+            "npm:create-nx-workspace",
+            "npm:gray-matter",
+            "npm:lucide-react",
+            "npm:next",
+            "npm:next-mdx-remote",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rehype-slug",
+            "npm:rehype-toc",
+            "npm:remark-gfm",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "pnpm-lock.yaml",
+          "hash": "6555073891628217837"
+        },
+        {
+          "file": "project.json",
+          "hash": "17609322023877878884"
+        },
+        {
+          "file": "tools/scripts/start-local-registry.ts",
+          "hash": "3293419992787731652",
+          "deps": [
+            "npm:@nx/js",
+            "npm:nx"
+          ]
+        },
+        {
+          "file": "tools/scripts/stop-local-registry.ts",
+          "hash": "11981317189752518388"
+        },
+        {
+          "file": "tools/scripts/vercel-conditional-build.sh",
+          "hash": "6976610662569912357"
+        },
+        {
+          "file": "tools/scripts/webp.sh",
+          "hash": "13908020128466702748"
+        },
+        {
+          "file": "tsconfig.base.json",
+          "hash": "9791708736422467802"
+        },
+        {
+          "file": ".nx/workspace-data/d/server-process.json",
+          "hash": "6904283263992017078"
+        }
+      ],
+      "blog": [
+        {
+          "file": "libs/blog/.eslintrc.json",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "libs/blog/README.md",
+          "hash": "18284705770695866814"
+        },
+        {
+          "file": "libs/blog/project.json",
+          "hash": "17995404027884345993"
+        },
+        {
+          "file": "libs/blog/src/index.ts",
+          "hash": "905650602909758149"
+        },
+        {
+          "file": "libs/blog/src/lib/client-components/blog.tsx",
+          "hash": "11887969687945723117"
+        },
+        {
+          "file": "libs/blog/src/lib/client-components/index.ts",
+          "hash": "18193098818058390162"
+        },
+        {
+          "file": "libs/blog/src/lib/client-components/post.tsx",
+          "hash": "10188029271413075813"
+        },
+        {
+          "file": "libs/blog/src/lib/utils/flatten-toc-tree.ts",
+          "hash": "9169440642522055509",
+          "deps": [
+            "npm:rehype-toc"
+          ]
+        },
+        {
+          "file": "libs/blog/src/lib/utils/index.ts",
+          "hash": "9425565761896693120"
+        },
+        {
+          "file": "libs/blog/src/lib/utils/parse-mdx-file-buffer.ts",
+          "hash": "2750688471134663174",
+          "deps": [
+            "npm:gray-matter"
+          ]
+        },
+        {
+          "file": "libs/blog/src/lib/utils/parse-mdx.ts",
+          "hash": "10575992993145885086",
+          "deps": [
+            "npm:next-mdx-remote",
+            "npm:rehype-slug",
+            "npm:rehype-toc",
+            "npm:remark-gfm"
+          ]
+        },
+        {
+          "file": "libs/blog/src/server.ts",
+          "hash": "10681759893846890525"
+        },
+        {
+          "file": "libs/blog/tsconfig.json",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "libs/blog/tsconfig.lib.json",
+          "hash": "1536859351713546153"
+        }
+      ],
+      "shell": [
+        {
+          "file": "libs/shell/.eslintrc.json",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "libs/shell/README.md",
+          "hash": "7832553801660787579"
+        },
+        {
+          "file": "libs/shell/project.json",
+          "hash": "15867502267133308927"
+        },
+        {
+          "file": "libs/shell/src/index.ts",
+          "hash": "714126708456825226"
+        },
+        {
+          "file": "libs/shell/src/lib/landing-page-shell.tsx",
+          "hash": "2647190335989047141",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shell/src/lib/placeholders/index.ts",
+          "hash": "2034378407129914187"
+        },
+        {
+          "file": "libs/shell/src/lib/placeholders/under-construction.tsx",
+          "hash": "14792698023267673723",
+          "deps": [
+            "npm:@spwntch/typography",
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shell/src/lib/shell-provider.tsx",
+          "hash": "14557982731696966859",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shell/src/lib/utils/get-base-url.ts",
+          "hash": "11937989885357999811"
+        },
+        {
+          "file": "libs/shell/src/lib/utils/index.ts",
+          "hash": "11441571083101614848"
+        },
+        {
+          "file": "libs/shell/src/lib/website-shell.tsx",
+          "hash": "1760515841927761029",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "libs/shell/src/server.ts",
+          "hash": "10681759893846890525"
+        },
+        {
+          "file": "libs/shell/tsconfig.json",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "libs/shell/tsconfig.lib.json",
+          "hash": "1536859351713546153"
+        }
+      ],
+      "workspace-generator": [
+        {
+          "file": "packages/workspace-generator/.eslintrc.json",
+          "hash": "13652834183378505287"
+        },
+        {
+          "file": "packages/workspace-generator/README.md",
+          "hash": "8732990413565567870"
+        },
+        {
+          "file": "packages/workspace-generator/generators.json",
+          "hash": "12551248014665937704"
+        },
+        {
+          "file": "packages/workspace-generator/jest.config.ts",
+          "hash": "11377190379470520036"
+        },
+        {
+          "file": "packages/workspace-generator/package.json",
+          "hash": "6798067387737067327",
+          "deps": [
+            "npm:@nx/devkit",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/workspace-generator/project.json",
+          "hash": "1784694952402058621"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/.eslintrc.json.template",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/project.json.template",
+          "hash": "17995404027884345993"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/index.ts.template",
+          "hash": "905650602909758149"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/client-components/blog.tsx.template",
+          "hash": "5658098825877812075"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/client-components/index.ts.template",
+          "hash": "18193098818058390162"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/client-components/post.tsx.template",
+          "hash": "5705102492957395791"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/utils/flatten-toc-tree.ts.template",
+          "hash": "9169440642522055509"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/utils/index.ts.template",
+          "hash": "9425565761896693120"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/utils/parse-mdx-file-buffer.ts.template",
+          "hash": "2750688471134663174"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/lib/utils/parse-mdx.ts.template",
+          "hash": "10575992993145885086"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/src/server.ts.template",
+          "hash": "10681759893846890525"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/tsconfig.json.template",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/files/tsconfig.lib.json.template",
+          "hash": "1536859351713546153"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/generator.ts",
+          "hash": "3749148633112553791",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/schema.d.ts",
+          "hash": "4405613121203458179"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/blog/schema.json",
+          "hash": "7498235905596480842"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/.eslintignore.template",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/.eslintrc.json.template",
+          "hash": "17866138117546000433"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/.gitignore.template",
+          "hash": "10541045656762387692"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/.prettierignore.template",
+          "hash": "16448050467312557263"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/.prettierrc.template",
+          "hash": "16267754514737964994"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/.vscode/extensions.json.template",
+          "hash": "4134969992917317260"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/blog/images/the-real-reason-you-need-an-icp.webp",
+          "hash": "15339505607948473809"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/blog/the-real-reason-you-need-an-icp.mdx",
+          "hash": "6964567103575549971"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/logo-dark.png",
+          "hash": "7524399486340744687"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/logo-primary.png",
+          "hash": "9240699664547374939"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/mark-dark.png",
+          "hash": "3372600162083805323"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/mark-primary.png",
+          "hash": "5011875870375317904"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/public/logo-dark.webp",
+          "hash": "16551496858569245779"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/public/logo-primary.webp",
+          "hash": "7607956194755065429"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/public/mark-dark.webp",
+          "hash": "11636059851710249697"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/brand/public/mark-primary.webp",
+          "hash": "799024696245523514"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/images/public/ux-is-like-venus-dev-is-like-mars.webp",
+          "hash": "14053305553666314356"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/android-chrome-192x192.png",
+          "hash": "8114911226169620489"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/android-chrome-512x512.png",
+          "hash": "9552462830472800023"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/apple-touch-icon.png",
+          "hash": "14563005711934148075"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/favicon-16x16.png",
+          "hash": "3220572054297306085"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/favicon-32x32.png",
+          "hash": "9783301614136931450"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/favicon.ico.template",
+          "hash": "9587080618878691918"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/assets/spwn/web-assets/site.webmanifest.template",
+          "hash": "11205980641497128048"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/nx.json.template",
+          "hash": "15269685330548917910"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/tools/scripts/webp.sh.template",
+          "hash": "13908020128466702748"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/files/tsconfig.base.json.template",
+          "hash": "6574618114445849450"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/generator.ts",
+          "hash": "7312414058588973030",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/schema.d.ts",
+          "hash": "10072119452518123136"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/preset/schema.json",
+          "hash": "8459719347428639677"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/.eslintrc.json.template",
+          "hash": "17634051385250086705"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/index.d.ts.template",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/next-env.d.ts.template",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/next.config.js.template",
+          "hash": "4640182932892698362"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/postcss.config.js.template",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/project.json.template",
+          "hash": "150366522280886487"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/public/.gitkeep.template",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/public/favicon.ico.template",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/src/app/global.css.template",
+          "hash": "6762443780414642896"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/src/app/layout.tsx.template",
+          "hash": "14491864796338118686"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/src/app/page.tsx.template",
+          "hash": "11638580336929259360"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/src/config/index.ts.template",
+          "hash": "3611568259284429067"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/tailwind.config.js.template",
+          "hash": "14792983161946756835"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/files/tsconfig.json.template",
+          "hash": "13590509479229537148"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/generator.ts",
+          "hash": "1724994187033585349",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/schema.d.ts",
+          "hash": "1066823709454348900"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-landing-page/schema.json",
+          "hash": "12086974373674957527"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/.eslintrc.json.template",
+          "hash": "2756277709652746935"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/index.d.ts.template",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/next-env.d.ts.template",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/next.config.js.template",
+          "hash": "4640182932892698362"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/postcss.config.js.template",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/project.json.template",
+          "hash": "4033170994830503696"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/app/[...path]/page.tsx.template",
+          "hash": "12296734911839216892"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/app/blog/[slug]/page.tsx.template",
+          "hash": "6612399282102976372"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/app/blog/page.tsx.template",
+          "hash": "3419964089082661498"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/app/global.css.template",
+          "hash": "15738469282247195796"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/app/layout.tsx.template",
+          "hash": "2353453520999987471"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/app/page.tsx.template",
+          "hash": "11638580336929259360"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/config/blog.ts.template",
+          "hash": "14086857698284297242"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/config/brand.ts.template",
+          "hash": "9181746479952340722"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/config/index.ts.template",
+          "hash": "6626424690932341106"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/src/config/nav.ts.template",
+          "hash": "1421430316209543950"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/tailwind.config.js.template",
+          "hash": "15913249569166804253"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/files/tsconfig.json.template",
+          "hash": "13037742326240386870"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/generator.ts",
+          "hash": "15601511853796061798",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/schema.d.ts",
+          "hash": "18406431130513810386"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/sample-website/schema.json",
+          "hash": "17027049306122732915"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/.eslintrc.json.template",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/README.md.template",
+          "hash": "7832553801660787579"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/project.json.template",
+          "hash": "15867502267133308927"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/index.ts.template",
+          "hash": "714126708456825226"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/landing-page-shell.tsx.template",
+          "hash": "2647190335989047141"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/placeholders/index.ts.template",
+          "hash": "2034378407129914187"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/placeholders/under-construction.tsx.template",
+          "hash": "17920605695110476080"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/shell-provider.tsx.template",
+          "hash": "14557982731696966859"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/utils/get-base-url.ts.template",
+          "hash": "11937989885357999811"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/utils/index.ts.template",
+          "hash": "11441571083101614848"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/lib/website-shell.tsx.template",
+          "hash": "3336057706870984537"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/src/server.ts.template",
+          "hash": "10681759893846890525"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/tsconfig.json.template",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/files/tsconfig.lib.json.template",
+          "hash": "1536859351713546153"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/generator.ts",
+          "hash": "16795751906774929831",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/schema.d.ts",
+          "hash": "15568439780571163089"
+        },
+        {
+          "file": "packages/workspace-generator/src/generators/shell/schema.json",
+          "hash": "4523794109853403061"
+        },
+        {
+          "file": "packages/workspace-generator/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/workspace-generator/tsconfig.json",
+          "hash": "2840670722752396445"
+        },
+        {
+          "file": "packages/workspace-generator/tsconfig.lib.json",
+          "hash": "7687234534699237272"
+        },
+        {
+          "file": "packages/workspace-generator/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ]
+    }
+  }
+}
