@@ -1,6 +1,5 @@
 'use client';
-import { Article, IMdxDoc } from '@spwntch/mdx';
-import { useRouter } from 'next/navigation';
+import { IMdxDoc } from '@spwntch/mdx';
 
 interface IPostProps {
   backTo?: { label?: string; href: string };
@@ -8,22 +7,24 @@ interface IPostProps {
 }
 
 export const Post = ({ backTo, doc }: IPostProps) => {
-  const router = useRouter();
+  // const router = useRouter();
 
-  const handleBackYo = (href: string) => {
-    router.push(href);
-  };
+  // const handleBackYo = (href: string) => {
+  //   router.push(href);
+  // };
 
-  const handleToc = (href: string) => {
-    router.push(href);
-  };
+  // const handleToc = (href: string) => {
+  //   router.push(href);
+  // };
 
-  return (
-    <Article
-      backTo={backTo}
-      onBackTo={handleBackYo}
-      onToc={handleToc}
-      {...doc}
-    />
-  );
+  return <div>Article goes here</div>;
+
+  // return (
+  //   <Article
+  //     backTo={backTo}
+  //     onBackTo={handleBackYo}
+  //     onToc={handleToc}
+  //     {...doc}
+  //   />
+  // );
 };
