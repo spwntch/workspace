@@ -25,6 +25,11 @@
             "output": "images"
           },
           {
+            "input": "assets/acme/client-logos",
+            "glob": "*.svg",
+            "output": "client-logos"
+          },
+          {
             "glob": "**/*",
             "input": "assets/spwn/blog/",
             "output": "blog"

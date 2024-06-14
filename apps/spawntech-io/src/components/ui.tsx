@@ -1,5 +1,5 @@
 'use client';
-import { Announcement, ButtonGroup } from '@spwntch/components';
+import { Announcement, ButtonGroup, LogoCloud } from '@spwntch/components';
 import { H2, H4, Lead } from '@spwntch/typography';
 import {
   Accordion,
@@ -8,6 +8,46 @@ import {
   AccordionTrigger,
   Button,
 } from '@spwntch/ui';
+
+export const MyLogoCloud = () => (
+  <LogoCloud
+    logos={[
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/nairobi-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/hamilton-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/theo-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/brooklyn-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/oslo-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/phoenix-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/scale-colored.svg',
+      },
+      {
+        alt: 'This is a fake logo.',
+        src: '/client-logos/milano-colored.svg',
+      },
+    ]}
+    title="Our Partners"
+  />
+);
 
 const MyComponents = () => (
   <div className="mx-auto w-fit">
@@ -89,6 +129,7 @@ export const Ui = () => {
   return (
     <>
       <MyTypography />
+      <MyLogoCloud />
       <MyComponents />
       <Button className="m-4">CLICK ME</Button>
       <ButtonGroup stacked>
