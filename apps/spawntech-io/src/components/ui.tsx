@@ -1,5 +1,5 @@
 'use client';
-import { ButtonGroup } from '@spwntch/components';
+import { Announcement, ButtonGroup } from '@spwntch/components';
 import { H2, H4, Lead } from '@spwntch/typography';
 import {
   Accordion,
@@ -8,6 +8,12 @@ import {
   AccordionTrigger,
   Button,
 } from '@spwntch/ui';
+
+const MyComponents = () => (
+  <div className="mx-auto w-fit">
+    <Announcement href="" message="asdasd" />
+  </div>
+);
 
 const MyTypography = () => (
   <>
@@ -83,6 +89,7 @@ export const Ui = () => {
   return (
     <>
       <MyTypography />
+      <MyComponents />
       <Button className="m-4">CLICK ME</Button>
       <ButtonGroup stacked>
         <Button>CLICK ME</Button>
