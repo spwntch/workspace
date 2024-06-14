@@ -12,8 +12,8 @@ dependencies:
     specifier: 0.61.9
     version: 0.61.9
   '@spwntch/components':
-    specifier: 0.61.27
-    version: 0.61.27(@spwntch/typography@0.61.27)(@spwntch/ui@0.61.27)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.61.28
+    version: 0.61.28(@spwntch/typography@0.61.28)(@spwntch/ui@0.61.28)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1)
   '@spwntch/mdx':
     specifier: 0.61.9
     version: 0.61.9
@@ -24,11 +24,11 @@ dependencies:
     specifier: 0.61.9
     version: 0.61.9
   '@spwntch/typography':
-    specifier: 0.61.27
-    version: 0.61.27(@spwntch/ui@0.61.27)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.61.28
+    version: 0.61.28(@spwntch/ui@0.61.28)(react-dom@18.3.1)(react@18.3.1)
   '@spwntch/ui':
-    specifier: 0.61.27
-    version: 0.61.27(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+    specifier: 0.61.28
+    version: 0.61.28(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
   create-nx-workspace:
     specifier: 19.2.3
     version: 19.2.3
@@ -3563,8 +3563,8 @@ packages:
     resolution: {integrity: sha512-kLPme/IoLPnirACB/z/IqO5AAdLXU+zRHUWSrprLcSjLjbtf45LnRiNCdJkw6vJkRwf+f1uEdPGbwOWVsvLCRg==}
     dev: false
 
-  /@spwntch/components@0.61.27(@spwntch/typography@0.61.27)(@spwntch/ui@0.61.27)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-JRJk/BPMDPgv8Jp2IqQD1KF1bZpSTOY/NPU4a3gwbzq8MQrBUZCSxyuOZc2+z8J7VGHCIp7pLj36rHTUe88Brg==}
+  /@spwntch/components@0.61.28(@spwntch/typography@0.61.28)(@spwntch/ui@0.61.28)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-nb7PiMZVu82i6XuKJobOcBKJ4XHoPy09eykoT4eVRSDPcEBWEnBsTfNMXrNk6YoUkiLgA4aUBnxcdGVjkAEhAw==}
     peerDependencies:
       '@spwntch/typography': latest
       '@spwntch/ui': latest
@@ -3572,8 +3572,8 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1
     dependencies:
-      '@spwntch/typography': 0.61.27(@spwntch/ui@0.61.27)(react-dom@18.3.1)(react@18.3.1)
-      '@spwntch/ui': 0.61.27(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+      '@spwntch/typography': 0.61.28(@spwntch/ui@0.61.28)(react-dom@18.3.1)(react@18.3.1)
+      '@spwntch/ui': 0.61.28(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
       embla-carousel-autoplay: 8.1.5(embla-carousel@8.1.5)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -3605,20 +3605,20 @@ packages:
     resolution: {integrity: sha512-6macQBBXTf7DRrlZWspxekPLscM1iEzRTj8PfQoOXOJOrBR8qg/dfQaIlalDIKXbYPL232e/oDGapYwiyrJTiA==}
     dev: false
 
-  /@spwntch/typography@0.61.27(@spwntch/ui@0.61.27)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-ZmzMo87K94gnqjEo22tS/f7vBv4BO+0dlW8vbIycWoRR/AJy2kpOqBpup+XURHTH4A/OKXgHhN036q5dVBcNKg==}
+  /@spwntch/typography@0.61.28(@spwntch/ui@0.61.28)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-4ZtLTAamGnp00ecisjkbnAqSGr/SsCNWYZKkJQZqanOKvLnnwt4w5FD38jBNnIi4BbmW/CxVxiMGm9Q4IAZ3aw==}
     peerDependencies:
       '@spwntch/ui': latest
       react: 18.3.1
       react-dom: 18.3.1
     dependencies:
-      '@spwntch/ui': 0.61.27(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+      '@spwntch/ui': 0.61.28(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@spwntch/ui@0.61.27(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
-    resolution: {integrity: sha512-B5UHiFIYK/WxRsjBwVueA5j0WKjj3M0Jh8jjzUEVfQKNIEBdC78bhcQ8M/+Wuu+pKk9UyvOA8pbxNW1X1+6azg==}
+  /@spwntch/ui@0.61.28(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
+    resolution: {integrity: sha512-GvvC+Pkey9+HUQyoeYhUpGkxvfzLl2kN1foNZy/6RGDl3/M4EoT/cvY8UmL05c9Pesl59e70wmkWhWaeq9dKUw==}
     peerDependencies:
       '@radix-ui/react-accordion': ^1.1.2
       '@radix-ui/react-avatar': ^1.0.4
