@@ -3560,14 +3560,14 @@ packages:
     dev: true
 
   /@spwntch/blocks@0.62.0:
-    resolution: {integrity: sha512-/WBcZ049nPFmsZEL02jRpl/keqd+BGBqDtshJKiosPwOa4nZst22Dlsu75Y56H/LVVWY/EgeJs0xw9BInb2ZTw==}
+    resolution: {integrity: sha512-e3xQ3Pq9ubHFt4pEAxTLVqzNXcf/Hl4HaMOk0SObPItzzBCDrBjm8t84KhSBhn81e0SrhDBRzlfT2CLcVp5T5w==}
     dev: false
 
   /@spwntch/components@0.62.0(@spwntch/typography@0.62.0)(@spwntch/ui@0.62.0)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-eQxBz0IWNSS1vIrKAYEsXAxgV9FQnGpjJhuLD8RWbNGTLplAhW9l69PEzHs4Qvs8FGh1JIuPmZQT+YovjDnx1A==}
+    resolution: {integrity: sha512-C5L5s1UFsu6YIhtRCpBCQz+tP3EDldg5FNmQO98jlt9TYF4x+DyFFy2bg00X2T4abn/85CT5KqxYPtb9sMrFwQ==}
     peerDependencies:
-      '@spwntch/typography': ^0.61.33
-      '@spwntch/ui': ^0.61.33
+      '@spwntch/typography': '0.62'
+      '@spwntch/ui': '0.62'
       embla-carousel-autoplay: ^8.1.3
       react: 18.3.1
       react-dom: 18.3.1
@@ -3580,11 +3580,11 @@ packages:
     dev: false
 
   /@spwntch/mdx@0.62.0:
-    resolution: {integrity: sha512-uf4NKLZ8ef5sz2hzUQhrib7Hj6AmsGXc/8dTtqV9BPwhiTNNQUXgo653B39lI8kaH4U7Qldgk39BNJ9oSHcZkQ==}
+    resolution: {integrity: sha512-YYCuASmdBpEdbuSa25hItLT+Wgi2SBDdd1YWGbEbdWwui3oNa01dPtXfwhbA4dqo9+RxbhINJcjHLqQ7a3c5MA==}
     dev: false
 
   /@spwntch/shell@0.62.0(@spwntch/typography@0.62.0)(@spwntch/ui@0.62.0)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-+9BARLzLQuXXWLimk4FIO3+RtxcBL+A/KySIf6a/1XrYBb8iTJMBimUEsjtXh5q3Rjoy9+m0XC3Yg+cvcZUObQ==}
+    resolution: {integrity: sha512-qbwZ+1sx4ALzPOB1NVgXuAslgILcgtsmYmPtHLGdmrfhrwGRLzEB2R1Urra0TolPCZiWdg4ZYl/fU2SVS7IMrg==}
     dependencies:
       '@spwntch/components': 0.62.0(@spwntch/typography@0.62.0)(@spwntch/ui@0.62.0)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1)
       lucide-react: 0.360.0(react@18.3.1)
@@ -3602,9 +3602,9 @@ packages:
     dev: false
 
   /@spwntch/typography@0.62.0(@spwntch/ui@0.62.0)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-qch+U5bjHYqi4IahHmrDCUgAEdux5ylOXU1MPsf4YzdS2NNlcINmGf3MPpXwqPkG3hIks9wfWG2oC1NwMfYauQ==}
+    resolution: {integrity: sha512-fWURm5+XIOM0nR8GtOL6SVbjisy80ovu02UXjHVG4sYTTAK+5wcmJ4XDB19b3Z2vwG+D0m7SvuraylUwea/0Pg==}
     peerDependencies:
-      '@spwntch/ui': ^0.61.33
+      '@spwntch/ui': '0.62'
       react: 18.3.1
       react-dom: 18.3.1
     dependencies:
@@ -3614,7 +3614,7 @@ packages:
     dev: false
 
   /@spwntch/ui@0.62.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
-    resolution: {integrity: sha512-nPfXIVoJOFaGdkn8qdhu21EHBS/HkzBKLKwJUKn3pCTefViAlaZfwKz15Gf/ZAIrt/L7sS1jeVtpK76GVdnqbg==}
+    resolution: {integrity: sha512-n5f8c1bXVzlfsdkyJ1Gm7eJ+cABrWyQ6NBkn6Vp4F8kUkSCKDhaHJpZNTdzmTsh6h5p/K7+Fu5ZGR3WX6NKjVg==}
     peerDependencies:
       '@radix-ui/react-accordion': ^1.1.2
       '@radix-ui/react-avatar': ^1.0.4
