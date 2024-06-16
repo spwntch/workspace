@@ -2679,6 +2679,24 @@
         "hash": "sha512-fyrgCaedtvMg9NK3en0pnOYJdtfwxUcNolezkNPUsoX57X8oQk+NkqcvzHXD2uKNij6GXmWU9NDru2IWjrO4BQ=="
       }
     },
+    "npm:@react-hooks-library/core": {
+      "type": "npm",
+      "name": "npm:@react-hooks-library/core",
+      "data": {
+        "version": "0.6.2",
+        "packageName": "@react-hooks-library/core",
+        "hash": "sha512-Ca6ccj9mfUiQ0hbDJV0hzUaweZU7D0E5Xwtp3ba5oT6/yWj1tzoPe0y3AwGQyUSUKA5G6OADylU2fwEqZwrpNA=="
+      }
+    },
+    "npm:@react-hooks-library/shared": {
+      "type": "npm",
+      "name": "npm:@react-hooks-library/shared",
+      "data": {
+        "version": "0.6.2",
+        "packageName": "@react-hooks-library/shared",
+        "hash": "sha512-tasvVgcoRhnHYZSVfQjDK7VDviVrO9BqqS/yEvjJ4/QRTVFQTNmt5Jfj3ym0Uju2B63Dc9892DuLhb9V9oysWA=="
+      }
+    },
     "npm:@rushstack/eslint-patch": {
       "type": "npm",
       "name": "npm:@rushstack/eslint-patch",
@@ -2728,63 +2746,63 @@
       "type": "npm",
       "name": "npm:@spwntch/blocks",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/blocks",
-        "hash": "sha512-/0e46ofSj4Ubo6UoD3u6Tbgbf7WuFO0nOTjKtEEnRzvg6eSIs37QuVbrm2lEKJlOJq2AC93xaztyXNgaurK7zg=="
+        "hash": "sha512-97+U6UVfVj/Tsp0z2Zk+hPRxEpZ4MZBRG9V8337o9TzBsMGHz/H7XFxusXqOEQWDJdffD2mT6Znml91E1RefRA=="
       }
     },
     "npm:@spwntch/components": {
       "type": "npm",
       "name": "npm:@spwntch/components",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/components",
-        "hash": "sha512-ob5C6Kmg60iM+Gy02H8zObEMQYUtL29jVI7Y33Fx0nToLrVQq5Rt8D2qmNm7QPbuyvawg4/AG6ZL26//CYqcFQ=="
+        "hash": "sha512-Vw/16JWVBqCL99H2RqdN1mE0PFkgsm9dLvZ6UPYRsjEb92JgG2k5ffDV+0KWb6dx/SGz2N3CGzchQWdHSeM0DQ=="
       }
     },
     "npm:@spwntch/mdx": {
       "type": "npm",
       "name": "npm:@spwntch/mdx",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/mdx",
-        "hash": "sha512-d4VPDgsd0TcawoHN+MOa7P97ht1nPy7jwVaTNEW4ir3cxTyv67XEvbR4xn/sIftDcr57k0cKY6xh2K7+FYSi/g=="
+        "hash": "sha512-SVcvsx1H3t9ujIKpf3kF3bUuISWTl7/9YyHs4mV4sVeYZgPXffmxtpJLbBK85/l8Jkt7zk62AuiXAAnmoIUYfw=="
       }
     },
     "npm:@spwntch/shell": {
       "type": "npm",
       "name": "npm:@spwntch/shell",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/shell",
-        "hash": "sha512-7OMvOSoKi3+bI+If0hY6ysGGr36Ru74wfmIXrwP72fWf8MtJUFNTNn29sFb98vhg8vPq7oK9Z2W6blOO8NyJ9A=="
+        "hash": "sha512-D+31QeCQ080QDlIrqSM0FCXQeuLZzeW3waH+SUE0IQ1wnNLovLaIKiiCQn8HsgEm2BL/xXr64b/MgPixv6sSZA=="
       }
     },
     "npm:@spwntch/tailwind": {
       "type": "npm",
       "name": "npm:@spwntch/tailwind",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/tailwind",
-        "hash": "sha512-0VOYz1V84fFufw2pRqf52ImjNxYGk2i2W6GvmVc9CgvvlgLFj5gnaX88/9ee2fEynCrW4Zgll4wUaqSfE31lpw=="
+        "hash": "sha512-zWkn2XM6j8dVYsJkBj8aArjSwaIylVkfCoHpdTdXpZGDJK+jTytoRjyvVEBRSL9mpeKnf7R9T7FyjAVqaI4ZQQ=="
       }
     },
     "npm:@spwntch/typography": {
       "type": "npm",
       "name": "npm:@spwntch/typography",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/typography",
-        "hash": "sha512-X7v07Lq+GtD1H475wfOBcXvtAXjJc90C0lCyTTHneVB11Ysd/MAA4Lr44lVbJJJ18nS+vibtWz+bbSMO60g2FA=="
+        "hash": "sha512-lefJIv6TdpT+za/dbtPVDZ2j5eo5LW92MwOs0iADbkCDPFDLxhUuU9FAd9/vzXPc8HustpilkN7pJul6bDGQ5A=="
       }
     },
     "npm:@spwntch/ui": {
       "type": "npm",
       "name": "npm:@spwntch/ui",
       "data": {
-        "version": "0.62.1",
+        "version": "0.62.2",
         "packageName": "@spwntch/ui",
-        "hash": "sha512-zBVb2qtYhfPxzz4NP7JxGge2CZU0RKIFKSRoHS0AkO+n+3ehQ0bRrER6ZiuMxMA+dcPZOcJurSUMft6qPjzUkA=="
+        "hash": "sha512-iPyMtj/fk3OlaasY7lZdZJC0SaBljNc9eLVu0GZRUdEn8t1DHYdYrcskWfGfx/ujkwGdWg3j6bDsLUoNVph7bg=="
       }
     },
     "npm:@svgr/babel-plugin-add-jsx-attribute": {
@@ -9645,6 +9663,15 @@
         "hash": "sha512-wM1+Z03eypVAVUCE7QdSqpVIvelbOakn1M0bPDoA4SGWPx3sNDVUiMo3L6To6WWGClB7VyXnhQ4Sn7gxiJbE6A=="
       }
     },
+    "npm:load-script": {
+      "type": "npm",
+      "name": "npm:load-script",
+      "data": {
+        "version": "1.0.0",
+        "packageName": "load-script",
+        "hash": "sha512-kPEjMFtZvwL9TaZo0uZ2ml+Ye9HUMmPwbYRJ324qF9tqMejwykJ5ggTyvzmrbBeapCAbk98BSbTeovHEEP1uCA=="
+      }
+    },
     "npm:loader-runner": {
       "type": "npm",
       "name": "npm:loader-runner",
@@ -12597,6 +12624,15 @@
         "hash": "sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g=="
       }
     },
+    "npm:react-youtube": {
+      "type": "npm",
+      "name": "npm:react-youtube",
+      "data": {
+        "version": "10.1.0",
+        "packageName": "react-youtube",
+        "hash": "sha512-ZfGtcVpk0SSZtWCSTYOQKhfx5/1cfyEW1JN/mugGNfAxT3rmVJeMbGpA9+e78yG21ls5nc/5uZJETE3cm3knBg=="
+      }
+    },
     "npm:react": {
       "type": "npm",
       "name": "npm:react",
@@ -13369,6 +13405,15 @@
         "version": "3.0.7",
         "packageName": "signal-exit",
         "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ=="
+      }
+    },
+    "npm:sister": {
+      "type": "npm",
+      "name": "npm:sister",
+      "data": {
+        "version": "3.0.2",
+        "packageName": "sister",
+        "hash": "sha512-p19rtTs+NksBRKW9qn0UhZ8/TUI9BPw9lmtHny+Y3TinWlOa9jWh9xB0AtPSdmOy49NJJJSSe0Ey4C7h0TrcYA=="
       }
     },
     "npm:sisteransi": {
@@ -15250,6 +15295,15 @@
         "version": "1.0.0",
         "packageName": "yocto-queue",
         "hash": "sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g=="
+      }
+    },
+    "npm:youtube-player": {
+      "type": "npm",
+      "name": "npm:youtube-player",
+      "data": {
+        "version": "5.5.2",
+        "packageName": "youtube-player",
+        "hash": "sha512-ZGtsemSpXnDky2AUYWgxjaopgB+shFHgXVpiJFeNB5nWEugpW1KWYDaHKuLqh2b67r24GtP6HoSW5swvf0fFIQ=="
       }
     },
     "npm:yup": {
@@ -21547,6 +21601,18 @@
         "type": "static"
       }
     ],
+    "npm:@react-hooks-library/core": [
+      {
+        "source": "npm:@react-hooks-library/core",
+        "target": "npm:@react-hooks-library/shared",
+        "type": "static"
+      },
+      {
+        "source": "npm:@react-hooks-library/core",
+        "target": "npm:react",
+        "type": "static"
+      }
+    ],
     "npm:@sinonjs/commons": [
       {
         "source": "npm:@sinonjs/commons",
@@ -21564,6 +21630,11 @@
     "npm:@spwntch/components": [
       {
         "source": "npm:@spwntch/components",
+        "target": "npm:@react-hooks-library/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@spwntch/components",
         "target": "npm:@spwntch/typography",
         "type": "static"
       },
@@ -21579,12 +21650,27 @@
       },
       {
         "source": "npm:@spwntch/components",
+        "target": "npm:lucide-react@0.360.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:@spwntch/components",
         "target": "npm:react",
         "type": "static"
       },
       {
         "source": "npm:@spwntch/components",
         "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "npm:@spwntch/components",
+        "target": "npm:react-youtube",
+        "type": "static"
+      },
+      {
+        "source": "npm:@spwntch/components",
+        "target": "npm:lucide-react",
         "type": "static"
       }
     ],
@@ -34868,6 +34954,28 @@
         "type": "static"
       }
     ],
+    "npm:react-youtube": [
+      {
+        "source": "npm:react-youtube",
+        "target": "npm:fast-deep-equal",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-youtube",
+        "target": "npm:prop-types",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-youtube",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-youtube",
+        "target": "npm:youtube-player",
+        "type": "static"
+      }
+    ],
     "npm:react": [
       {
         "source": "npm:react",
@@ -38416,6 +38524,23 @@
       {
         "source": "npm:yargs",
         "target": "npm:yargs-parser",
+        "type": "static"
+      }
+    ],
+    "npm:youtube-player": [
+      {
+        "source": "npm:youtube-player",
+        "target": "npm:debug@2.6.9",
+        "type": "static"
+      },
+      {
+        "source": "npm:youtube-player",
+        "target": "npm:load-script",
+        "type": "static"
+      },
+      {
+        "source": "npm:youtube-player",
+        "target": "npm:sister",
         "type": "static"
       }
     ],
