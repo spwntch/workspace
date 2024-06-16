@@ -3,13 +3,13 @@
   "nxVersion": "19.2.3",
   "deps": {
     "@nx/devkit": "19.2.3",
-    "@spwntch/blocks": "0.62.2",
-    "@spwntch/components": "0.62.2",
-    "@spwntch/mdx": "0.62.2",
-    "@spwntch/shell": "0.62.2",
-    "@spwntch/tailwind": "0.62.2",
-    "@spwntch/typography": "0.62.2",
-    "@spwntch/ui": "0.62.2",
+    "@spwntch/blocks": "0.62.4",
+    "@spwntch/components": "0.62.4",
+    "@spwntch/mdx": "0.62.4",
+    "@spwntch/shell": "0.62.4",
+    "@spwntch/tailwind": "0.62.4",
+    "@spwntch/typography": "0.62.4",
+    "@spwntch/ui": "0.62.4",
     "create-nx-workspace": "19.2.3",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.378.0",
@@ -17,6 +17,7 @@
     "next-mdx-remote": "^4.4.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
+    "react-youtube": "^10.1.0",
     "rehype-slug": "^6.0.0",
     "rehype-toc": "^3.0.2",
     "remark-gfm": "^4.0.0",
@@ -110,6 +111,128 @@
   "fileMap": {
     "nonProjectFiles": [],
     "projectFileMap": {
+      "shell": [
+        {
+          "file": "libs/shell/.eslintrc.json",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "libs/shell/README.md",
+          "hash": "7832553801660787579"
+        },
+        {
+          "file": "libs/shell/project.json",
+          "hash": "15867502267133308927"
+        },
+        {
+          "file": "libs/shell/src/index.ts",
+          "hash": "714126708456825226"
+        },
+        {
+          "file": "libs/shell/src/lib/landing-page-shell.tsx",
+          "hash": "2647190335989047141",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shell/src/lib/placeholders/index.ts",
+          "hash": "2034378407129914187"
+        },
+        {
+          "file": "libs/shell/src/lib/placeholders/under-construction.tsx",
+          "hash": "14792698023267673723",
+          "deps": [
+            "npm:@spwntch/typography",
+            "npm:next",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shell/src/lib/shell-provider.tsx",
+          "hash": "14557982731696966859",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "libs/shell/src/lib/utils/get-base-url.ts",
+          "hash": "11937989885357999811"
+        },
+        {
+          "file": "libs/shell/src/lib/utils/index.ts",
+          "hash": "11441571083101614848"
+        },
+        {
+          "file": "libs/shell/src/lib/website-shell.tsx",
+          "hash": "1760515841927761029",
+          "deps": [
+            "npm:react",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "libs/shell/src/server.ts",
+          "hash": "10681759893846890525"
+        },
+        {
+          "file": "libs/shell/tsconfig.json",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "libs/shell/tsconfig.lib.json",
+          "hash": "1536859351713546153"
+        }
+      ],
+      "spawn-workspace": [
+        {
+          "file": "packages/spawn-workspace/.eslintrc.json",
+          "hash": "12242489558396071227"
+        },
+        {
+          "file": "packages/spawn-workspace/README.md",
+          "hash": "9239246594855902891"
+        },
+        {
+          "file": "packages/spawn-workspace/bin/index.ts",
+          "hash": "9390276160542554543",
+          "deps": [
+            "npm:@clack/prompts",
+            "npm:@nx/devkit",
+            "npm:create-nx-workspace"
+          ]
+        },
+        {
+          "file": "packages/spawn-workspace/jest.config.ts",
+          "hash": "11255442374739582687"
+        },
+        {
+          "file": "packages/spawn-workspace/package.json",
+          "hash": "6772671325220483406",
+          "deps": [
+            "npm:@clack/prompts",
+            "npm:@nx/devkit",
+            "npm:create-nx-workspace",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "packages/spawn-workspace/project.json",
+          "hash": "13219759109535175235"
+        },
+        {
+          "file": "packages/spawn-workspace/tsconfig.json",
+          "hash": "2840670722752396445"
+        },
+        {
+          "file": "packages/spawn-workspace/tsconfig.lib.json",
+          "hash": "17109908530143185346"
+        },
+        {
+          "file": "packages/spawn-workspace/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
       "@spwntch/workspace": [
         {
           "file": ".editorconfig",
@@ -367,7 +490,7 @@
         },
         {
           "file": "package.json",
-          "hash": "26882667731724039",
+          "hash": "18225248120721505936",
           "deps": [
             "npm:@clack/prompts",
             "npm:@nx/eslint",
@@ -421,7 +544,10 @@
             "npm:typescript",
             "npm:verdaccio",
             "npm:@nx/devkit",
+            "npm:@spwntch/blocks",
             "npm:@spwntch/components",
+            "npm:@spwntch/mdx",
+            "npm:@spwntch/shell",
             "npm:@spwntch/tailwind",
             "npm:@spwntch/typography",
             "npm:@spwntch/ui",
@@ -432,6 +558,7 @@
             "npm:next-mdx-remote",
             "npm:react",
             "npm:react-dom",
+            "npm:react-youtube",
             "npm:rehype-slug",
             "npm:rehype-toc",
             "npm:remark-gfm",
@@ -440,7 +567,7 @@
         },
         {
           "file": "pnpm-lock.yaml",
-          "hash": "13182784160405291563"
+          "hash": "28675954119357201"
         },
         {
           "file": "project.json",
@@ -469,416 +596,10 @@
         {
           "file": "tsconfig.base.json",
           "hash": "9791708736422467802"
-        }
-      ],
-      "blog": [
-        {
-          "file": "libs/blog/.eslintrc.json",
-          "hash": "889646198666480193"
-        },
-        {
-          "file": "libs/blog/README.md",
-          "hash": "18284705770695866814"
-        },
-        {
-          "file": "libs/blog/project.json",
-          "hash": "17995404027884345993"
-        },
-        {
-          "file": "libs/blog/src/index.ts",
-          "hash": "905650602909758149"
-        },
-        {
-          "file": "libs/blog/src/lib/client-components/blog.tsx",
-          "hash": "11887969687945723117",
-          "deps": [
-            "npm:@spwntch/components"
-          ]
-        },
-        {
-          "file": "libs/blog/src/lib/client-components/index.ts",
-          "hash": "18193098818058390162"
-        },
-        {
-          "file": "libs/blog/src/lib/client-components/post.tsx",
-          "hash": "10188029271413075813"
-        },
-        {
-          "file": "libs/blog/src/lib/utils/flatten-toc-tree.ts",
-          "hash": "9169440642522055509",
-          "deps": [
-            "npm:rehype-toc"
-          ]
-        },
-        {
-          "file": "libs/blog/src/lib/utils/index.ts",
-          "hash": "9425565761896693120"
-        },
-        {
-          "file": "libs/blog/src/lib/utils/parse-mdx-file-buffer.ts",
-          "hash": "2750688471134663174",
-          "deps": [
-            "npm:gray-matter"
-          ]
-        },
-        {
-          "file": "libs/blog/src/lib/utils/parse-mdx.ts",
-          "hash": "10575992993145885086",
-          "deps": [
-            "npm:next-mdx-remote",
-            "npm:rehype-slug",
-            "npm:rehype-toc",
-            "npm:remark-gfm"
-          ]
-        },
-        {
-          "file": "libs/blog/src/server.ts",
-          "hash": "10681759893846890525"
-        },
-        {
-          "file": "libs/blog/tsconfig.json",
-          "hash": "14088618039610991405"
-        },
-        {
-          "file": "libs/blog/tsconfig.lib.json",
-          "hash": "1536859351713546153"
-        }
-      ],
-      "spawn-workspace": [
-        {
-          "file": "packages/spawn-workspace/.eslintrc.json",
-          "hash": "12242489558396071227"
-        },
-        {
-          "file": "packages/spawn-workspace/README.md",
-          "hash": "9239246594855902891"
-        },
-        {
-          "file": "packages/spawn-workspace/bin/index.ts",
-          "hash": "9390276160542554543",
-          "deps": [
-            "npm:@clack/prompts",
-            "npm:@nx/devkit",
-            "npm:create-nx-workspace"
-          ]
-        },
-        {
-          "file": "packages/spawn-workspace/jest.config.ts",
-          "hash": "11255442374739582687"
-        },
-        {
-          "file": "packages/spawn-workspace/package.json",
-          "hash": "6772671325220483406",
-          "deps": [
-            "npm:@clack/prompts",
-            "npm:@nx/devkit",
-            "npm:create-nx-workspace",
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "packages/spawn-workspace/project.json",
-          "hash": "13219759109535175235"
-        },
-        {
-          "file": "packages/spawn-workspace/tsconfig.json",
-          "hash": "2840670722752396445"
-        },
-        {
-          "file": "packages/spawn-workspace/tsconfig.lib.json",
-          "hash": "17109908530143185346"
-        },
-        {
-          "file": "packages/spawn-workspace/tsconfig.spec.json",
-          "hash": "11550347367511341917"
-        }
-      ],
-      "spawntech-io": [
-        {
-          "file": "apps/spawntech-io/.eslintrc.json",
-          "hash": "4464528437795384303"
-        },
-        {
-          "file": "apps/spawntech-io/index.d.ts",
-          "hash": "5498222895072842432"
-        },
-        {
-          "file": "apps/spawntech-io/next-env.d.ts",
-          "hash": "5909181270615354023"
-        },
-        {
-          "file": "apps/spawntech-io/next.config.js",
-          "hash": "4640182932892698362",
-          "deps": [
-            "npm:@nx/next"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/postcss.config.js",
-          "hash": "2759402739052110475"
-        },
-        {
-          "file": "apps/spawntech-io/project.json",
-          "hash": "12412157282869339147"
-        },
-        {
-          "file": "apps/spawntech-io/public/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/spawntech-io/public/blog/images/the-real-reason-you-need-an-icp.webp",
-          "hash": "15339505607948473809"
-        },
-        {
-          "file": "apps/spawntech-io/public/blog/the-real-reason-you-need-an-icp.mdx",
-          "hash": "6964567103575549971"
-        },
-        {
-          "file": "apps/spawntech-io/public/brand/logo-dark.webp",
-          "hash": "16551496858569245779"
-        },
-        {
-          "file": "apps/spawntech-io/public/brand/logo-primary.webp",
-          "hash": "7607956194755065429"
-        },
-        {
-          "file": "apps/spawntech-io/public/brand/mark-dark.webp",
-          "hash": "11636059851710249697"
-        },
-        {
-          "file": "apps/spawntech-io/public/brand/mark-primary.webp",
-          "hash": "799024696245523514"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/brooklyn-colored.svg",
-          "hash": "14033186344726192464"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/brooklyn-white.svg",
-          "hash": "11302234494895578339"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/hamilton-colored.svg",
-          "hash": "2182651212937112872"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/hamilton-white.svg",
-          "hash": "1991922987080715257"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/milano-colored.svg",
-          "hash": "10090753211955464089"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/milano-white.svg",
-          "hash": "11781281719865948414"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/nairobi-colored.svg",
-          "hash": "16799208149538700876"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/nairobi-white.svg",
-          "hash": "17851291666255009939"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/oslo-colored.svg",
-          "hash": "2850896810274496484"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/oslo-white.svg",
-          "hash": "330597734108700491"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/phoenix-colored.svg",
-          "hash": "8501912578857192321"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/phoenix-white.svg",
-          "hash": "15295698794631968388"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/san-francisco-colored.svg",
-          "hash": "1078047688663245723"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/san-francisco-white.svg",
-          "hash": "1985986977125421933"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/scale-colored.svg",
-          "hash": "5715571559607650735"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/scale-white.svg",
-          "hash": "12897679746013097733"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/theo-colored.svg",
-          "hash": "17510199779174575551"
-        },
-        {
-          "file": "apps/spawntech-io/public/client-logos/theo-white.svg",
-          "hash": "9832168916226746358"
-        },
-        {
-          "file": "apps/spawntech-io/public/favicon.ico",
-          "hash": "9587080618878691918"
-        },
-        {
-          "file": "apps/spawntech-io/public/images/ux-is-like-venus-dev-is-like-mars.webp",
-          "hash": "14053305553666314356"
-        },
-        {
-          "file": "apps/spawntech-io/src/app/[...path]/page.tsx",
-          "hash": "12296734911839216892",
-          "deps": [
-            "shell"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/src/app/blog/[slug]/page.tsx",
-          "hash": "6612399282102976372",
-          "deps": [
-            "blog",
-            "npm:next"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/src/app/blog/page.tsx",
-          "hash": "8473642657181006313",
-          "deps": [
-            "blog"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/src/app/global.css",
-          "hash": "12374030673200145761"
-        },
-        {
-          "file": "apps/spawntech-io/src/app/layout.tsx",
-          "hash": "2353453520999987471",
-          "deps": [
-            "shell"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/src/app/page.tsx",
-          "hash": "3616132839226228850"
-        },
-        {
-          "file": "apps/spawntech-io/src/components/ui.tsx",
-          "hash": "13657663590836338357",
-          "deps": [
-            "npm:@spwntch/components",
-            "npm:@spwntch/typography",
-            "npm:@spwntch/ui"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/src/config/blog.ts",
-          "hash": "15790394807152606323",
-          "deps": [
-            "npm:@spwntch/components"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/src/config/brand.ts",
-          "hash": "8660203392248111241"
-        },
-        {
-          "file": "apps/spawntech-io/src/config/index.ts",
-          "hash": "6626424690932341106"
-        },
-        {
-          "file": "apps/spawntech-io/src/config/nav.ts",
-          "hash": "1421430316209543950"
-        },
-        {
-          "file": "apps/spawntech-io/tailwind.config.js",
-          "hash": "15913249569166804253",
-          "deps": [
-            "npm:@nx/react",
-            "npm:@spwntch/tailwind",
-            "npm:@tailwindcss/typography"
-          ]
-        },
-        {
-          "file": "apps/spawntech-io/tsconfig.json",
-          "hash": "11191177535688455456"
-        }
-      ],
-      "shell": [
-        {
-          "file": "libs/shell/.eslintrc.json",
-          "hash": "889646198666480193"
-        },
-        {
-          "file": "libs/shell/README.md",
-          "hash": "7832553801660787579"
-        },
-        {
-          "file": "libs/shell/project.json",
-          "hash": "15867502267133308927"
-        },
-        {
-          "file": "libs/shell/src/index.ts",
-          "hash": "714126708456825226"
-        },
-        {
-          "file": "libs/shell/src/lib/landing-page-shell.tsx",
-          "hash": "2647190335989047141",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/shell/src/lib/placeholders/index.ts",
-          "hash": "2034378407129914187"
-        },
-        {
-          "file": "libs/shell/src/lib/placeholders/under-construction.tsx",
-          "hash": "14792698023267673723",
-          "deps": [
-            "npm:@spwntch/typography",
-            "npm:next",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/shell/src/lib/shell-provider.tsx",
-          "hash": "14557982731696966859",
-          "deps": [
-            "npm:react"
-          ]
-        },
-        {
-          "file": "libs/shell/src/lib/utils/get-base-url.ts",
-          "hash": "11937989885357999811"
-        },
-        {
-          "file": "libs/shell/src/lib/utils/index.ts",
-          "hash": "11441571083101614848"
-        },
-        {
-          "file": "libs/shell/src/lib/website-shell.tsx",
-          "hash": "1760515841927761029",
-          "deps": [
-            "npm:react",
-            "npm:next"
-          ]
-        },
-        {
-          "file": "libs/shell/src/server.ts",
-          "hash": "10681759893846890525"
-        },
-        {
-          "file": "libs/shell/tsconfig.json",
-          "hash": "14088618039610991405"
         },
         {
-          "file": "libs/shell/tsconfig.lib.json",
-          "hash": "1536859351713546153"
+          "file": ".nx/workspace-data/d/server-process.json",
+          "hash": "13282022808516732794"
         }
       ],
       "workspace-generator": [
@@ -1344,6 +1065,311 @@
         {
           "file": "packages/workspace-generator/tsconfig.spec.json",
           "hash": "11550347367511341917"
+        }
+      ],
+      "spawntech-io": [
+        {
+          "file": "apps/spawntech-io/.eslintrc.json",
+          "hash": "4464528437795384303"
+        },
+        {
+          "file": "apps/spawntech-io/index.d.ts",
+          "hash": "5498222895072842432"
+        },
+        {
+          "file": "apps/spawntech-io/next-env.d.ts",
+          "hash": "5909181270615354023"
+        },
+        {
+          "file": "apps/spawntech-io/next.config.js",
+          "hash": "4640182932892698362",
+          "deps": [
+            "npm:@nx/next"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/spawntech-io/project.json",
+          "hash": "12412157282869339147"
+        },
+        {
+          "file": "apps/spawntech-io/public/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spawntech-io/public/blog/images/the-real-reason-you-need-an-icp.webp",
+          "hash": "15339505607948473809"
+        },
+        {
+          "file": "apps/spawntech-io/public/blog/the-real-reason-you-need-an-icp.mdx",
+          "hash": "6964567103575549971"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/logo-dark.webp",
+          "hash": "16551496858569245779"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/logo-primary.webp",
+          "hash": "7607956194755065429"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/mark-dark.webp",
+          "hash": "11636059851710249697"
+        },
+        {
+          "file": "apps/spawntech-io/public/brand/mark-primary.webp",
+          "hash": "799024696245523514"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/brooklyn-colored.svg",
+          "hash": "14033186344726192464"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/brooklyn-white.svg",
+          "hash": "11302234494895578339"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/hamilton-colored.svg",
+          "hash": "2182651212937112872"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/hamilton-white.svg",
+          "hash": "1991922987080715257"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/milano-colored.svg",
+          "hash": "10090753211955464089"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/milano-white.svg",
+          "hash": "11781281719865948414"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/nairobi-colored.svg",
+          "hash": "16799208149538700876"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/nairobi-white.svg",
+          "hash": "17851291666255009939"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/oslo-colored.svg",
+          "hash": "2850896810274496484"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/oslo-white.svg",
+          "hash": "330597734108700491"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/phoenix-colored.svg",
+          "hash": "8501912578857192321"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/phoenix-white.svg",
+          "hash": "15295698794631968388"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/san-francisco-colored.svg",
+          "hash": "1078047688663245723"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/san-francisco-white.svg",
+          "hash": "1985986977125421933"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/scale-colored.svg",
+          "hash": "5715571559607650735"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/scale-white.svg",
+          "hash": "12897679746013097733"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/theo-colored.svg",
+          "hash": "17510199779174575551"
+        },
+        {
+          "file": "apps/spawntech-io/public/client-logos/theo-white.svg",
+          "hash": "9832168916226746358"
+        },
+        {
+          "file": "apps/spawntech-io/public/favicon.ico",
+          "hash": "9587080618878691918"
+        },
+        {
+          "file": "apps/spawntech-io/public/images/ux-is-like-venus-dev-is-like-mars.webp",
+          "hash": "14053305553666314356"
+        },
+        {
+          "file": "apps/spawntech-io/src/app/[...path]/page.tsx",
+          "hash": "12296734911839216892",
+          "deps": [
+            "shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/blog/[slug]/page.tsx",
+          "hash": "6612399282102976372",
+          "deps": [
+            "blog",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/blog/page.tsx",
+          "hash": "8473642657181006313",
+          "deps": [
+            "blog"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/global.css",
+          "hash": "9117241813350640454"
+        },
+        {
+          "file": "apps/spawntech-io/src/app/layout.tsx",
+          "hash": "2353453520999987471",
+          "deps": [
+            "shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/app/page.tsx",
+          "hash": "3387852412684476942"
+        },
+        {
+          "file": "apps/spawntech-io/src/components/home.tsx",
+          "hash": "9018829066333362982",
+          "deps": [
+            "npm:@spwntch/shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/components/ui.tsx",
+          "hash": "1262916341598949090",
+          "deps": [
+            "npm:@spwntch/blocks",
+            "npm:@spwntch/components",
+            "npm:@spwntch/typography",
+            "npm:@spwntch/ui"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/config/blog.ts",
+          "hash": "15790394807152606323",
+          "deps": [
+            "npm:@spwntch/components"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/config/brand.ts",
+          "hash": "8660203392248111241",
+          "deps": [
+            "npm:@spwntch/shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/src/config/index.ts",
+          "hash": "6626424690932341106"
+        },
+        {
+          "file": "apps/spawntech-io/src/config/nav.ts",
+          "hash": "1421430316209543950",
+          "deps": [
+            "npm:@spwntch/shell"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/tailwind.config.js",
+          "hash": "15913249569166804253",
+          "deps": [
+            "npm:@nx/react",
+            "npm:@spwntch/tailwind",
+            "npm:@tailwindcss/typography"
+          ]
+        },
+        {
+          "file": "apps/spawntech-io/tsconfig.json",
+          "hash": "11191177535688455456"
+        }
+      ],
+      "blog": [
+        {
+          "file": "libs/blog/.eslintrc.json",
+          "hash": "889646198666480193"
+        },
+        {
+          "file": "libs/blog/README.md",
+          "hash": "18284705770695866814"
+        },
+        {
+          "file": "libs/blog/project.json",
+          "hash": "17995404027884345993"
+        },
+        {
+          "file": "libs/blog/src/index.ts",
+          "hash": "905650602909758149"
+        },
+        {
+          "file": "libs/blog/src/lib/client-components/blog.tsx",
+          "hash": "11887969687945723117",
+          "deps": [
+            "npm:@spwntch/components"
+          ]
+        },
+        {
+          "file": "libs/blog/src/lib/client-components/index.ts",
+          "hash": "18193098818058390162"
+        },
+        {
+          "file": "libs/blog/src/lib/client-components/post.tsx",
+          "hash": "10188029271413075813",
+          "deps": [
+            "npm:@spwntch/mdx"
+          ]
+        },
+        {
+          "file": "libs/blog/src/lib/utils/flatten-toc-tree.ts",
+          "hash": "9169440642522055509",
+          "deps": [
+            "npm:rehype-toc"
+          ]
+        },
+        {
+          "file": "libs/blog/src/lib/utils/index.ts",
+          "hash": "9425565761896693120"
+        },
+        {
+          "file": "libs/blog/src/lib/utils/parse-mdx-file-buffer.ts",
+          "hash": "2750688471134663174",
+          "deps": [
+            "npm:gray-matter"
+          ]
+        },
+        {
+          "file": "libs/blog/src/lib/utils/parse-mdx.ts",
+          "hash": "10575992993145885086",
+          "deps": [
+            "npm:next-mdx-remote",
+            "npm:rehype-slug",
+            "npm:rehype-toc",
+            "npm:remark-gfm"
+          ]
+        },
+        {
+          "file": "libs/blog/src/server.ts",
+          "hash": "10681759893846890525"
+        },
+        {
+          "file": "libs/blog/tsconfig.json",
+          "hash": "14088618039610991405"
+        },
+        {
+          "file": "libs/blog/tsconfig.lib.json",
+          "hash": "1536859351713546153"
         }
       ]
     }
