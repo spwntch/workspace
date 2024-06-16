@@ -9,26 +9,26 @@ dependencies:
     specifier: 19.2.3
     version: 19.2.3(nx@19.2.3)
   '@spwntch/blocks':
-    specifier: 0.62.1
-    version: 0.62.1
+    specifier: 0.63.0
+    version: 0.63.0(@spwntch/components@0.63.0)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)
   '@spwntch/components':
-    specifier: 0.62.1
-    version: 0.62.1(@spwntch/typography@0.62.1)(@spwntch/ui@0.62.1)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.63.0
+    version: 0.63.0(@react-hooks-library/core@0.6.2)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)(embla-carousel-autoplay@8.1.5)(lucide-react@0.378.0)(react-youtube@10.1.0)
   '@spwntch/mdx':
-    specifier: 0.62.1
-    version: 0.62.1
+    specifier: 0.63.0
+    version: 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(@react-hooks-library/core@0.6.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-autoplay@8.1.5)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(react-dom@18.3.1)(react-youtube@10.1.0)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
   '@spwntch/shell':
-    specifier: 0.62.1
-    version: 0.62.1(@spwntch/typography@0.62.1)(@spwntch/ui@0.62.1)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.63.0
+    version: 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(@react-hooks-library/core@0.6.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-autoplay@8.1.5)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(react-dom@18.3.1)(react-youtube@10.1.0)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
   '@spwntch/tailwind':
-    specifier: 0.62.1
-    version: 0.62.1
+    specifier: 0.63.0
+    version: 0.63.0
   '@spwntch/typography':
-    specifier: 0.62.1
-    version: 0.62.1(@spwntch/ui@0.62.1)(react-dom@18.3.1)(react@18.3.1)
+    specifier: 0.63.0
+    version: 0.63.0(@spwntch/ui@0.63.0)
   '@spwntch/ui':
-    specifier: 0.62.1
-    version: 0.62.1(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+    specifier: 0.63.0
+    version: 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
   create-nx-workspace:
     specifier: 19.2.3
     version: 19.2.3
@@ -50,6 +50,9 @@ dependencies:
   react-dom:
     specifier: 18.3.1
     version: 18.3.1(react@18.3.1)
+  react-youtube:
+    specifier: ^10.1.0
+    version: 10.1.0(react@18.3.1)
   rehype-slug:
     specifier: ^6.0.0
     version: 6.0.0
@@ -207,7 +210,7 @@ devDependencies:
     version: 1.0.7(tailwindcss@3.2.7)
   ts-jest:
     specifier: ^29.1.0
-    version: 29.1.4(@babel/core@7.24.7)(jest@29.7.0)(typescript@5.4.5)
+    version: 29.1.5(@babel/core@7.24.7)(jest@29.7.0)(typescript@5.4.5)
   ts-node:
     specifier: 10.9.1
     version: 10.9.1(@swc/core@1.5.7)(@types/node@18.16.9)(typescript@5.4.5)
@@ -3535,6 +3538,19 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.7
 
+  /@react-hooks-library/core@0.6.2(react@18.3.1):
+    resolution: {integrity: sha512-Ca6ccj9mfUiQ0hbDJV0hzUaweZU7D0E5Xwtp3ba5oT6/yWj1tzoPe0y3AwGQyUSUKA5G6OADylU2fwEqZwrpNA==}
+    peerDependencies:
+      react: '>=16.9.0'
+    dependencies:
+      '@react-hooks-library/shared': 0.6.2
+      react: 18.3.1
+    dev: false
+
+  /@react-hooks-library/shared@0.6.2:
+    resolution: {integrity: sha512-tasvVgcoRhnHYZSVfQjDK7VDviVrO9BqqS/yEvjJ4/QRTVFQTNmt5Jfj3ym0Uju2B63Dc9892DuLhb9V9oysWA==}
+    dev: false
+
   /@rushstack/eslint-patch@1.10.3:
     resolution: {integrity: sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==}
     dev: true
@@ -3559,62 +3575,109 @@ packages:
       '@sinonjs/commons': 3.0.1
     dev: true
 
-  /@spwntch/blocks@0.62.1:
-    resolution: {integrity: sha512-/0e46ofSj4Ubo6UoD3u6Tbgbf7WuFO0nOTjKtEEnRzvg6eSIs37QuVbrm2lEKJlOJq2AC93xaztyXNgaurK7zg==}
-    dev: false
-
-  /@spwntch/components@0.62.1(@spwntch/typography@0.62.1)(@spwntch/ui@0.62.1)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-ob5C6Kmg60iM+Gy02H8zObEMQYUtL29jVI7Y33Fx0nToLrVQq5Rt8D2qmNm7QPbuyvawg4/AG6ZL26//CYqcFQ==}
+  /@spwntch/blocks@0.63.0(@spwntch/components@0.63.0)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0):
+    resolution: {integrity: sha512-JOBaqwJbDbZArs6EIbd4tqU+ZEKClzZek1utQFDKYsES1l2lZgHUDdyRiUpYnh9E3krLe04a3Uoof0lHVZqsvg==}
     peerDependencies:
-      '@spwntch/typography': '0.62'
-      '@spwntch/ui': '0.62'
+      '@spwntch/components': '0.63'
+      '@spwntch/typography': '0.63'
+      '@spwntch/ui': '0.63'
+    dependencies:
+      '@spwntch/components': 0.63.0(@react-hooks-library/core@0.6.2)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)(embla-carousel-autoplay@8.1.5)(lucide-react@0.378.0)(react-youtube@10.1.0)
+      '@spwntch/typography': 0.63.0(@spwntch/ui@0.63.0)
+      '@spwntch/ui': 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+    dev: false
+
+  /@spwntch/components@0.63.0(@react-hooks-library/core@0.6.2)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)(embla-carousel-autoplay@8.1.5)(lucide-react@0.378.0)(react-youtube@10.1.0):
+    resolution: {integrity: sha512-cpKNhm/c1wIObP4qC1epfLzN4TQj+NKhHT3QZ6xfw7IDp0WUyybk/avNmJO/a1t940Lr3fF78t+fcdAQyOQN5w==}
+    peerDependencies:
+      '@react-hooks-library/core': ^0.6.2
+      '@spwntch/typography': '0.63'
+      '@spwntch/ui': '0.63'
       embla-carousel-autoplay: ^8.1.3
-      react: 18.3.1
-      react-dom: 18.3.1
+      lucide-react: ^0.378.0
+      react-youtube: ^10.1.0
     dependencies:
-      '@spwntch/typography': 0.62.1(@spwntch/ui@0.62.1)(react-dom@18.3.1)(react@18.3.1)
-      '@spwntch/ui': 0.62.1(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+      '@react-hooks-library/core': 0.6.2(react@18.3.1)
+      '@spwntch/typography': 0.63.0(@spwntch/ui@0.63.0)
+      '@spwntch/ui': 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
       embla-carousel-autoplay: 8.1.5(embla-carousel@8.1.5)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      lucide-react: 0.378.0(react@18.3.1)
+      react-youtube: 10.1.0(react@18.3.1)
     dev: false
 
-  /@spwntch/mdx@0.62.1:
-    resolution: {integrity: sha512-d4VPDgsd0TcawoHN+MOa7P97ht1nPy7jwVaTNEW4ir3cxTyv67XEvbR4xn/sIftDcr57k0cKY6xh2K7+FYSi/g==}
-    dev: false
-
-  /@spwntch/shell@0.62.1(@spwntch/typography@0.62.1)(@spwntch/ui@0.62.1)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-7OMvOSoKi3+bI+If0hY6ysGGr36Ru74wfmIXrwP72fWf8MtJUFNTNn29sFb98vhg8vPq7oK9Z2W6blOO8NyJ9A==}
+  /@spwntch/mdx@0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(@react-hooks-library/core@0.6.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-autoplay@8.1.5)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(react-dom@18.3.1)(react-youtube@10.1.0)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
+    resolution: {integrity: sha512-vbFB6VO8+t8fwroCyHYPIGfiBERcYYItI930TKXNUYGLbtntszYZQmqTHZXadXiP+5kCk2p3vtG6YuIBcA7WMg==}
     dependencies:
-      '@spwntch/components': 0.62.1(@spwntch/typography@0.62.1)(@spwntch/ui@0.62.1)(embla-carousel-autoplay@8.1.5)(react-dom@18.3.1)(react@18.3.1)
-      lucide-react: 0.360.0(react@18.3.1)
-      next-themes: 0.3.0(react-dom@18.3.1)(react@18.3.1)
+      '@spwntch/blocks': 0.63.0(@spwntch/components@0.63.0)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)
+      '@spwntch/components': 0.63.0(@react-hooks-library/core@0.6.2)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)(embla-carousel-autoplay@8.1.5)(lucide-react@0.378.0)(react-youtube@10.1.0)
+      '@spwntch/typography': 0.63.0(@spwntch/ui@0.63.0)
+      '@spwntch/ui': 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+      lucide-react: 0.378.0(react@18.3.1)
+      rehype-toc: 3.0.2
     transitivePeerDependencies:
-      - '@spwntch/typography'
-      - '@spwntch/ui'
+      - '@radix-ui/react-accordion'
+      - '@radix-ui/react-avatar'
+      - '@radix-ui/react-dialog'
+      - '@radix-ui/react-dropdown-menu'
+      - '@radix-ui/react-menubar'
+      - '@radix-ui/react-navigation-menu'
+      - '@radix-ui/react-slot'
+      - '@react-hooks-library/core'
+      - class-variance-authority
+      - clsx
       - embla-carousel-autoplay
+      - embla-carousel-react
+      - jest-axe
       - react
       - react-dom
+      - react-youtube
+      - tailwind-merge
+      - tailwindcss-animate
     dev: false
 
-  /@spwntch/tailwind@0.62.1:
-    resolution: {integrity: sha512-0VOYz1V84fFufw2pRqf52ImjNxYGk2i2W6GvmVc9CgvvlgLFj5gnaX88/9ee2fEynCrW4Zgll4wUaqSfE31lpw==}
-    dev: false
-
-  /@spwntch/typography@0.62.1(@spwntch/ui@0.62.1)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-X7v07Lq+GtD1H475wfOBcXvtAXjJc90C0lCyTTHneVB11Ysd/MAA4Lr44lVbJJJ18nS+vibtWz+bbSMO60g2FA==}
-    peerDependencies:
-      '@spwntch/ui': '0.62'
-      react: 18.3.1
-      react-dom: 18.3.1
+  /@spwntch/shell@0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(@react-hooks-library/core@0.6.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-autoplay@8.1.5)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(react-dom@18.3.1)(react-youtube@10.1.0)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
+    resolution: {integrity: sha512-ZGMXT814nhU+pYHE3WfTs/N5Tm/weLzIEIG2WjkuXR99CNGb465LvMKM4fYpnR+6KXBRjoOofgcxg75flp9QNw==}
     dependencies:
-      '@spwntch/ui': 0.62.1(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      '@spwntch/components': 0.63.0(@react-hooks-library/core@0.6.2)(@spwntch/typography@0.63.0)(@spwntch/ui@0.63.0)(embla-carousel-autoplay@8.1.5)(lucide-react@0.378.0)(react-youtube@10.1.0)
+      '@spwntch/typography': 0.63.0(@spwntch/ui@0.63.0)
+      '@spwntch/ui': 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+      lucide-react: 0.378.0(react@18.3.1)
+      next-themes: 0.3.0(react-dom@18.3.1)(react@18.3.1)
+    transitivePeerDependencies:
+      - '@radix-ui/react-accordion'
+      - '@radix-ui/react-avatar'
+      - '@radix-ui/react-dialog'
+      - '@radix-ui/react-dropdown-menu'
+      - '@radix-ui/react-menubar'
+      - '@radix-ui/react-navigation-menu'
+      - '@radix-ui/react-slot'
+      - '@react-hooks-library/core'
+      - class-variance-authority
+      - clsx
+      - embla-carousel-autoplay
+      - embla-carousel-react
+      - jest-axe
+      - react
+      - react-dom
+      - react-youtube
+      - tailwind-merge
+      - tailwindcss-animate
     dev: false
 
-  /@spwntch/ui@0.62.1(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
-    resolution: {integrity: sha512-zBVb2qtYhfPxzz4NP7JxGge2CZU0RKIFKSRoHS0AkO+n+3ehQ0bRrER6ZiuMxMA+dcPZOcJurSUMft6qPjzUkA==}
+  /@spwntch/tailwind@0.63.0:
+    resolution: {integrity: sha512-IGtEv3nLjt+ImcsCMauQ+jSy1TLyvQhU7+I4rd2JXlYktujt2ZJXm01Tjtw6H1qoENSOnls4+LlDmUebAlIOkg==}
+    dev: false
+
+  /@spwntch/typography@0.63.0(@spwntch/ui@0.63.0):
+    resolution: {integrity: sha512-HXOmFE9XyKiRlO5SHTndanjtfB4M/Naki846YTI74Ms2KFNCrPOLdQ9Yt5AB4bAa//tSBg+ROw2nVRLMUdF1OQ==}
+    peerDependencies:
+      '@spwntch/ui': '0.63'
+    dependencies:
+      '@spwntch/ui': 0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7)
+    dev: false
+
+  /@spwntch/ui@0.63.0(@radix-ui/react-accordion@1.1.2)(@radix-ui/react-avatar@1.0.4)(@radix-ui/react-dialog@1.0.5)(@radix-ui/react-dropdown-menu@2.0.6)(@radix-ui/react-menubar@1.0.4)(@radix-ui/react-navigation-menu@1.1.4)(@radix-ui/react-slot@1.0.2)(class-variance-authority@0.7.0)(clsx@2.1.1)(embla-carousel-react@8.1.5)(jest-axe@8.0.0)(lucide-react@0.378.0)(react-dom@18.3.1)(react@18.3.1)(tailwind-merge@2.3.0)(tailwindcss-animate@1.0.7):
+    resolution: {integrity: sha512-aDmbMHyFViREGdnbqlYIBFXF48qGb0Uw4CNVNin4c4obh2yv7Qs0U1q1XJAU132YTjzbbL0s5c3flJ542YRWIQ==}
     peerDependencies:
       '@radix-ui/react-accordion': ^1.1.2
       '@radix-ui/react-avatar': ^1.0.4
@@ -5295,7 +5358,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.1
-      caniuse-lite: 1.0.30001634
+      caniuse-lite: 1.0.30001636
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -5638,7 +5701,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001634
+      caniuse-lite: 1.0.30001636
       electron-to-chromium: 1.4.803
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
@@ -5744,13 +5807,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.23.1
-      caniuse-lite: 1.0.30001634
+      caniuse-lite: 1.0.30001636
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite@1.0.30001634:
-    resolution: {integrity: sha512-fbBYXQ9q3+yp1q1gBk86tOFs4pyn/yxFm5ZNP18OXJDfA3txImOY9PhfxVggZ4vRHDqoU8NrKU81eN0OtzOgRA==}
+  /caniuse-lite@1.0.30001636:
+    resolution: {integrity: sha512-bMg2vmr8XBsbL6Lr0UHXy/21m84FTxDLWn2FSqMd5PrlbMxwJlQnC2YWYxVgp66PZE+BBNF2jYQUBKCo1FDeZg==}
 
   /caseless@0.12.0:
     resolution: {integrity: sha512-4tYFyifaFfGacoiObjJegolkwSU4xQNGbVgUiNYVUxbQ2x2lUsFvY4hVgVzGiIe6WLOPqycWXA40l+PWsxthUw==}
@@ -6408,7 +6471,6 @@ packages:
         optional: true
     dependencies:
       ms: 2.0.0
-    dev: true
 
   /debug@3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
@@ -7551,7 +7613,6 @@ packages:
 
   /fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
-    dev: true
 
   /fast-fifo@1.3.2:
     resolution: {integrity: sha512-/d9sfos4yxzpwkDkuN7k2SqFKtYNmCTzgfEpz82x34IM9/zc8KGxQoXg1liNC/izpRM/MBdt44Nmx41ZWqk+FQ==}
@@ -9390,7 +9451,7 @@ packages:
       whatwg-encoding: 2.0.0
       whatwg-mimetype: 3.0.0
       whatwg-url: 11.0.0
-      ws: 8.17.0
+      ws: 8.17.1
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - bufferutil
@@ -9558,8 +9619,8 @@ packages:
       language-subtag-registry: 0.3.23
     dev: true
 
-  /launch-editor@2.6.1:
-    resolution: {integrity: sha512-eB/uXmFVpY4zezmGp5XtU21kwo7GBbKB+EQ+UZeWtGb9yAM5xt/Evk+lYH3eRNAtId+ej4u7TYPFZ07w4s7rRw==}
+  /launch-editor@2.7.0:
+    resolution: {integrity: sha512-KAc66u6LxWL8MifQ94oG3YGKYWDwz/Gi0T15lN//GaQoZe08vQGFJxrXkPAeu50UXgvJPPaRKVGuP1TRUm/aHQ==}
     dependencies:
       picocolors: 1.0.1
       shell-quote: 1.8.1
@@ -9636,6 +9697,10 @@ packages:
   /lines-and-columns@2.0.4:
     resolution: {integrity: sha512-wM1+Z03eypVAVUCE7QdSqpVIvelbOakn1M0bPDoA4SGWPx3sNDVUiMo3L6To6WWGClB7VyXnhQ4Sn7gxiJbE6A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  /load-script@1.0.0:
+    resolution: {integrity: sha512-kPEjMFtZvwL9TaZo0uZ2ml+Ye9HUMmPwbYRJ324qF9tqMejwykJ5ggTyvzmrbBeapCAbk98BSbTeovHEEP1uCA==}
+    dev: false
 
   /loader-runner@4.3.0:
     resolution: {integrity: sha512-3R/1M+yS3j5ou80Me59j7F9IMs4PXs3VqRrm0TU3AbKPxlmpoY1TNscJV/oGJXo8qCatFGTfDbY6W6ipGOYXfg==}
@@ -9800,14 +9865,6 @@ packages:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
     dev: true
-
-  /lucide-react@0.360.0(react@18.3.1):
-    resolution: {integrity: sha512-MskvbEsAhD2zxgx/I05vXq1cjFQXrmhL97YFIi4wSaKH793ZMvU/Com4d+DE7OB3QMmZig1fY1q94aTX5skozw==}
-    peerDependencies:
-      react: ^16.5.1 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.3.1
-    dev: false
 
   /lucide-react@0.378.0(react@18.3.1):
     resolution: {integrity: sha512-u6EPU8juLUk9ytRcyapkWI18epAv3RU+6+TC23ivjR0e+glWKBobFeSgRwOIJihzktILQuy6E0E80P2jVTDR5g==}
@@ -10759,7 +10816,6 @@ packages:
 
   /ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
-    dev: true
 
   /ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
@@ -10871,7 +10927,7 @@ packages:
       '@next/env': 14.2.3
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001634
+      caniuse-lite: 1.0.30001636
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
@@ -11065,7 +11121,6 @@ packages:
   /object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
-    dev: true
 
   /object-hash@3.0.0:
     resolution: {integrity: sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==}
@@ -11993,7 +12048,6 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       react-is: 16.13.1
-    dev: true
 
   /property-expr@2.0.6:
     resolution: {integrity: sha512-SVtmxhRE/CGkn3eZY1T6pC8Nln6Fr/lu1mKSgRud0eC73whjGfoAogbn78LkD8aFL0zz3bAFerKSnOl7NlErBA==}
@@ -12131,7 +12185,6 @@ packages:
 
   /react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: true
 
   /react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
@@ -12184,6 +12237,20 @@ packages:
       invariant: 2.2.4
       react: 18.3.1
       tslib: 2.6.3
+
+  /react-youtube@10.1.0(react@18.3.1):
+    resolution: {integrity: sha512-ZfGtcVpk0SSZtWCSTYOQKhfx5/1cfyEW1JN/mugGNfAxT3rmVJeMbGpA9+e78yG21ls5nc/5uZJETE3cm3knBg==}
+    engines: {node: '>= 14.x'}
+    peerDependencies:
+      react: '>=0.14.1'
+    dependencies:
+      fast-deep-equal: 3.1.3
+      prop-types: 15.8.1
+      react: 18.3.1
+      youtube-player: 5.5.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -12812,6 +12879,10 @@ packages:
 
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
+
+  /sister@3.0.2:
+    resolution: {integrity: sha512-p19rtTs+NksBRKW9qn0UhZ8/TUI9BPw9lmtHny+Y3TinWlOa9jWh9xB0AtPSdmOy49NJJJSSe0Ey4C7h0TrcYA==}
+    dev: false
 
   /sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
@@ -13491,8 +13562,8 @@ packages:
       typescript: 5.4.5
     dev: true
 
-  /ts-jest@29.1.4(@babel/core@7.24.7)(jest@29.7.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-YiHwDhSvCiItoAgsKtoLFCuakDzDsJ1DLDnSouTaTmdOcOwIkSzbLXduaQ6M5DRVhuZC/NYaaZ/mtHbWMv/S6Q==}
+  /ts-jest@29.1.5(@babel/core@7.24.7)(jest@29.7.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-UuClSYxM7byvvYfyWdFI+/2UxMmwNyJb0NPkZPQE2hew3RurV7l7zURgOHAd/1I1ZdPpe3GUsXNXAcN8TFKSIg==}
     engines: {node: ^14.15.0 || ^16.10.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -14193,7 +14264,7 @@ packages:
       html-entities: 2.5.2
       http-proxy-middleware: 2.0.6(@types/express@4.17.21)
       ipaddr.js: 2.2.0
-      launch-editor: 2.6.1
+      launch-editor: 2.7.0
       open: 8.4.2
       p-retry: 4.6.2
       rimraf: 3.0.2
@@ -14204,7 +14275,7 @@ packages:
       spdy: 4.0.2
       webpack: 5.92.0(@swc/core@1.5.7)
       webpack-dev-middleware: 5.3.4(webpack@5.92.0)
-      ws: 8.17.0
+      ws: 8.17.1
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -14422,8 +14493,8 @@ packages:
       signal-exit: 3.0.7
     dev: true
 
-  /ws@8.17.0:
-    resolution: {integrity: sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==}
+  /ws@8.17.1:
+    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -14496,6 +14567,16 @@ packages:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
     dev: true
+
+  /youtube-player@5.5.2:
+    resolution: {integrity: sha512-ZGtsemSpXnDky2AUYWgxjaopgB+shFHgXVpiJFeNB5nWEugpW1KWYDaHKuLqh2b67r24GtP6HoSW5swvf0fFIQ==}
+    dependencies:
+      debug: 2.6.9
+      load-script: 1.0.0
+      sister: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /yup@0.32.11:
     resolution: {integrity: sha512-Z2Fe1bn+eLstG8DRR6FTavGD+MeAwyfmouhHsIUgaADz8jvFKbO/fXc2trJKZg+5EBjh4gGm3iU/t3onKlXHIg==}

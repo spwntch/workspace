@@ -1,4 +1,5 @@
 'use client';
+import { SplitImageContentBlock } from '@spwntch/blocks';
 import { Announcement, ButtonGroup, LogoCloud } from '@spwntch/components';
 import { H2, H4, Lead } from '@spwntch/typography';
 import {
@@ -43,6 +44,17 @@ const logos = [
     src: '/client-logos/milano-colored.svg',
   },
 ];
+
+const image = {
+  src: '/images/ux-is-like-venus-dev-is-like-mars.webp',
+};
+
+const MyMultiPanel = () => (
+  <SplitImageContentBlock
+    image={image}
+    innerContent={{ title: 'hello world' }}
+  />
+);
 
 export const MyLogoCloud = () => (
   <>
@@ -131,6 +143,7 @@ export const Ui = () => {
   return (
     <>
       <MyTypography />
+      <MyMultiPanel />
       <MyLogoCloud />
       <MyComponents />
       <Button className="m-4">CLICK ME</Button>
