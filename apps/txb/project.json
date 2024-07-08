@@ -1,0 +1,21 @@
+{
+  "name": "txb",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/txb",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project txb --web",
+  "targets": {
+    "build": {
+      "options": {
+        "assets": [
+          {
+            "input": "assets/txb/brand/public",
+            "glob": "*.webp",
+            "output": "brand"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1260,6 +1260,15 @@
         "hash": "sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA=="
       }
     },
+    "npm:@isaacs/cliui": {
+      "type": "npm",
+      "name": "npm:@isaacs/cliui",
+      "data": {
+        "version": "8.0.2",
+        "packageName": "@isaacs/cliui",
+        "hash": "sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA=="
+      }
+    },
     "npm:@istanbuljs/load-nyc-config": {
       "type": "npm",
       "name": "npm:@istanbuljs/load-nyc-config",
@@ -1525,9 +1534,9 @@
       "type": "npm",
       "name": "npm:@next/eslint-plugin-next",
       "data": {
-        "version": "14.0.4",
+        "version": "14.2.3",
         "packageName": "@next/eslint-plugin-next",
-        "hash": "sha512-U3qMNHmEZoVmHA0j/57nRfi3AscXNvkOnxDmle/69Jz/G0o/gWjXTDdlgILZdrxQ0Lw/jv2mPW8PGy0EGIHXhQ=="
+        "hash": "sha512-L3oDricIIjgj1AVnRdRor21gI7mShlSwU/1ZGHmqM3LzHhXXhdkrfeNY5zif25Bi5Dd7fiJHsbhoZCHfXYvlAw=="
       }
     },
     "npm:@next/swc-darwin-arm64": {
@@ -1942,6 +1951,15 @@
         "version": "5.0.1",
         "packageName": "@phenomnomnominal/tsquery",
         "hash": "sha512-3nVv+e2FQwsW8Aw6qTU6f+1rfcJ3hrcnvH/mu9i8YhxO+9sqbOfpL8m6PbET5+xKOlz/VSbp0RoYWYCtIsnmuA=="
+      }
+    },
+    "npm:@pkgjs/parseargs": {
+      "type": "npm",
+      "name": "npm:@pkgjs/parseargs",
+      "data": {
+        "version": "0.11.0",
+        "packageName": "@pkgjs/parseargs",
+        "hash": "sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg=="
       }
     },
     "npm:@radix-ui/primitive": {
@@ -3969,6 +3987,15 @@
         "hash": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
       }
     },
+    "npm:ansi-regex@6.0.1": {
+      "type": "npm",
+      "name": "npm:ansi-regex@6.0.1",
+      "data": {
+        "version": "6.0.1",
+        "packageName": "ansi-regex",
+        "hash": "sha512-n5M855fKb2SsfMIiFFoVrABHJC8QtHwVx+mHWP3QcEqBHYienj5dHSgjbxtC0WEZXYt4wcD6zrQElDPhFuZgfA=="
+      }
+    },
     "npm:ansi-styles@3.2.1": {
       "type": "npm",
       "name": "npm:ansi-styles@3.2.1",
@@ -3994,6 +4021,15 @@
         "version": "5.2.0",
         "packageName": "ansi-styles",
         "hash": "sha512-Cxwpt2SfTzTtXcfOlzGEee8O+c+MmUgGrNiBcXnuWxuFJHe6a5Hz7qwhwe5OgaSYI0IJvkLqWX1ASG+cJOkEiA=="
+      }
+    },
+    "npm:ansi-styles@6.2.1": {
+      "type": "npm",
+      "name": "npm:ansi-styles@6.2.1",
+      "data": {
+        "version": "6.2.1",
+        "packageName": "ansi-styles",
+        "hash": "sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug=="
       }
     },
     "npm:anymatch": {
@@ -6039,6 +6075,15 @@
         "hash": "sha512-M3BmBhwJRZsSx38lZyhE53Csddgzl5R7xGJNk7CVddZD6CcmwMCH8J+7AprIrQKH7TonKxaCjcv27Qmf+sQ+oA=="
       }
     },
+    "npm:eastasianwidth": {
+      "type": "npm",
+      "name": "npm:eastasianwidth",
+      "data": {
+        "version": "0.2.0",
+        "packageName": "eastasianwidth",
+        "hash": "sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA=="
+      }
+    },
     "npm:ecc-jsbn": {
       "type": "npm",
       "name": "npm:ecc-jsbn",
@@ -6376,9 +6421,9 @@
       "type": "npm",
       "name": "npm:eslint-config-next",
       "data": {
-        "version": "14.0.4",
+        "version": "14.2.3",
         "packageName": "eslint-config-next",
-        "hash": "sha512-9/xbOHEQOmQtqvQ1UsTQZpnA7SlDMBtuKJ//S4JnoyK3oGLhILKXdBgu/UO7lQo/2xOykQULS1qQ6p2+EpHgAQ=="
+        "hash": "sha512-ZkNztm3Q7hjqvB1rRlOX8P9E/cXRL9ajRcs8jufEtwMfTVYRqnmtnaSu57QqHyBlovMuiB8LEzfLBkh5RYV6Fg=="
       }
     },
     "npm:eslint-config-prettier": {
@@ -7038,6 +7083,15 @@
         "hash": "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw=="
       }
     },
+    "npm:foreground-child": {
+      "type": "npm",
+      "name": "npm:foreground-child",
+      "data": {
+        "version": "3.2.1",
+        "packageName": "foreground-child",
+        "hash": "sha512-PXUUyLqrR2XCWICfv6ukppP96sdFwWbNEnfEMt7jNsISjMsvaLNinAHNDYyvkyU+SZG2BTSbT5NjG+vZslfGTA=="
+      }
+    },
     "npm:forever-agent": {
       "type": "npm",
       "name": "npm:forever-agent",
@@ -7326,6 +7380,15 @@
         "hash": "sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw=="
       }
     },
+    "npm:glob@10.3.10": {
+      "type": "npm",
+      "name": "npm:glob@10.3.10",
+      "data": {
+        "version": "10.3.10",
+        "packageName": "glob",
+        "hash": "sha512-fa46+tv1Ak0UPK1TOy/pZrIybNNt4HCv7SDzwyfiOZkvZLEbjsZkJBPtDHVshZjbecAoAGSC20MjLDG/qr679g=="
+      }
+    },
     "npm:glob@6.0.4": {
       "type": "npm",
       "name": "npm:glob@6.0.4",
@@ -7333,15 +7396,6 @@
         "version": "6.0.4",
         "packageName": "glob",
         "hash": "sha512-MKZeRNyYZAVVVG1oZeLaWie1uweH40m9AZwIwxyPbTSX4hHrVYSzLg0Ro5Z5R7XKkIX+Cc6oD1rqeDJnwsB8/A=="
-      }
-    },
-    "npm:glob@7.1.7": {
-      "type": "npm",
-      "name": "npm:glob@7.1.7",
-      "data": {
-        "version": "7.1.7",
-        "packageName": "glob",
-        "hash": "sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ=="
       }
     },
     "npm:glob": {
@@ -8539,6 +8593,15 @@
         "version": "1.1.2",
         "packageName": "iterator.prototype",
         "hash": "sha512-DR33HMMr8EzwuRL8Y9D3u2BMj8+RqSE850jfGu59kS7tbmPLzGkZmVSfyCFSDxuZiEY6Rzt3T2NA/qU+NwVj1w=="
+      }
+    },
+    "npm:jackspeak": {
+      "type": "npm",
+      "name": "npm:jackspeak",
+      "data": {
+        "version": "2.3.6",
+        "packageName": "jackspeak",
+        "hash": "sha512-N3yCS/NegsOBokc8GAdM8UcmfsKiSS8cipheD/nivzr700H+nsMOxJjQnvwOcRYVuFkdH0wGUvW2WbXGmrZGbQ=="
       }
     },
     "npm:jake": {
@@ -10449,6 +10512,15 @@
         "hash": "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="
       }
     },
+    "npm:minipass": {
+      "type": "npm",
+      "name": "npm:minipass",
+      "data": {
+        "version": "7.1.2",
+        "packageName": "minipass",
+        "hash": "sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw=="
+      }
+    },
     "npm:mkdirp@0.5.6": {
       "type": "npm",
       "name": "npm:mkdirp@0.5.6",
@@ -11194,6 +11266,15 @@
         "version": "1.0.7",
         "packageName": "path-parse",
         "hash": "sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw=="
+      }
+    },
+    "npm:path-scurry": {
+      "type": "npm",
+      "name": "npm:path-scurry",
+      "data": {
+        "version": "1.11.1",
+        "packageName": "path-scurry",
+        "hash": "sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA=="
       }
     },
     "npm:path-to-regexp": {
@@ -12906,6 +12987,15 @@
         "hash": "sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ=="
       }
     },
+    "npm:signal-exit@4.1.0": {
+      "type": "npm",
+      "name": "npm:signal-exit@4.1.0",
+      "data": {
+        "version": "4.1.0",
+        "packageName": "signal-exit",
+        "hash": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="
+      }
+    },
     "npm:sisteransi": {
       "type": "npm",
       "name": "npm:sisteransi",
@@ -13194,6 +13284,24 @@
         "hash": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="
       }
     },
+    "npm:string-width@5.1.2": {
+      "type": "npm",
+      "name": "npm:string-width@5.1.2",
+      "data": {
+        "version": "5.1.2",
+        "packageName": "string-width",
+        "hash": "sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA=="
+      }
+    },
+    "npm:string-width-cjs": {
+      "type": "npm",
+      "name": "npm:string-width-cjs",
+      "data": {
+        "version": "npm:string-width@4.2.3",
+        "packageName": "string-width-cjs",
+        "hash": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g=="
+      }
+    },
     "npm:string.prototype.matchall": {
       "type": "npm",
       "name": "npm:string.prototype.matchall",
@@ -13263,6 +13371,24 @@
       "data": {
         "version": "6.0.1",
         "packageName": "strip-ansi",
+        "hash": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="
+      }
+    },
+    "npm:strip-ansi@7.1.0": {
+      "type": "npm",
+      "name": "npm:strip-ansi@7.1.0",
+      "data": {
+        "version": "7.1.0",
+        "packageName": "strip-ansi",
+        "hash": "sha512-iq6eVVI64nQQTRYq2KtEg2d2uU7LElhTJwsH4YzIHZshxlgZms/wIc4VoDQTlG/IvVIrBKG06CrZnp0qv7hkcQ=="
+      }
+    },
+    "npm:strip-ansi-cjs": {
+      "type": "npm",
+      "name": "npm:strip-ansi-cjs",
+      "data": {
+        "version": "npm:strip-ansi@6.0.1",
+        "packageName": "strip-ansi-cjs",
         "hash": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A=="
       }
     },
@@ -14640,6 +14766,24 @@
       "data": {
         "version": "7.0.0",
         "packageName": "wrap-ansi",
+        "hash": "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q=="
+      }
+    },
+    "npm:wrap-ansi@8.1.0": {
+      "type": "npm",
+      "name": "npm:wrap-ansi@8.1.0",
+      "data": {
+        "version": "8.1.0",
+        "packageName": "wrap-ansi",
+        "hash": "sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ=="
+      }
+    },
+    "npm:wrap-ansi-cjs": {
+      "type": "npm",
+      "name": "npm:wrap-ansi-cjs",
+      "data": {
+        "version": "npm:wrap-ansi@7.0.0",
+        "packageName": "wrap-ansi-cjs",
         "hash": "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q=="
       }
     },
@@ -17238,6 +17382,36 @@
       "type": "static"
     },
     {
+      "source": "npm:@isaacs/cliui",
+      "target": "npm:string-width@5.1.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:@isaacs/cliui",
+      "target": "npm:string-width-cjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@isaacs/cliui",
+      "target": "npm:strip-ansi@7.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@isaacs/cliui",
+      "target": "npm:strip-ansi-cjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@isaacs/cliui",
+      "target": "npm:wrap-ansi@8.1.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:@isaacs/cliui",
+      "target": "npm:wrap-ansi-cjs",
+      "type": "static"
+    },
+    {
       "source": "npm:@istanbuljs/load-nyc-config",
       "target": "npm:camelcase@5.3.1",
       "type": "static"
@@ -17989,7 +18163,7 @@
     },
     {
       "source": "npm:@next/eslint-plugin-next",
-      "target": "npm:glob@7.1.7",
+      "target": "npm:glob@10.3.10",
       "type": "static"
     },
     {
@@ -25618,6 +25792,16 @@
       "type": "static"
     },
     {
+      "source": "npm:foreground-child",
+      "target": "npm:cross-spawn",
+      "type": "static"
+    },
+    {
+      "source": "npm:foreground-child",
+      "target": "npm:signal-exit@4.1.0",
+      "type": "static"
+    },
+    {
       "source": "npm:fork-ts-checker-webpack-plugin",
       "target": "npm:@babel/code-frame",
       "type": "static"
@@ -25838,6 +26022,31 @@
       "type": "static"
     },
     {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:foreground-child",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:jackspeak",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:minimatch@9.0.5",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:minipass",
+      "type": "static"
+    },
+    {
+      "source": "npm:glob@10.3.10",
+      "target": "npm:path-scurry",
+      "type": "static"
+    },
+    {
       "source": "npm:glob@6.0.4",
       "target": "npm:inflight",
       "type": "static"
@@ -25859,36 +26068,6 @@
     },
     {
       "source": "npm:glob@6.0.4",
-      "target": "npm:path-is-absolute",
-      "type": "static"
-    },
-    {
-      "source": "npm:glob@7.1.7",
-      "target": "npm:fs.realpath",
-      "type": "static"
-    },
-    {
-      "source": "npm:glob@7.1.7",
-      "target": "npm:inflight",
-      "type": "static"
-    },
-    {
-      "source": "npm:glob@7.1.7",
-      "target": "npm:inherits",
-      "type": "static"
-    },
-    {
-      "source": "npm:glob@7.1.7",
-      "target": "npm:minimatch@3.1.2",
-      "type": "static"
-    },
-    {
-      "source": "npm:glob@7.1.7",
-      "target": "npm:once",
-      "type": "static"
-    },
-    {
-      "source": "npm:glob@7.1.7",
       "target": "npm:path-is-absolute",
       "type": "static"
     },
@@ -26790,6 +26969,16 @@
     {
       "source": "npm:iterator.prototype",
       "target": "npm:set-function-name",
+      "type": "static"
+    },
+    {
+      "source": "npm:jackspeak",
+      "target": "npm:@isaacs/cliui",
+      "type": "static"
+    },
+    {
+      "source": "npm:jackspeak",
+      "target": "npm:@pkgjs/parseargs",
       "type": "static"
     },
     {
@@ -31013,6 +31202,16 @@
       "type": "static"
     },
     {
+      "source": "npm:path-scurry",
+      "target": "npm:lru-cache@10.4.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:path-scurry",
+      "target": "npm:minipass",
+      "type": "static"
+    },
+    {
       "source": "npm:peek-stream",
       "target": "npm:buffer-from",
       "type": "static"
@@ -32948,6 +33147,36 @@
       "type": "static"
     },
     {
+      "source": "npm:string-width-cjs",
+      "target": "npm:emoji-regex@8.0.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:string-width-cjs",
+      "target": "npm:is-fullwidth-code-point",
+      "type": "static"
+    },
+    {
+      "source": "npm:string-width-cjs",
+      "target": "npm:strip-ansi",
+      "type": "static"
+    },
+    {
+      "source": "npm:string-width@5.1.2",
+      "target": "npm:eastasianwidth",
+      "type": "static"
+    },
+    {
+      "source": "npm:string-width@5.1.2",
+      "target": "npm:emoji-regex",
+      "type": "static"
+    },
+    {
+      "source": "npm:string-width@5.1.2",
+      "target": "npm:strip-ansi@7.1.0",
+      "type": "static"
+    },
+    {
       "source": "npm:string.prototype.matchall",
       "target": "npm:call-bind",
       "type": "static"
@@ -33080,6 +33309,16 @@
     {
       "source": "npm:strip-ansi",
       "target": "npm:ansi-regex",
+      "type": "static"
+    },
+    {
+      "source": "npm:strip-ansi-cjs",
+      "target": "npm:ansi-regex",
+      "type": "static"
+    },
+    {
+      "source": "npm:strip-ansi@7.1.0",
+      "target": "npm:ansi-regex@6.0.1",
       "type": "static"
     },
     {
@@ -35075,6 +35314,36 @@
     {
       "source": "npm:wrap-ansi",
       "target": "npm:strip-ansi",
+      "type": "static"
+    },
+    {
+      "source": "npm:wrap-ansi-cjs",
+      "target": "npm:ansi-styles",
+      "type": "static"
+    },
+    {
+      "source": "npm:wrap-ansi-cjs",
+      "target": "npm:string-width",
+      "type": "static"
+    },
+    {
+      "source": "npm:wrap-ansi-cjs",
+      "target": "npm:strip-ansi",
+      "type": "static"
+    },
+    {
+      "source": "npm:wrap-ansi@8.1.0",
+      "target": "npm:ansi-styles@6.2.1",
+      "type": "static"
+    },
+    {
+      "source": "npm:wrap-ansi@8.1.0",
+      "target": "npm:string-width@5.1.2",
+      "type": "static"
+    },
+    {
+      "source": "npm:wrap-ansi@8.1.0",
+      "target": "npm:strip-ansi@7.1.0",
       "type": "static"
     },
     {

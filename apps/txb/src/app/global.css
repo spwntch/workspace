@@ -1,0 +1,57 @@
+@import '@spwntch/tailwind/styles';
+/* @import '@spwntch/ui/styles'; */
+/* @import '@spwntch/typography/styles'; */
+/* @import '@spwntch/components/styles'; */
+/* @import '@spwntch/blocks/styles'; */
+@import '@spwntch/shell/styles';
+/* @import '@spwntch/mdx/styles'; */
+
+@tailwind base;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* #FFFFFF (White) */
+    --foreground: 210 20% 20%; /* #333333 (Dark Gray) */
+    --card: 0 0% 100%; /* #FFFFFF (White) */
+    --card-foreground: 210 20% 20%; /* #333333 (Dark Gray) */
+    --popover: 0 0% 100%; /* #FFFFFF (White) */
+    --popover-foreground: 210 20% 20%; /* #333333 (Dark Gray) */
+    --primary: 207 64% 60%; /* #3598dc (Light Blue) */
+    --primary-foreground: 210 100% 100%; /* #FFFFFF (White) */
+    --secondary: 205 100% 36%; /* #0072bb (Medium Blue) */
+    --secondary-foreground: 210 100% 100%; /* #FFFFFF (White) */
+    --muted: 210 16% 96%; /* #F9F9F9 (Light Gray) */
+    --muted-foreground: 210 8.9% 46.1%; /* #666666 (Medium Gray) */
+    --accent: 45 100% 64%; /* #ffcd1c (Vibrant Yellow) */
+    --accent-foreground: 210 8.9% 46.1%; /* #666666 (Medium Gray) */
+    --destructive: 0 84.2% 60.2%; /* #ff4d4f (Red - As an example) */
+    --destructive-foreground: 210 100% 100%; /* #FFFFFF (White) */
+    --border: 210 16% 91%; /* #E1E1E1 (Light Gray) */
+    --input: 210 16% 91%; /* #E1E1E1 (Light Gray) */
+    --ring: 207 64% 60%; /* #3598dc (Light Blue) */
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 210 20% 10%; /* #1A1A1A (Dark Gray for background) */
+    --foreground: 210 20% 98%; /* #FFFFFF (White for text) */
+    --card: 210 20% 12%; /* #212121 (Slightly lighter dark gray for cards) */
+    --card-foreground: 210 20% 98%; /* #FFFFFF (White for card text) */
+    --popover: 210 20% 12%; /* #212121 (Slightly lighter dark gray for popovers) */
+    --popover-foreground: 210 20% 98%; /* #FFFFFF (White for popover text) */
+    --primary: 207 64% 60%; /* #3598dc (Light Blue) */
+    --primary-foreground: 210 20% 98%; /* #FFFFFF (White for primary foreground) */
+    --secondary: 205 100% 36%; /* #0072bb (Medium Blue) */
+    --secondary-foreground: 210 20% 98%; /* #FFFFFF (White for secondary foreground) */
+    --muted: 210 20% 20%; /* #333333 (Medium dark gray for muted elements) */
+    --muted-foreground: 210 20% 80%; /* #CCCCCC (Light gray for muted text) */
+    --accent: 45 100% 64%; /* #ffcd1c (Vibrant Yellow) */
+    --accent-foreground: 210 8.9% 46.1%; /* #666666 (Medium Gray) */
+    --destructive: 0 84.2% 60.2%; /* #ff4d4f (Red for destructive actions) */
+    --destructive-foreground: 210 20% 98%; /* #FFFFFF (White for destructive foreground) */
+    --border: 210 20% 20%; /* #333333 (Medium dark gray for borders) */
+    --input: 210 20% 20%; /* #333333 (Medium dark gray for input fields) */
+    --ring: 207 64% 60%; /* #3598dc (Light Blue for focus rings) */
+    --radius: 0.75rem; /* Border radius for rounded elements */
+  }
+}
