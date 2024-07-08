@@ -13,6 +13,11 @@
             "input": "assets/txb/brand/public",
             "glob": "*.webp",
             "output": "brand"
+          },
+          {
+            "input": "assets/txb/images/public",
+            "glob": "*.webp",
+            "output": "images"
           }
         ]
       }
