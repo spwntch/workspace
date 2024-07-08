@@ -13,6 +13,7 @@ export const Ui = () => {
     collapsible
     defaultValue="item-1"
     type="single"
+    className='text-primary'
   >
     <div className="max-w-3xl mx-auto">
       <AccordionItem value="item-1">

@@ -15346,6 +15346,11 @@
     "blog": [
       {
         "source": "blog",
+        "target": "npm:next",
+        "type": "static"
+      },
+      {
+        "source": "blog",
         "target": "npm:rehype-toc",
         "type": "static"
       },
