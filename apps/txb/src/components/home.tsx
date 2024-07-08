@@ -2,9 +2,8 @@
 import { ImageContentBlock } from '@spwntch/blocks';
 import { IContent, IImage } from '@spwntch/components';
 
-type Props = {};
 
-const home = (props: Props) => {
+const home = () => {
   const image: IImage = { src: 'images/home-hero.webp', darken: true };
   const content: IContent = {
     title: {
